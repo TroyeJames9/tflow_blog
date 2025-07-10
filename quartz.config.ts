@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Tflow Blog", // 网页左上角的网页标题
+    pageTitle: "Tflow Lab", // 网页左上角的网页标题
     pageTitleSuffix: "", //添加到页面标题末尾的字符串。此属性仅适用于浏览器标签页标题
     enableSPA: true, //是否在您的网站上启用SPA 路由。
     enablePopovers: true,  //是否在您的网站上启用弹出预览 。
