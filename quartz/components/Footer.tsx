@@ -18,6 +18,7 @@ export default ((opts?: Options) => {
           <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
         </p>
         <ul>
+          <img src="//img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png" width="20"/>
           {Object.entries(links).map(([text, link]) => (
             <li>
               <a href={link}>{text}</a>
