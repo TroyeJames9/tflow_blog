@@ -8,22 +8,22 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
-    enableSPA: true,
-    enablePopovers: true,
+    pageTitle: "Tflow Blog", // 网页左上角的网页标题
+    pageTitleSuffix: "", //添加到页面标题末尾的字符串。此属性仅适用于浏览器标签页标题
+    enableSPA: true, //是否在您的网站上启用SPA 路由。
+    enablePopovers: true,  //是否在您的网站上启用弹出预览 。
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "modified",
+    locale: "zh-CN", // 网站使用的语言
+    baseUrl: "blog.tflow.top",  // 用于需要绝对 URL 的站点地图和 RSS 源，以便识别站点的规范“首页”位置。这通常是站点的部署 URL
+    ignorePatterns: ["private", "templates", ".obsidian"], // 在查找 content 文件夹内的文件时应该忽略且不进行搜索的匹配模式。
+    defaultDateType: "modified",  // 使用创建（created）、修改（modified）或发布（published）作为页面和页面列表上显示的默认日期。
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
+        header: "Zen Maru Gothic",
         body: "Source Sans Pro",
         code: "IBM Plex Mono",
       },
@@ -44,7 +44,7 @@ const config: QuartzConfig = {
           lightgray: "#393639",
           gray: "#646464",
           darkgray: "#d4d4d4",
-          dark: "#ebebec",
+          dark: "#55cfed",
           secondary: "#7b97aa",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
