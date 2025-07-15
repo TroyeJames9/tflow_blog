@@ -128,7 +128,7 @@ obsidian本质上是一个**知识库管理系统**，所以掌握obsidian的第
 	- hugo方案
 	- [quartz](quartz.md)：国内大佬开发，社区生态非常好。贡献者多达200人
  - 托管平台
-	 - #todo
+	 - #TODO
 
 
 
