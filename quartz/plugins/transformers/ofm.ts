@@ -389,6 +389,25 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
               }
             })
           }
+          visit(tree, "image", (node) => {
+          // 检查 alt 是否为有效字符串
+          if (typeof node.alt === "string" && node.alt.includes("|")) {
+            // 匹配 alt 中的尺寸信息 (width 或 widthxheight)
+            const match = node.alt.match(/\|(?<width>\d+)(?:x(?<height>\d+))?$/);
+            if (match?.groups) {
+            const { width, height } = match.groups;
+            // 修改 hProperties，添加 width 和 height
+            node.data = node.data || {};
+            node.data.hProperties = {
+              ...node.data.hProperties,
+              width: width || "auto", // 如果没有宽度，设置为 "auto"
+              height: height || "auto", // 如果没有高度，设置为 "auto"
+            };
+            // 去除 alt 中的尺寸信息
+            node.alt = node.alt.replace(/\|(?<width>\d+)(?:x(?<height>\d+))?$/, "").trim();
+            }
+          }
+          });
           mdastFindReplace(tree, replacements)
         }
       })
