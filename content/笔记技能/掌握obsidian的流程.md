@@ -47,7 +47,8 @@ obsidian本质上是一个**知识库管理系统**，所以掌握obsidian的第
 
 > obsidian的工作区分为左右侧边栏和编辑区，左右侧边栏的工具栏的图标是**可以自由拖拽**来改变布局的。上图为默认布局，下图我将左侧栏的工具图标拖拽到了下半部：
 
-![Pasted%20image%2020250110220815.webp|332](Pasted%20image%2020250110220815.webp)![Pasted%20image%2020250110221114.webp|332](Pasted%20image%2020250110221114.webp)
+![Pasted%20image%2020250110220815.webp|300](Pasted%20image%2020250110220815.webp)
+![Pasted%20image%2020250110221114.webp|302](Pasted%20image%2020250110221114.webp)
 
 > 知识库常用的工具主要是 [[#关系图谱]] #TODO ，大纲，书签，文件列表，全局查找，[标签](基于markdown的obsidian语法.md#标签), [文件属性](基于markdown的obsidian语法.md#文件属性)，如下所示：
 
