@@ -9,7 +9,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       粤公网安备61011302001964号: "https://beian.mps.gov.cn/#/query/webSearch?code=61011302001964",
-      "粤ICP备123456号": "https://beian.miit.gov.cn/",
+      "粤ICP备2025445261号": "https://beian.miit.gov.cn/",
     },
   }),
 }
