@@ -1,7 +1,7 @@
 ---
 title: 第三方插件
 aliases:
-  - plugins
+  - Plugins
   - 第三方插件
 ---
 

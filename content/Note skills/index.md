@@ -1,6 +1,6 @@
 ---
 title: 笔记技能
 aliases:
-  - note skills
+  - Note Skills
   - 笔记技能
 ---

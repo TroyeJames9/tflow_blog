@@ -1,7 +1,7 @@
 ---
 title: 如何联系tflow？
 aliases:
-  - contact
+  - Contact
 ---
 - **QQ（推荐）**：1393802018
 - **微信**：LonelyGuys6

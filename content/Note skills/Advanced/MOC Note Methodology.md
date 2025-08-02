@@ -1,7 +1,7 @@
 ---
 tags: 
 aliases:
-  - MOC
+  - MOC Note Methodology
   - MOC笔记方法论
 title: MOC笔记方法论
 ---
