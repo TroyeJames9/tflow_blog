@@ -3,6 +3,8 @@ tags:
   - 分支
   - 笔记技能
   - 第三方插件
+aliases:
+  - image converter
 ---
 github地址： https://github.com/xryul/obsidian-image-converter
 

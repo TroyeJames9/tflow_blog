@@ -4,6 +4,8 @@ tags:
   - 笔记技能
   - 第三方插件
   - 文本渲染
+aliases:
+  - colorizelt
 ---
 
 github链接： https://github.com/WiNE-iNEFF/colorizelt
