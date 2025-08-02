@@ -1,6 +1,7 @@
 ---
 aliases:
   - 简易配置说明
+title: 简易配置说明
 ---
 # 为什么制作这个说明
 
@@ -48,7 +49,7 @@ clash点击新建
 
 ## 第一步：下载cmfa与配置文件
 
-电脑打开代理，通过[本链接](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.14/cmfa-2.11.14-meta-universal-release.apk)下载新版cmfa，配置文件的下载方法[同上](简易配置说明.md#第二步：下载配置文件)
+电脑打开代理，通过[本链接](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.14/cmfa-2.11.14-meta-universal-release.apk)下载新版cmfa，配置文件的下载方法[同上](Quick%20Setup.md#第二步：下载配置文件)
 
 ## 第二步：安装cmfa并配置
 
@@ -62,7 +63,7 @@ clash点击新建
 # ios或ipad
 
 1. app store搜索[clash mi](https://apps.apple.com/us/app/clash-mi/id6744321968)下载
-2. [下载配置文件](简易配置说明.md#第二步：下载配置文件)并传送到手机。
+2. [下载配置文件](Quick%20Setup.md#第二步：下载配置文件)并传送到手机。
 3. 打开clash mi，点击`我的配置`右边的`+`号后，点击`导入配置文件`
 4. 在导入页面点击`选择文件`，导入刚刚下载的配置文件，然后点击右上角的`√`保存
 5. 返回到clash mi 首页点击`未连接`左侧的复选按钮，即可开启/关闭代理，无感访问外网。

@@ -5,6 +5,7 @@ tags:
   - markdown
 aliases:
   - markdown语法
+title: markdown语法
 ---
 [markdown](https://daringfireball.net/projects/markdown/)是一款提供文本到HTML转换的工具，让文本的可读性大大提高，**各大笔记软件均支持markdown语法**，本篇将介绍markdown的格式化语法，以**作为笔记知识库的技术基础**。
 # 段落
@@ -28,7 +29,7 @@ markdown标准的段落需要使用空行分隔，即需要两个换行符才能
 | 粗体和嵌套斜体                             | \*\* \*\*      | `**粗体和 _嵌套斜体_ 文本**` | **粗体和 _嵌套斜体_ 文本** | 无          |
 | 粗体和斜体                               | \*\*\* \*\*\*  | `***粗体和斜体文本***`     | **_粗体和斜体文_**      | 无          |
 | 行内代码                                | \`  \`         | \` import openai \` | `import openai`   | `alt + L`  |
-| [代码块](基于markdown的obsidian语法.md#代码块) | \`\`\`  \`\`\` | 与行内代码类似             |                   | `ctrl + L` |
+| [代码块](Obsidian%20Markdown%20Syntax.md#代码块) | \`\`\`  \`\`\` | 与行内代码类似             |                   | `ctrl + L` |
 
 # 链接
 
@@ -194,7 +195,7 @@ $$
 
 # 图表
 
-可以使用 [Mermaid](https://mermaid-js.github.io/) 语法在笔记中使用[代码块](markdown语法.md#代码块) #TODO 添加图表和流程图。Mermaid 支持多种图表，如[流程图](https://mermaid.js.org/syntax/flowchart.html)、[时序图](https://mermaid.js.org/syntax/sequenceDiagram.html)和[时间线](https://mermaid.js.org/syntax/timeline.html)等。
+可以使用 [Mermaid](https://mermaid-js.github.io/) 语法在笔记中使用[代码块](Markdown%20Syntax.md#代码块) #TODO 添加图表和流程图。Mermaid 支持多种图表，如[流程图](https://mermaid.js.org/syntax/flowchart.html)、[时序图](https://mermaid.js.org/syntax/sequenceDiagram.html)和[时间线](https://mermaid.js.org/syntax/timeline.html)等。
 
 想了解更多有关创建图表的信息，请参阅[Mermaid 官方文档](https://mermaid.js.org/intro/)。
 #TODO 

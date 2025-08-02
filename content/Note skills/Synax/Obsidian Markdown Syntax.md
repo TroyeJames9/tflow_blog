@@ -5,11 +5,12 @@ tags:
   - markdown
 aliases:
   - 基于markdown的obsidian语法
+title: 基于markdown的obsidian语法
 ---
-markdown作为一种文本写作的语法已多年未更新过，obsidian在它的基础上综合了视觉上的考虑和适应如今HTML语言的发展，支持了更多的语法。本篇将介绍在[markdown语法](markdown语法.md)基础之上的obsidian所支持的语法。
+markdown作为一种文本写作的语法已多年未更新过，obsidian在它的基础上综合了视觉上的考虑和适应如今HTML语言的发展，支持了更多的语法。本篇将介绍在[Markdown Syntax](Markdown%20Syntax.md)基础之上的obsidian所支持的语法。
 # 内部/外部链接
 
-obsidian支持以下两种风格的[链接](markdown语法.md#链接)，效果是等同的：
+obsidian支持以下两种风格的[链接](Markdown%20Syntax.md#链接)，效果是等同的：
 
 ```
 wiki式链接：[[笔记名称#小标题|别称]]
@@ -33,7 +34,7 @@ markdown链接：[别名](笔记名称.md#小标题)
 
 # 标注
 
-标注是带有标题图标和标题的更好看的[引用](markdown语法.md#引用)。
+标注是带有标题图标和标题的更好看的[引用](Markdown%20Syntax.md#引用)。
 
 要创建标注，将 `[!info]` 添加到引用块的第一行即可。其中 `info` 是 _类型标识符_。类型标识符决定了标注的外观。
 
