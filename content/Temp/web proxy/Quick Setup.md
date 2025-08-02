@@ -5,17 +5,20 @@ title: 简易配置说明
 ---
 # 为什么制作这个说明
 
-1. 引导大家更新手里的猫咪，使用最新特性
+1. 引导大家更新手里的客户端，使用最新特性
 2. 近期节点经常波动，断线，遂自制了一个配置文件以故障转移的功能来优化使用体验。
 
 # windows或者MAC的配置
 
 ## 第一步：下载clash verge rev
 
-打开代理，通过以下链接下载新版rev：
-- [WINDOWS安装包](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.3.1/Clash.Verge_2.3.1_x64-setup.exe)
-- macOS安装包：[intel芯片](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.3.1/Clash.Verge_2.3.1_x64.dmg)，[Apple Silicon M](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.3.1/Clash.Verge_2.3.1_aarch64.dmg)
+打开已有的VPN代理，通过以下链接下载新版rev：
+- [WINDOWS安装包](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.3.1/Clash.Verge_2.3.1_x64-setup.exe) （Clash.Verge_2.3.1_x64-setup.exe）
+- macOS安装包：
+	- [intel芯片](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.3.1/Clash.Verge_2.3.1_x64.dmg)（Clash.Verge_2.3.1_x64.dmg)
+	- [Apple Silicon M](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.3.1/Clash.Verge_2.3.1_aarch64.dmg)(Clash.Verge_2.3.1_aarch64.dmg)
 
+如果没有VPN代理，请访问[tflow存档](https://sy.tflow.top/d/7fe9e6b087544f6a9260/)来下载（**有密码，自行联系tflow**）
 ## 第二步：下载配置文件
 
 这个配置文件由我编写与维护，整合了现有所有节点并自动故障转移，日常使用更舒心。
@@ -49,7 +52,9 @@ clash点击新建
 
 ## 第一步：下载cmfa与配置文件
 
-电脑打开代理，通过[本链接](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.14/cmfa-2.11.14-meta-universal-release.apk)下载新版cmfa，配置文件的下载方法[同上](Quick%20Setup.md#第二步：下载配置文件)
+电脑或手机打开VPN代理，通过[本链接](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.14/cmfa-2.11.14-meta-universal-release.apk)下载新版cmfa，配置文件的下载方法[同上](Quick%20Setup.md#第二步：下载配置文件)
+
+如果没有电脑且没有VPN代理，请访问[tflow存档](https://sy.tflow.top/d/7fe9e6b087544f6a9260/)来下载`cmfa-2.11.14-meta-universal-release.apk`（**有密码，自行联系tflow**）
 
 ## 第二步：安装cmfa并配置
 
@@ -62,7 +67,7 @@ clash点击新建
 
 # ios或ipad
 
-1. app store搜索[clash mi](https://apps.apple.com/us/app/clash-mi/id6744321968)下载
+1. app store搜索[clash mi](https://apps.apple.com/us/app/clash-mi/id6744321968)下载（有可能需要苹果外区ID，自行寻找方案）
 2. [下载配置文件](Quick%20Setup.md#第二步：下载配置文件)并传送到手机。
 3. 打开clash mi，点击`我的配置`右边的`+`号后，点击`导入配置文件`
 4. 在导入页面点击`选择文件`，导入刚刚下载的配置文件，然后点击右上角的`√`保存

@@ -10,6 +10,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       粤公网安备44011102484362号: "https://beian.mps.gov.cn/#/query/webSearch?code=44011102484362",
       "粤ICP备2025445261号": "https://beian.miit.gov.cn/",
+      "联系tflow": "https://blog.tflow.top/contact"
     },
   }),
 }
