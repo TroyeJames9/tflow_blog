@@ -1,7 +1,6 @@
 ---
 tags: 
 aliases:
-  - MOC笔记方法论
   - MOC
 title: MOC笔记方法论
 ---
