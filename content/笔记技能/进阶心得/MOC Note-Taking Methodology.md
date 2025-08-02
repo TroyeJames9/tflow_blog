@@ -2,7 +2,7 @@
 tags: 
 aliases:
   - MOC
-title: MOC Note-Taking Methodology
+title: MOC笔记方法论
 ---
 本文参考资料：[回归 Obsidian 的纯与真，写给普通人的入门指南](https://sspai.com/post/72697)
 
