@@ -1,11 +1,13 @@
 ---
 tags:
+  - Virtual
+  - Linker
   - 分支
   - 笔记技能
   - 第三方插件
   - 虚拟引用
 aliases:
-  - 虚拟引用
+  - Virtual Linker
 ---
 
 github地址： https://github.com/vschroeter/obsidian-virtual-linker
