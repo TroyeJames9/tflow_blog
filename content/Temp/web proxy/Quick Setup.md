@@ -1,5 +1,6 @@
 ---
 aliases:
+  - Quick Setup
   - 简易配置说明
 title: 简易配置说明
 ---
