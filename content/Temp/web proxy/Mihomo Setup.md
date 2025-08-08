@@ -1,0 +1,63 @@
+---
+title: 开源代理工具配置
+aliases:
+  - 开源代理工具配置
+---
+
+> [!warning] 声明
+> - 本教程仅讲解如何选购并最基本的配置操作，更多内容请自行上youtube学习。
+> - 对教程如有疑问，仅支持[在github向我提交issue](https://github.com/TroyeJames9/tflow_blog/issues)进行咨询，国内平台禁止讨论
+
+# 本教程的前提条件
+
+- **设备本身具备访问外网的能力**（教程参照[免费VPN](Free%20Proxy.md)) ，从而访问以下所涉及的所有外网资源。
+
+# 第一步：下载开源代理工具
+
+打开设备已有的VPN代理，通过以下链接下载新版rev：
+- [WINDOWS安装包](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.3.1/Clash.Verge_2.3.1_x64-setup.exe) （Clash.Verge_2.3.1_x64-setup.exe）
+- macOS安装包：
+	- [intel芯片](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.3.1/Clash.Verge_2.3.1_x64.dmg)（Clash.Verge_2.3.1_x64.dmg)
+	- [Apple Silicon M](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.3.1/Clash.Verge_2.3.1_aarch64.dmg)(Clash.Verge_2.3.1_aarch64.dmg)
+- [Android安装包](https://github.com/KaringX/clashmi/releases/download/v1.0.7.115/clashmi_1.0.7.115_android_arm64-v8a.apk)（clashmi_1.0.7.115_android_arm64-v8a.apk）
+- iOS安装包：app store搜索[clash mi](https://apps.apple.com/us/app/clash-mi/id6744321968)下载（有可能需要苹果外区ID，自行寻找方案）
+
+# 第二步：挑选代理商家并复制订阅
+
+商家挑选可参见[本链接](https://jichangtuijian.com/ssr-v2ray%E4%B8%93%E7%BA%BF%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90.html)。
+
+在商家网站购买后，按照以下步骤复制订阅：
+
+- 在网站点击`导入订阅`或者类似包含 `订阅`的按钮
+- 选择对应设备/平台的系统，有可能还需要选择对应软件（软件一般直接选择clash）
+- 复制订阅，保留到本地，稍后会用到。
+
+![](Mihomo%20Setup-20250808154855565.webp)
+
+# 第三步：导入配置并打开代理
+
+## windows或者MAC的配置
+
+打开开源工具，将复制的订阅链接填入如图上方文本框，然后点击 `导入`
+
+![](Mihomo%20Setup-20250808155930661.webp)
+
+导入成功后点击该订阅，订阅卡片左侧有蓝色竖线则说明已选中 tflow这个订阅
+
+![](简易配置说明-20250715190834748.webp)
+
+最后如图所示打开代理以及进行必要配置，就可以无感访问外网了。
+
+![](简易配置说明-20250715190842940.webp)
+
+## 安卓与iOS的配置
+
+选择APP首页菜单`我的配置` -> 右上角 ➕ 号按钮 -> 选择`添加配置链接`，粘贴上一步复制的订阅。点击右上角确定√
+
+![|348](Mihomo%20Setup-20250808160910064.webp)
+
+添加成功后，会跳转到 `我的配置`的页面，如下所示，然后返回APP首页, 滑动打开连接按钮 ▶️ 即可开始您的科学上网之旅了
+
+![|365](Mihomo%20Setup-20250808161009184.webp)
+
+![|320](Mihomo%20Setup-20250808161014765.webp)
