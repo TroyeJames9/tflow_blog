@@ -5,8 +5,7 @@ tags:
   - 第三方插件
   - 分支
   - 大纲笔记
-aliases:
-  - outliner
+aliases: []
 ---
 
 github仓库地址： https://github.com/vslinko/obsidian-outliner

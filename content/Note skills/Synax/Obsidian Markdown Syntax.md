@@ -4,7 +4,6 @@ tags:
   - 笔记技能
   - markdown
 aliases:
-  - Obsidian Markdown Syntax
   - 基于markdown的obsidian语法
 title: 基于markdown的obsidian语法
 ---

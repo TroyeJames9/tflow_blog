@@ -2,7 +2,6 @@
 title: 我的人生的发展规划
 aliases:
   - 我的人生的发展规划
-  - My Life Plan
 ---
 
 ## 规划框架

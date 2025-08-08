@@ -1,7 +1,6 @@
 ---
 title: 免费VPN
 aliases:
-  - Free Proxy
   - 免费VPN
 ---
 目前仍然可用的免费VPN有：

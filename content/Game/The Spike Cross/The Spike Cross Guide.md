@@ -1,7 +1,6 @@
 ---
 title: the spike cross入门指南
 aliases:
-  - The Spike Cross Guide
   - the spike cross入门指南
 ---
 

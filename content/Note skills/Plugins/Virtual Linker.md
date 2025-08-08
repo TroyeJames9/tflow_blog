@@ -6,8 +6,7 @@ tags:
   - 笔记技能
   - 第三方插件
   - 虚拟引用
-aliases:
-  - Virtual Linker
+aliases: []
 ---
 
 github地址： https://github.com/vschroeter/obsidian-virtual-linker

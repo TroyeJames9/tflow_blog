@@ -1,5 +1,5 @@
 ---
 title: 杂记
 aliases:
-  - Temp
+  - 杂记
 ---

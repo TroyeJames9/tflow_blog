@@ -4,7 +4,6 @@ tags:
   - 知识库管理
   - 笔记技能
 aliases:
-  - Obsidian Guide
   - 掌握obsidian的流程
 title: 掌握obsidian的流程
 ---

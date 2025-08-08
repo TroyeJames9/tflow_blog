@@ -1,7 +1,6 @@
 ---
 title: 获取 the spike cross
 aliases:
-  - Get the spike cross
   - 获取 the spike cross
 ---
 这款游戏需要支持访问外网（翻墙）、支持谷歌服务的设备才能游玩，因为：

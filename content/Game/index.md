@@ -1,5 +1,5 @@
 ---
 title: 游戏
 aliases:
-  - Game
+  - 游戏
 ---

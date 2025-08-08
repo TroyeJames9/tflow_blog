@@ -5,7 +5,6 @@ tags:
   - obsidian快捷键
 aliases:
   - 基础操作的快捷键
-  - Basic Shortcut
 title: 基础操作的快捷键
 ---
 obsidian的行文语法是基于[Markdown Syntax](Markdown%20Syntax.md)的基础之上进行拓展的，同时很多频繁操作的工作最佳实践是**绑定快捷键**。本篇将梳理obsidian日常编辑过程中常用的操作以及对应建议的快捷键。

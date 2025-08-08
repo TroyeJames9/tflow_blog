@@ -4,7 +4,6 @@ tags:
   - 笔记技能
   - markdown
 aliases:
-  - Markdown Syntax
   - markdown语法
 title: markdown语法
 ---
