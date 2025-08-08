@@ -3,6 +3,9 @@ title: 获取 the spike cross
 aliases:
   - 获取 the spike cross
 ---
+
+**本教程是基于Q群群友`昨夜今月明日`的word文档教程来修订与更新的**
+
 这款游戏需要支持访问外网（翻墙）、支持谷歌服务的设备才能游玩，因为：
 - 由韩国团队开发，游戏只在国外的google play应用商店上架。
 - 游戏登陆需要google账号。
