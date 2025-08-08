@@ -5,7 +5,6 @@ tags:
   - 博客部署
   - 静态构建
 aliases:
-  - 静态网站构建工具quartz
   - quartz
 title: quartz
 ---
