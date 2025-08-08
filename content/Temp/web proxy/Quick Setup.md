@@ -2,7 +2,7 @@
 aliases:
   - Quick Setup
   - 简易配置说明
-title: 简易配置说明
+title: 简易配置说明（内部版本）
 ---
 # 为什么制作这个说明
 
