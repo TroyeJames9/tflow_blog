@@ -4,8 +4,7 @@ tags:
   - 笔记技能
   - 博客部署
   - 静态构建
-aliases:
-  - quartz
+aliases: []
 title: quartz
 ---
 
