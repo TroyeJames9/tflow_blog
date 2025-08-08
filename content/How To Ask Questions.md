@@ -1,7 +1,6 @@
 ---
 title: 提问的方法论
 aliases:
-  - How To Ask Questions
   - 提问的方法论
 ---
 os：[贴一下原文链接](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
