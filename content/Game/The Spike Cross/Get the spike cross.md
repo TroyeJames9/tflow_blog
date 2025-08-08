@@ -7,7 +7,7 @@ aliases:
 - 由韩国团队开发，游戏只在国外的google play应用商店上架。
 - 游戏登陆需要google账号。
 
-下面将逐步讲解如何令设备满足以上前置条件并获取游戏。请严格按照步骤及说明操作
+下面将逐步讲解如何令设备满足以上前置条件并获取游戏。**请严格按照步骤来操作**
 
 
 > [!todo] TODO
@@ -29,14 +29,24 @@ aliases:
 > [!todo] TODO
 > 如果觉得免费甚至付费的VPN不够安全或者稳定，后续我会制作开源网络代理工具的教程）
 
-# 确认是否支持谷歌服务
+# 开启谷歌play服务
 
 先通过手机的`设置`界面进行自查。在系统设置搜索栏 搜索 `google` ，打开`google基础服务`，如图所示打开google play服务。
 
-如果无法找到这个设置，请访问 [Google Play 支持的设备](https://support.google.com/googleplay/answer/1727131?hl=zh-Hans) 以确定自己的手机型号是否支持谷歌服务
+如果无法找到这个设置，请访问 [Google Play 支持的设备](https://support.google.com/googleplay/answer/1727131?hl=zh-Hans) 以确定自己的手机型号是否支持谷歌服务。
 
 ![|226](Get%20the%20spike%20cross-20250808104841011.webp) ![|374](Get%20the%20spike%20cross-20250808104945330.webp)
 
+> [!question]- 我的设备支持谷歌服务但无法找到如图设置，怎么办？
+> 以下两种方式任选一种来轻松安装谷歌服务三件套：
+> 1. [GO安装器](https://www.pgyer.com/pOEI)，如果使用了之后仍然没有google play，可通过[本链接](https://apkpure.net/cn/google-play-store/com.android.vending)下载google play
+> 2. 腾讯的 [应用宝](https://sj.qq.com/)内搜索并下载 `suplay安装器`来完成三件套安装
+>
+> 视频教程链接：https://www.bilibili.com/video/BV1P4t2zbEpP/
+> 
+> 如果以上方法均无法正常安装三件套，则说明手机型号的国行版不支持谷歌服务。
 
-> [!TIP] 
-> Contents
+> [!question]- 我的设备不支持谷歌服务，怎么办？
+>  本文以下部分对你没有任何意义，请阅读[ourplay教程](Gaming%20via%20OurPlay.md)
+
+
