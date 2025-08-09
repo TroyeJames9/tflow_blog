@@ -2,6 +2,7 @@
 title: the spike cross入门指南
 aliases:
   - the spike cross入门指南
+  - The Spike
 ---
 
 > [!TIP] 读前须知
@@ -19,4 +20,4 @@ aliases:
 
 - [如何获取the spike cross？](Get%20the%20spike%20cross.md)
 - 基础入门指南 TODO
-- 游戏最新资讯 TODO
+- [活动与资讯速递](homepage%20of%20news.md)
