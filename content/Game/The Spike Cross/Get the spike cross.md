@@ -69,6 +69,7 @@ aliases:
 > [!question]- 我的设备不支持谷歌服务，怎么办？
 >  本文以下部分对你没有任何意义，请阅读[ourplay教程](Gaming%20via%20OurPlay.md)
 
+
 在系统自带的应用商店中搜索`google play 商店`，升级`google play商店`。然后就会在桌面看到google play的图标。![|50](Get%20the%20spike%20cross-20250808183515245.webp)
 
 打开google play，点击右上角登陆google账号。
@@ -83,3 +84,8 @@ aliases:
 > ![|284](Get%20the%20spike%20cross-20250808184439542.webp)
 > 
 > 搜索`google`，检查google服务框架，google play 服务，google play 商店 是否需要更新
+
+> [!question]- 为什么游戏登录页面一直**加载没反应/显示TIMEOUT/失败/Ref ds_map**？
+> - 网络问题。检查梯子是否开启（加速器和vpn的app开一个就够了）
+> - 更换梯子的节点线路尝试。
+> - 或者过一段时间试试。
