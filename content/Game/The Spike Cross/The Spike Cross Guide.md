@@ -19,4 +19,4 @@ aliases:
 
 - [如何获取the spike cross？](Get%20the%20spike%20cross.md)
 - 基础入门指南 TODO
-- 游戏新闻资讯 TODO
+- 游戏最新资讯 TODO
