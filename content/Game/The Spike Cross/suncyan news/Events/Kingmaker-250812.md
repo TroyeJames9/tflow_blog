@@ -1,7 +1,7 @@
 ---
-title: Kingmaker-250812
+title: Kingmaker
 aliases:
-  - Kingmaker-2025-08-12
+  - Kingmaker
 ---
 # 关键信息
 
