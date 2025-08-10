@@ -3,6 +3,7 @@ title: the spike社区首页
 aliases:
   - the spike社区首页
   - The Spike
+  - Game/The-Spike-Cross/The-Spike-Cross-Guide
 ---
 
 > [!TIP] 读前须知

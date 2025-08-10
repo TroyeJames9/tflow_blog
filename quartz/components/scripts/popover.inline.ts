@@ -31,9 +31,6 @@ async function mouseEnterHandler(
     
     const popoverInner = popoverElement.querySelector('.popover-inner') as HTMLElement | null;
     if (!popoverInner) return;
-
-    // 每次强制重置滚动位置到顶部
-    // popoverInner.scrollTop = 0;
     
     if (hash !== "") {
       const targetAnchor = `#popover-internal-${hash.slice(1)}`
