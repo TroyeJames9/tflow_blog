@@ -16,6 +16,11 @@
     position: relative;
     overflow: hidden;
 
+    & > .graph-container {
+      height: 100% !important;
+      width: 100% !important;
+    }
+    
     & > .global-graph-icon {
       cursor: pointer;
       background: none;
