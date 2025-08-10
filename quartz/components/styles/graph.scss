@@ -10,16 +10,10 @@
     border-radius: 5px;
     border: 1px solid var(--lightgray);
     box-sizing: border-box;
-    width: 250px;
     height: 250px;
     margin: 0.5em 0;
     position: relative;
     overflow: hidden;
-
-    & > .graph-container {
-      height: 100% !important;
-      width: 100% !important;
-    }
 
     & > .global-graph-icon {
       cursor: pointer;
