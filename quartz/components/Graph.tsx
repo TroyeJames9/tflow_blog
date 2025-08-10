@@ -45,7 +45,7 @@ const defaultOptions: GraphOptions = {
   globalGraph: {
     drag: true,
     zoom: true,
-    depth: -1,
+    depth: 3,
     scale: 0.9,
     repelForce: 0.5,
     centerForce: 0.2,
