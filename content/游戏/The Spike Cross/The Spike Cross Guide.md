@@ -1,7 +1,7 @@
 ---
-title: the spike cross入门指南
+title: the spike社区首页
 aliases:
-  - the spike cross入门指南
+  - the spike社区首页
   - The Spike
 ---
 
@@ -13,6 +13,7 @@ aliases:
 > 2. 如何对本指南进行贡献（修订或补充）？请[联系tflow](Contact.md) 了解如何贡献
 > 3. 不要在Q群内使用 【**VPN**、**梯子**、**翻墙**】等国内敏感词汇，推荐使用词汇为【**科学**、**proxy**（等于梯子）】
 > 4. PC端访问本网站时，**光标可停留在超链接文本上进行预览**，从而无需进行链接跳转。例子：[这是个超链接文本](Get%20the%20spike%20cross.md)
+> 5. 移动端网站最下方（PC端网站的右侧）的`反向链接`可跳转回上一页（上一层级的文章）
 
 由 [SUNCYAN](https://www.suncyan.com/en) 开发的《The Spike Cross》排球游戏以快节奏和操控以及精美的角色为特色，不仅吸引了排球迷，也吸引了游戏玩家，全球下载量达到 5000 万次。
 
