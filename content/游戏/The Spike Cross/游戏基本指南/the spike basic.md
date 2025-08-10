@@ -1,5 +1,5 @@
 ---
-title:
+title: the spike 百科
 ---
 
 > [!INFO] 版权说明
