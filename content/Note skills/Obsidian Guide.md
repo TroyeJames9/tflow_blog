@@ -107,6 +107,7 @@ obsidian本质上是一个**知识库管理系统**，所以掌握obsidian的第
 - 检索插件：[[dataview]] #TODO 
 - 工作区插件：[quiet outline](quiet%20outline) #TODO 
 -  ：增强版大纲 #TODO 
+- index相关插件：[Hide Index Files](https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E7%A4%BE%E5%8C%BA%E6%8F%92%E4%BB%B6/hide-index-files/)
 
 > [!tip] 提示
 > 关于内容样式改变的插件尽量不使用，保证原生的markdown渲染的兼容性对于后续发布到博客至关重要
