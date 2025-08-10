@@ -1,7 +1,7 @@
 ---
 title: Kingmaker
 aliases:
-  - Kingmaker
+  - KingmakerEvents
 ---
 # 关键信息
 

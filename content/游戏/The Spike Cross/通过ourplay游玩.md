@@ -1,7 +1,7 @@
 ---
 title: 通过ourplay游玩
 aliases:
-  - 通过ourplay游玩
+  - Gaming via OurPlay
 ---
 如果你的设备不支持谷歌服务，则可以通过ourplay来游玩the spike cross。
 

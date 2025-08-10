@@ -1,5 +1,7 @@
 ---
 title: the spike 百科
+aliases:
+  - TheSpikeEncyclopedia
 ---
 
 > [!INFO] 版权说明

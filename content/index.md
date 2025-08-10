@@ -6,5 +6,5 @@ aliases:
 
 - 围绕obsidian笔记软件所构建的[笔记技能体系](Obsidian%20Guide.md)
 - 我所掌握的游戏的知识或资讯
-	- [the spike cross入门指南](The%20Spike%20Cross%20Guide.md)
+	- [the spike cross入门指南](the%20spike社区首页.md)
 - 更多内容敬请期待，需要逐步从既有的幕布笔记中迁移到这个知识库里
