@@ -28,39 +28,25 @@ async function mouseEnterHandler(
     clearActivePopover()
     popoverElement.classList.add("active-popover")
     setPosition(popoverElement as HTMLElement)
+    
+    const popoverInner = popoverElement.querySelector('.popover-inner') as HTMLElement | null;
+    if (!popoverInner) return;
 
-    // if (hash !== "") {
-    //   const targetAnchor = `#popover-internal-${hash.slice(1)}`
-    //   const heading = popoverInner.querySelector(targetAnchor) as HTMLElement | null
-    //   if (heading) {
-    //     // leave ~12px of buffer when scrolling to a heading
-    //     popoverInner.scroll({ top: heading.offsetTop - 12, behavior: "instant" })
-    //   }
-    // }
-
-    // 延迟滚动直到弹窗激活完成
-    const scrollAfterActivation = () => {
-      if (hash !== "") {
-        const targetAnchor = `#popover-internal-${hash.slice(1)}`
-        const heading = popoverInner.querySelector(targetAnchor) as HTMLElement | null
-        if (heading) {
-          // +1ms延迟确保浏览器完成渲染
-          setTimeout(() => {
-            popoverInner.scroll({ 
-              top: heading.offsetTop - 12, 
-              behavior: "instant" 
-            })
-          }, 1)
-        }
+    // 每次强制重置滚动位置到顶部
+    popoverInner.scrollTop = 0;
+    
+    if (hash !== "") {
+      const targetAnchor = `#popover-internal-${hash.slice(1)}`
+      const heading = popoverInner.querySelector(targetAnchor) as HTMLElement | null
+      if (heading) {
+        // 添加微秒延迟确保滚动生效
+        setTimeout(() => {
+          popoverInner.scroll({ 
+            top: heading.offsetTop - 12, 
+            behavior: "instant" 
+          })
+        })
       }
-    }
-
-    // 处理Firefox的渲染问题
-    if (navigator.userAgent.includes("Firefox")) {
-      popoverElement.getBoundingClientRect() // 强制重绘
-      scrollAfterActivation()
-    } else {
-      requestAnimationFrame(scrollAfterActivation)
     }
   }
 
