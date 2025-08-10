@@ -75,7 +75,7 @@ export default ((opts?: Partial<GraphOptions>) => {
               xmlnsXlink="http://www.w3.org/1999/xlink"
               x="0px"
               y="0px"
-              viewBox="0 0 55 55"
+              viewBox="0 0 65 65"
               fill="currentColor"
               xmlSpace="preserve"
             >
