@@ -8,6 +8,7 @@ tags:
   - 虚拟引用
 aliases: []
 ---
+本文章永久分享链接： https://tflow.top/Virtual-Linker
 
 github地址： https://github.com/vschroeter/obsidian-virtual-linker
 

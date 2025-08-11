@@ -7,6 +7,7 @@ tags:
   - 大纲笔记
 aliases: []
 ---
+本文章永久分享链接： https://tflow.top/outliner
 
 github仓库地址： https://github.com/vslinko/obsidian-outliner
 

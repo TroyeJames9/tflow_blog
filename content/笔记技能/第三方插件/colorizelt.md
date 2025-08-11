@@ -18,7 +18,7 @@ github链接： https://github.com/WiNE-iNEFF/colorizelt
 
 # 设置自己喜欢的颜色集
 
-> 在左下角的设置中找到colorizelt后，在颜色设置中点击 **`add button`** 来添加自己喜欢的颜色样式，并在文本框中设置好颜色的名称。
+> 在左下角的设置中找到 colorizelt 后，在颜色设置中点击 **`add button`** 来添加自己喜欢的颜色样式，并在文本框中设置好颜色的名称。
 
 ![](Pasted%20image%2020250111115033.webp)
 

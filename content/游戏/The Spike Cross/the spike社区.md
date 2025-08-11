@@ -2,8 +2,9 @@
 title: the spike社区首页
 aliases:
   - The Spike
-  - Game/The-Spike-Cross/The-Spike-Cross-Guide
 ---
+本文章永久分享链接： https://tflow.top/The-Spike
+
 
 > [!TIP] 读前须知
 > 1. 本栏目官方QQ群：`133047771`  ，在群里对本指南提问前请先进行以下自助步骤（推荐学习 [提问的方法论](提问的方法论.md)）：

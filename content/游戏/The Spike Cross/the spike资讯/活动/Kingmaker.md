@@ -3,6 +3,8 @@ title: Kingmaker
 aliases:
   - KingmakerEvents
 ---
+本文章永久分享链接： https://tflow.top/KingmakerEvents
+
 # 关键信息
 
 **Kingmaker 活动将于 8 月 12 日下午 3 点（韩国标准时间）启动，持续 4 周。**
