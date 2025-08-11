@@ -643,16 +643,16 @@ iframe.pdf {
 }
 
 /* 表格单元格调整 */
-td {
-  /* 确保图片和文本横向排列 */
-  white-space: nowrap;
+// td {
+//   /* 确保图片和文本横向排列 */
+//   white-space: nowrap;
   
-  /* 防止换行 */
-  overflow: visible;
+//   /* 防止换行 */
+//   overflow: visible;
   
-  /* 内容垂直居中 */
-  vertical-align: middle;
-}
+//   /* 内容垂直居中 */
+//   vertical-align: middle;
+// }
 
 /* 表格中的图片特殊处理 */
 td img {
