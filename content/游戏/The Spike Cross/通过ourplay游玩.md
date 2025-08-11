@@ -3,7 +3,7 @@ title: 通过ourplay游玩
 aliases:
   - Gaming via OurPlay
 ---
-本文章永久分享链接： https://tflow.top/Gaming-via-OurPlay
+本文章永久分享链接： `https://tflow.top/Gaming-via-OurPlay`
 
 如果你的设备不支持谷歌服务，则可以通过ourplay来游玩the spike cross。
 

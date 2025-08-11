@@ -7,7 +7,7 @@ aliases:
   - Obsidian Guide
 title: 掌握obsidian的流程
 ---
-本文章永久分享链接： https://tflow.top/Obsidian-Guide
+本文章永久分享链接： `https://tflow.top/Obsidian-Guide`
 
 obsidian本质上是一个**知识库管理系统**，所以掌握obsidian的第一步就是熟练运用它搭建知识库，然后再拓展到自动化部署博客、任务管理、项目管理、等等应用。最核心的还是**步子不要太大**。本篇文章作为obsidian使用心得的main文档来逐步讲解**知识库管理**的操作。
 

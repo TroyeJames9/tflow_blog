@@ -7,7 +7,7 @@ tags:
   - 文本渲染
 aliases: []
 ---
-本文章永久分享链接： https://tflow.top/colorizelt
+本文章永久分享链接： `https://tflow.top/colorizelt`
 
 github链接： https://github.com/WiNE-iNEFF/colorizelt
 

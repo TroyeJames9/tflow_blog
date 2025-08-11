@@ -3,7 +3,7 @@ title: the spike 百科
 aliases:
   - TheSpikeEncyclopedia
 ---
-本文章永久分享链接： https://tflow.top/TheSpikeEncyclopedia
+本文章永久分享链接： `https://tflow.top/TheSpikeEncyclopedia`
 
 > [!INFO] 版权说明
 > **本教程是基于Q群群友`SE`的精美PDF手册来修订与更新的**

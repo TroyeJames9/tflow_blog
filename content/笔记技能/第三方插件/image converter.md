@@ -7,7 +7,7 @@ tags:
   - 第三方插件
 aliases: []
 ---
-本文章永久分享链接： https://tflow.top/image-converter
+本文章永久分享链接： `https://tflow.top/image-converter`
 
 github地址： https://github.com/xryul/obsidian-image-converter
 
