@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "zh-CN", // 网站使用的语言
     baseUrl: "tflow.top",  // 用于需要绝对 URL 的站点地图和 RSS 源，以便识别站点的规范“首页”位置。这通常是站点的部署 URL
-    ignorePatterns: ["private", "templates", ".obsidian"], // 在查找 content 文件夹内的文件时应该忽略且不进行搜索的匹配模式。
+    ignorePatterns: ["**/private", "templates", ".obsidian"], // 在查找 content 文件夹内的文件时应该忽略且不进行搜索的匹配模式。
     defaultDateType: "modified",  // 使用创建（created）、修改（modified）或发布（published）作为页面和页面列表上显示的默认日期。
     theme: {
       fontOrigin: "googleFonts",
