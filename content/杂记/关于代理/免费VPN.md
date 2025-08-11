@@ -1,7 +1,7 @@
 ---
 title: 免费VPN
 aliases:
-  - 免费VPN
+  - free VPN
 ---
 目前仍然可用的免费VPN有：
 - 起飞VPN，v4.5.1[官方下载链接](https://bit.ly/gofly666)，仅适用于安卓设备
