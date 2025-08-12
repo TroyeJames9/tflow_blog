@@ -39,7 +39,7 @@ if (!popoverInner) return;
 - OS: Win10 Home
 - Browser: Chrome 139.0.7258.67
 
-# Section B`
+# Section B
 
 - Problem occurs because the component uses a cached DOM element reference that becomes stale when the same popup is reused
 - The solution ensures we always operate on the live DOM element rather than a closed-over variable reference

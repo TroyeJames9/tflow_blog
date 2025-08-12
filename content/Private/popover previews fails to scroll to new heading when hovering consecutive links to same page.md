@@ -6,9 +6,9 @@ When hovering over multiple links pointing to different headings within the same
 Steps to reproduce the behavior:
 
 1. Create a page "Cited page" with two headings: `# Section A` and `## Section B`
-2. Add two links on another page or same page: `[Link A](#section-a)` and `[Link B](#section-b)`
+2. Add two links on another page “citing page"  `[Link A](cited%20page.md#Section%20A)` and `[Link B](cited%20page.md#Section%20B)`
 3. First hover over "Link A" - popup correctly shows Section A at top
-4. Without leaving popover area, move cursor to "Link B"
+4. move cursor to "Link B"
 5. Popover remains showing Section A instead of scrolling to Section B
 
 # Expected behavior 
