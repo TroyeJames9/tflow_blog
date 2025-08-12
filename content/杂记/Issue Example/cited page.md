@@ -1,7 +1,9 @@
-# Describe the bug 
+# Section A
+
+## Describe the bug 
 When hovering over multiple links pointing to different headings within the same page, the preview popover retains its previous scroll position rather than scrolling to the new target heading. Specifically, after previewing one heading on a page, hovering over another link to a different heading on that same page will still show the previously viewed section in the popover.
 
-# Steps To Reproduce 
+## Steps To Reproduce 
 
 Steps to reproduce the behavior:
 
@@ -11,11 +13,11 @@ Steps to reproduce the behavior:
 4. Without leaving popover area, move cursor to "Link B"
 5. Popover remains showing Section A instead of scrolling to Section B
 
-# Expected behavior 
+## Expected behavior 
 
 Popover should always scroll to display the heading corresponding to the currently hovered link. When previewing a new heading on the same page, the popover should automatically scroll to make that heading visible.
 
-# Screenshots and Source 
+## Screenshots and Source 
 
 I can provide a PR to fix this issue. The bug exists in the popover preview functionality script (`quartz/components/scripts/popover.inline.ts`) due to stale DOM references.
 
@@ -29,7 +31,7 @@ if (!popoverInner) return;
 **Desktop (please complete the following information):**
 ```
 
-# Desktop (please complete the following information):
+## Desktop (please complete the following information):
 
 - Quartz Version: v4.5.1
 - `node` Version: v22.17.0
@@ -37,9 +39,10 @@ if (!popoverInner) return;
 - OS: Win10 Home
 - Browser: Chrome 139.0.7258.67
 
-# Additional context
+# Section B`
 
 - Problem occurs because the component uses a cached DOM element reference that becomes stale when the same popup is reused
 - The solution ensures we always operate on the live DOM element rather than a closed-over variable reference
 - I have tested the fix locally and confirmed it resolves the scrolling issue without side effects
 - Ready to submit a PR if accepted
+
