@@ -17,16 +17,33 @@ Popover should always scroll to display the heading corresponding to the current
 
 # Screenshots and Source 
 
+
+
 I can provide a PR to fix this issue. The bug exists in the popover preview functionality script (`quartz/components/scripts/popover.inline.ts`) due to stale DOM references.
 
 Fixed code with explanation:
 
-```ts
-// In showPopover function - add these lines:
-const popoverInner = popoverElement.querySelector('.popover-inner') as HTMLElement | null;
-if (!popoverInner) return;
-
-**Desktop (please complete the following information):**
+```ts 
+function showPopover(popoverElement: HTMLElement) {
+    clearActivePopover()
+    popoverElement.classList.add("active-popover")
+    setPosition(popoverElement as HTMLElement)
+    
+	// START
+	// In showPopover function - add these lines:
+    const popoverInner = popoverElement.querySelector('.popover-inner') as HTMLElement | null;
+    if (!popoverInner) return;
+    // EMD
+    
+    if (hash !== "") {
+      const targetAnchor = `#popover-internal-${hash.slice(1)}`
+      const heading = popoverInner.querySelector(targetAnchor) as HTMLElement | null
+      if (heading) {
+        // leave ~12px of buffer when scrolling to a heading
+        popoverInner.scroll({ top: heading.offsetTop - 12, behavior: "instant" })
+      }
+    }
+  }
 ```
 
 # Desktop (please complete the following information):
