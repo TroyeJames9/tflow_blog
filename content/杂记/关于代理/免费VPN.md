@@ -7,6 +7,7 @@ aliases:
 
 目前仍然可用的免费VPN有：
 - 起飞VPN，v4.5.1[官方下载链接](https://bit.ly/gofly666)，仅适用于安卓设备
+- MyProxy，play商店内[下载链接](https://play.google.com/store/apps/details?id=myproxy.life&hl=en)，需要代理才可访问链接
 
 目前仍然可用的付费VPN有：
 - 快连， [官网链接](https://www.fast-kuailian.com/)， 有72小时免费试用期，全平台可用
