@@ -96,7 +96,8 @@ async function mouseEnterHandler(
       normalizeRelativeURLs(html, targetUrl)
       
       // 只选择文章正文内容
-      const articleEl = html.querySelector("article.popover-hint") as HTMLElement | null
+      // const articleEl = html.querySelector("article.popover-hint") as HTMLElement | null
+      const articleEl = html.querySelector("article") as HTMLElement | null
       if (!articleEl) return
 
       // 解决类型问题：使用 HTMLElement 而不是具体的 HTMLDivElement
