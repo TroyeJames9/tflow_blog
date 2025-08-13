@@ -94,18 +94,63 @@ async function mouseEnterHandler(
       const contents = await response.text()
       const html = p.parseFromString(contents, "text/html")
       normalizeRelativeURLs(html, targetUrl)
-      // 只选择文章正文内容（<article>标签）
-      const articleEl = html.querySelector("article")
+      
+      // 1. 只选择文章正文内容
+      const articleEl = html.querySelector("article.popover-hint")
       if (!articleEl) return
 
-      // prepend all IDs inside popovers to prevent duplicates
-      html.querySelectorAll("[id]").forEach((el) => {
+      // 如果有锚点指定小标题
+      let targetEl: HTMLElement | null = null
+      if (hash) {
+        const targetAnchor = `#popover-internal-${decodeURIComponent(hash.slice(1))}`
+        targetEl = articleEl.querySelector(targetAnchor)
+      }
+
+      let contentToShow: HTMLElement | null = null
+      
+      if (targetEl) {
+        // 2. 为锚点选择器创建临时容器
+        contentToShow = document.createElement("div")
+        
+        // 3. 添加目标标题及后续内容
+        let currentNode: Element | null = targetEl
+        
+        // 计算目标标题的层级（h1-h6）
+        const targetLevel = parseInt(targetEl.tagName.charAt(1))
+        
+        while (currentNode) {
+          // 4. 遇到同级或更高级别标题则停止（跳过内容开头）
+          if (currentNode !== targetEl && currentNode.tagName.match(/H[1-6]/i)) {
+            const currentLevel = parseInt(currentNode.tagName.charAt(1))
+            if (currentLevel <= targetLevel) break
+          }
+          
+          // 5. 克隆节点并添加到临时容器
+          const clone = currentNode.cloneNode(true)
+          contentToShow.appendChild(clone)
+          
+          // 6. 继续处理后续节点
+          currentNode = currentNode.nextElementSibling
+          
+          // 7. 如果已到article末尾，则停止
+          if (currentNode && !articleEl.contains(currentNode)) break
+        }
+      } else {
+        // 没有指定锚点时直接使用整个文章
+        contentToShow = articleEl.cloneNode(true) as HTMLElement
+      }
+      
+      // 8. 内容为空时返回
+      if (!contentToShow || contentToShow.children.length === 0) return
+
+      // 9. 处理ID避免冲突
+      contentToShow.querySelectorAll("[id]").forEach((el) => {
         const targetID = `popover-internal-${el.id}`
         el.id = targetID
       })
-
-      // 只追加正文内容（article元素）
-      popoverInner.appendChild(articleEl)
+      
+      // 10. 添加到预览容器
+      popoverInner.appendChild(contentToShow)
 
       // const elts = [...html.getElementsByClassName("popover-hint")]
       // if (elts.length === 0) return

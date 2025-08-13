@@ -28,7 +28,10 @@ async function mouseEnterHandler(
     clearActivePopover()
     popoverElement.classList.add("active-popover")
     setPosition(popoverElement as HTMLElement)
-
+    
+    const popoverInner = popoverElement.querySelector('.popover-inner') as HTMLElement | null;
+    if (!popoverInner) return;
+    
     if (hash !== "") {
       const targetAnchor = `#popover-internal-${hash.slice(1)}`
       const heading = popoverInner.querySelector(targetAnchor) as HTMLElement | null
@@ -91,15 +94,23 @@ async function mouseEnterHandler(
       const contents = await response.text()
       const html = p.parseFromString(contents, "text/html")
       normalizeRelativeURLs(html, targetUrl)
+      // 只选择文章正文内容（<article>标签）
+      const articleEl = html.querySelector("article")
+      if (!articleEl) return
+
       // prepend all IDs inside popovers to prevent duplicates
       html.querySelectorAll("[id]").forEach((el) => {
         const targetID = `popover-internal-${el.id}`
         el.id = targetID
       })
-      const elts = [...html.getElementsByClassName("popover-hint")]
-      if (elts.length === 0) return
 
-      elts.forEach((elt) => popoverInner.appendChild(elt))
+      // 只追加正文内容（article元素）
+      popoverInner.appendChild(articleEl)
+
+      // const elts = [...html.getElementsByClassName("popover-hint")]
+      // if (elts.length === 0) return
+
+      // elts.forEach((elt) => popoverInner.appendChild(elt))
   }
 
   if (!!document.getElementById(popoverId)) {
