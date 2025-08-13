@@ -95,61 +95,68 @@ async function mouseEnterHandler(
       const html = p.parseFromString(contents, "text/html")
       normalizeRelativeURLs(html, targetUrl)
       
-      // 1. 只选择文章正文内容
-      const articleEl = html.querySelector("article.popover-hint")
+      // 只选择文章正文内容
+      const articleEl = html.querySelector("article.popover-hint") as HTMLElement | null
       if (!articleEl) return
 
-      // 如果有锚点指定小标题
-      let targetEl: HTMLElement | null = null
-      if (hash) {
-        const targetAnchor = `#popover-internal-${decodeURIComponent(hash.slice(1))}`
-        targetEl = articleEl.querySelector(targetAnchor)
-      }
-
-      let contentToShow: HTMLElement | null = null
+      // 解决类型问题：使用 HTMLElement 而不是具体的 HTMLDivElement
+      let contentToShow: HTMLElement = document.createElement("div")
       
-      if (targetEl) {
-        // 2. 为锚点选择器创建临时容器
-        contentToShow = document.createElement("div")
-        
-        // 3. 添加目标标题及后续内容
-        let currentNode: Element | null = targetEl
-        
-        // 计算目标标题的层级（h1-h6）
-        const targetLevel = parseInt(targetEl.tagName.charAt(1))
-        
-        while (currentNode) {
-          // 4. 遇到同级或更高级别标题则停止（跳过内容开头）
-          if (currentNode !== targetEl && currentNode.tagName.match(/H[1-6]/i)) {
-            const currentLevel = parseInt(currentNode.tagName.charAt(1))
-            if (currentLevel <= targetLevel) break
+      // 处理锚点链接
+      if (hash) {
+        try {
+          const anchorId = decodeURIComponent(hash.slice(1))
+          const targetEl = articleEl.querySelector(`#${anchorId}`) as HTMLElement | null
+          
+          if (targetEl) {
+            // 克隆目标元素
+            const targetClone = targetEl.cloneNode(true) as HTMLElement
+            contentToShow.appendChild(targetClone)
+            
+            // 获取标题层级 (h1-h6)
+            const headerMatch = targetEl.tagName.match(/H([1-6])/i)
+            if (headerMatch) {
+              const targetLevel = parseInt(headerMatch[1])
+              let nextEl: Element | null = targetEl.nextElementSibling
+              
+              // 遍历后续元素直到遇到同/高级标题
+              while (nextEl) {
+                // 检查标题级别
+                const nextHeaderMatch = nextEl.tagName.match(/H([1-6])/i)
+                if (nextHeaderMatch) {
+                  const nextLevel = parseInt(nextHeaderMatch[1])
+                  if (nextLevel <= targetLevel) break
+                }
+                
+                // 克隆并添加到内容
+                const clone = nextEl.cloneNode(true) as HTMLElement
+                contentToShow.appendChild(clone)
+                nextEl = nextEl.nextElementSibling
+              }
+            }
+          } else {
+            console.warn(`未找到锚点元素: #${anchorId}`)
           }
-          
-          // 5. 克隆节点并添加到临时容器
-          const clone = currentNode.cloneNode(true)
-          contentToShow.appendChild(clone)
-          
-          // 6. 继续处理后续节点
-          currentNode = currentNode.nextElementSibling
-          
-          // 7. 如果已到article末尾，则停止
-          if (currentNode && !articleEl.contains(currentNode)) break
+        } catch (e) {
+          console.error("处理锚点时出错:", e)
         }
-      } else {
-        // 没有指定锚点时直接使用整个文章
+      }
+      
+      // 回退逻辑：如果没有锚点或未找到目标内容，显示完整文章
+      if (!hash || contentToShow.children.length === 0) {
         contentToShow = articleEl.cloneNode(true) as HTMLElement
       }
-      
-      // 8. 内容为空时返回
-      if (!contentToShow || contentToShow.children.length === 0) return
 
-      // 9. 处理ID避免冲突
+      // 处理ID避免冲突
       contentToShow.querySelectorAll("[id]").forEach((el) => {
         const targetID = `popover-internal-${el.id}`
         el.id = targetID
       })
       
-      // 10. 添加到预览容器
+      // 清空容器并添加新内容
+      while (popoverInner.firstChild) {
+        popoverInner.removeChild(popoverInner.firstChild)
+      }
       popoverInner.appendChild(contentToShow)
 
       // const elts = [...html.getElementsByClassName("popover-hint")]
