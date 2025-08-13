@@ -127,8 +127,8 @@ button.desktop-explorer {
 
       &.active {
         opacity: 1;
-        // color: var(--tertiary);
-        color: #ffb700;
+        color: var(--tertiary);
+        // color: #ffb700;
       }
     }
   }
@@ -268,4 +268,9 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
   @media all and ($mobile) {
     overscroll-behavior: none;
   }
+}
+
+// 自定义
+.explorer-content ul li > a.active {
+  color: #ffb700 !important; // 文件激活颜色
 }
