@@ -25,7 +25,7 @@ aliases:
 | <span style="color: #ff7575">**资源种类**</span>            |                                                                |                                                               |                                                        |
 | ![](Afile/the%20spike%20百科-20250813121256207.webp) 球芒币  | ![](Afile/the%20spike%20百科-20250813121234160.webp) 排球          | ![](Afile/the%20spike%20百科-20250813121421934.webp) 经验值        | ![](Afile/the%20spike%20百科-20250813121502574.webp) 蓝焰  |
 | ![](Afile/the%20spike%20百科-20250813122104872.webp) V精华  | ![](Afile/the%20spike%20百科-20250813122210709.webp) 普通球员<br>招募券 | ![](Afile/the%20spike%20百科-20250813122302988.webp) 按位置<br>招募券 | ![](Afile/the%20spike%20百科-20250813123058767.webp) 礼物箱 |
-|                                                         |                                                                |                                                               | ![](Afile/the%20spike%20百科-20250813123222214.webp)招募点数     |
+| ![](Afile/the%20spike%20百科-20250813123222214.webp)招募点数  |                                                                |                                                               |                                                        |
 
 
 
