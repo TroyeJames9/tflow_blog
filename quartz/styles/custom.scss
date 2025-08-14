@@ -2,21 +2,8 @@
 
 // put your custom CSS here!
 
-
-/* 表格单元格调整 */
-td {
-  /* 确保图片和文本横向排列 */
-  white-space: nowrap;
-  
-  /* 防止换行 */
-  overflow: visible;
-  
-  /* 内容垂直居中 */
-  vertical-align: middle;
-}
-
-/* 表格中的图片特殊处理 */
-td img {
+/* 通用图片样式调整 */
+img:not(.exclude-row-style) {
   /* 与文本水平对齐 */
   display: inline-block;
   vertical-align: middle;
@@ -25,10 +12,36 @@ td img {
   margin: 0 !important;
 }
 
-/* 表格中的图片+文本组合 */
-td .image-text-group {
+/* 表格中的图片特殊处理 */
+td img {
+  /* 确保图片和文本横向排列 */
+  white-space: nowrap;
+  
+  /* 防止换行 */
+  overflow: visible;
+}
+
+/* 图片+文本组合容器（应用于正文和表格） */
+.image-text-group {
   /* 行内元素保证水平排列 */
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
+  margin: 0.5rem 0; /* 为整个组合添加一些垂直间距 */
+}
+
+/* 防止标准图片布局被覆盖 */
+p > img,
+article > img,
+div > img:not(.image-text-group img) {
+  display: block !important;
+  margin: 1rem 0 !important;
+}
+
+/* 修复单独图片的显示问题 */
+div:has(> img:only-of-type) {
+  img {
+    display: block !important;
+    margin: 1rem 0 !important;
+  }
 }
