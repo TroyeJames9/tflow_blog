@@ -2,6 +2,7 @@
 tags: 
 aliases:
   - ob/moc
+  - MOC
 title: MOC笔记方法论
 ---
 本文章永久分享链接： `https://tflow.top/ob/moc`

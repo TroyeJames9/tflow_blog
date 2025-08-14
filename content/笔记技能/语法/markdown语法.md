@@ -5,6 +5,7 @@ tags:
   - markdown
 aliases:
   - ob/Markdown
+  - markdown
 title: markdown语法
 ---
 本文章永久分享链接： `https://tflow.top/ob/Markdown`

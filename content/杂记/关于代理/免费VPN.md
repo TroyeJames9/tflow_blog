@@ -2,6 +2,7 @@
 title: 免费VPN
 aliases:
   - proxy/free
+  - VPN
 ---
 本文章永久分享链接： `https://tflow.top/proxy/free`
 
