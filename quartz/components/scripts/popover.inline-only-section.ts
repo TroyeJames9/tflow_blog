@@ -46,11 +46,8 @@ async function mouseEnterHandler(
   const hash = decodeURIComponent(targetUrl.hash)
   targetUrl.hash = ""
   targetUrl.search = ""
-  // const popoverId = `popover-${link.pathname}`
-  // const prevPopoverElement = document.getElementById(popoverId)
-  // 修改ID生成：使用完整路径+编码后的hash作为唯一标识
-  const popoverId = `popover-${targetUrl.pathname}${hash.replace(/#/g, '-')}`; 
-  const prevPopoverElement = document.getElementById(popoverId);
+  const popoverId = `popover-${link.pathname}`
+  const prevPopoverElement = document.getElementById(popoverId)
 
   // dont refetch if there's already a popover
   if (!!document.getElementById(popoverId)) {
