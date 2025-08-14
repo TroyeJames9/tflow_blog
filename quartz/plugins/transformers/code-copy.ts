@@ -1,152 +1,145 @@
 import { QuartzTransformerPlugin } from "../types"
 import { visit } from "unist-util-visit"
-import { JSResource } from "../../util/resources"
 
-interface Options {
-  copyText?: string
-  successDuration?: number
+interface CodeCopyOptions {
+  successText?: string
+  duration?: number
 }
 
-const defaultOptions: Options = {
-  copyText: "复制",
-  successDuration: 2000
+const defaultOptions: CodeCopyOptions = {
+  successText: "✓ 复制成功!",
+  duration: 2000,
 }
 
-export const CodeCopy: QuartzTransformerPlugin<Options> = (userOpts?: Options) => {
+export const CodeCopy: QuartzTransformerPlugin<CodeCopyOptions> = (userOpts?: CodeCopyOptions) => {
   const opts = { ...defaultOptions, ...userOpts }
-  
+
   return {
     name: "CodeCopy",
+    externalResources() {
+      return {
+        css: [
+          {
+            // CSS使用content而非script
+            content: `
+              div.code-copy-notification {
+                position: fixed;
+                bottom: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                padding: 10px 20px;
+                background-color: rgba(0, 0, 0, 0.7);
+                color: white;
+                border-radius: 4px;
+                z-index: 1000;
+                opacity: 0;
+                transition: opacity 0.3s;
+                pointer-events: none;
+              }
+              
+              div.code-copy-notification.show {
+                opacity: 1;
+              }
+              
+              pre {
+                cursor: pointer;
+                transition: all 0.2s;
+              }
+              
+              pre:hover {
+                border-color: var(--lightgray);
+                background-color: rgba(0, 0, 0, 0.02);
+              }
+            `,
+            // 仅需设置inline属性
+            inline: true,
+          },
+        ],
+        js: [
+          {
+            // JS内联脚本必须使用script属性而非content
+            script: `
+              function showNotification(text, duration) {
+                // 创建或获取通知元素
+                let notification = document.querySelector('.code-copy-notification');
+                if (!notification) {
+                  notification = document.createElement('div');
+                  notification.className = 'code-copy-notification';
+                  document.body.appendChild(notification);
+                }
+                
+                // 设置通知内容
+                notification.textContent = text;
+                notification.classList.add('show');
+                
+                // 自动隐藏
+                setTimeout(() => {
+                  notification.classList.remove('show');
+                }, duration);
+              }
+              
+              function initCodeCopy() {
+                document.removeEventListener('DOMContentLoaded', initCodeCopy);
+                document.removeEventListener('nav', initCodeCopy);
+                
+                const allCodeBlocks = document.querySelectorAll('pre');
+                allCodeBlocks.forEach(block => {
+                  block.removeEventListener('click', handleCodeBlockClick);
+                  block.addEventListener('click', handleCodeBlockClick);
+                });
+              }
+              
+              function handleCodeBlockClick(e) {
+                const codeBlock = e.currentTarget;
+                
+                // 获取代码块内容
+                const codeEl = codeBlock.querySelector('code');
+                if (!codeEl) return;
+                
+                const text = codeEl.textContent || '';
+                
+                // 复制到剪贴板
+                navigator.clipboard.writeText(text)
+                  .then(() => {
+                    // 显示成功提示
+                    showNotification('${opts.successText}', ${opts.duration});
+                    
+                    // 高亮效果
+                    codeBlock.style.backgroundColor = 'var(--lightgray)';
+                    setTimeout(() => {
+                      codeBlock.style.backgroundColor = '';
+                    }, 300);
+                  })
+                  .catch(err => {
+                    console.error('复制失败:', err);
+                    showNotification('❌ 复制失败', ${opts.duration});
+                  });
+              }
+              
+              // 初始化 - 使用vfile的spa事件系统
+              document.addEventListener('nav', initCodeCopy);
+              document.addEventListener('DOMContentLoaded', initCodeCopy);
+            `,
+            // 使用这些属性确保类型匹配
+            contentType: "inline",
+            loadTime: "afterDOMReady",
+          },
+        ],
+      }
+    },
     htmlPlugins() {
       return [() => {
         return (tree: any) => {
           visit(tree, "element", (node: any) => {
-            // 确保只处理包含代码的pre元素
-            if (node.tagName === "pre" && node.children?.some(
-              (child: any) => child.tagName === "code"
-            )) {
-              // 添加包装类
-              node.properties.className = [
-                ...(node.properties.className || []),
-                "code-copy-wrapper"
-              ];
-              
-              // 创建复制按钮
-              const copyBtn = {
-                type: "element",
-                tagName: "div",
-                properties: { 
-                  className: ["copy-btn"],
-                  tabindex: "0",
-                  role: "button",
-                  "aria-label": "复制代码"
-                },
-                children: [{ type: "text", value: opts.copyText }]
-              };
-              
-              // 创建通知元素
-              const notification = {
-                type: "element",
-                tagName: "div",
-                properties: { 
-                  className: ["copy-notification"],
-                  style: "display: none;" // 初始状态隐藏
-                },
-                children: [{ type: "text", value: "✓ 已复制!" }]
-              };
-              
-              // 将新元素插入到pre元素的子元素开头
-              node.children = [copyBtn, notification, ...node.children];
+            if (node.tagName === "pre") {
+              // 添加类名用于识别
+              node.properties.className = 
+                [...(node.properties.className ?? []), "code-block"];
+              node.properties.tabindex = "0";
             }
-          });
-        };
-      }];
-    },
-    externalResources() {
-      return {
-        js: [{
-          script: `
-            document.addEventListener('DOMContentLoaded', () => {
-              if (!window.quartzCodeCopyInitialized) {
-                window.quartzCodeCopyInitialized = true;
-                
-                document.addEventListener('click', async (e) => {
-                  const btn = e.target.closest('.copy-btn');
-                  if (!btn) return;
-                  
-                  const wrapper = btn.parentElement;
-                  const codeEl = wrapper.querySelector('code');
-                  
-                  if (!codeEl) {
-                    console.log('找不到代码元素');
-                    return;
-                  }
-                  
-                  try {
-                    await navigator.clipboard.writeText(codeEl.textContent);
-                    
-                    // 使用直接查找方式避免位置依赖
-                    const notification = wrapper.querySelector('.copy-notification');
-                    notification.style.display = 'block';
-                    
-                    setTimeout(() => {
-                      notification.style.display = 'none';
-                    }, ${opts.successDuration});
-                  } catch (err) {
-                    console.log('复制失败:', err);
-                  }
-                });
-              }
-            });
-          `,
-          loadTime: "afterDOMReady" as const,
-          contentType: "inline" as const,
-        } satisfies JSResource],
-        css: [{
-          content: `
-            .code-copy-wrapper {
-              position: relative!important;
-              padding-top: 30px!important; /* 为顶部按钮留出空间 */
-            }
-            
-            .copy-btn {
-              position: absolute!important;
-              right: 10px!important;
-              top: 10px!important; /* 放在顶部 */
-              z-index: 100!important;
-              padding: 4px 8px!important;
-              font-size: 12px!important;
-              cursor: pointer!important;
-              border-radius: 4px!important;
-              background: var(--darkgray)!important;
-              color: white!important;
-              opacity: 0.7!important;
-              transition: opacity 0.2s!important;
-              font-family: var(--font-body)!important;
-            }
-            
-            .copy-btn:hover {
-              opacity: 1!important;
-            }
-            
-            .copy-notification {
-              position: absolute!important;
-              right: 10px!important;
-              top: 40px!important; /* 在按钮下方 */
-              z-index: 101!important;
-              padding: 6px 10px!important;
-              font-size: 12px!important;
-              border-radius: 4px!important;
-              background: var(--secondary)!important;
-              color: white!important;
-              box-shadow: 0 2px 8px rgba(0,0,0,0.2)!important;
-              display: none!important;
-              font-family: var(--font-body)!important;
-            }
-          `,
-          contentType: "inline" as const,
-        }]
-      }
+          })
+        }
+      }]
     }
   }
 }
