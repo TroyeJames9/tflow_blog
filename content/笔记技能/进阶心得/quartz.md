@@ -4,8 +4,9 @@ tags:
   - 笔记技能
   - 博客部署
   - 静态构建
-aliases: 
-title: ob/quartz
+aliases:
+  - ob/quartz
+title:
 ---
 本文章永久分享链接： `https://tflow.top/ob/quartz`
 
