@@ -8,28 +8,33 @@ interface Options {
 }
 
 const defaultOptions: Options = {
-  copyText: "复制代码",
-  successDuration: 2000
+  copyText: "复制",
+  successDuration: 2500
 }
 
 export const CodeCopy: QuartzTransformerPlugin<Options> = (userOpts?: Options) => {
   const opts = { ...defaultOptions, ...userOpts }
-  
+
   return {
     name: "CodeCopy",
     htmlPlugins() {
       return [() => {
         return (tree: any) => {
           visit(tree, "element", (node: any) => {
-            if (node.tagName === "pre") {
-              let wrapperClass = "code-copy-wrapper"
-              let notificationClass = "copy-notification"
-              
-              // 添加属性
+            // 定位包含代码块的pre容器
+            if (node.tagName === "pre" && node.children?.some((c: any) => c.tagName === "code")) {
+              // 添加包装容器类
               node.properties.className = node.properties.className || []
-              node.properties.className.push(wrapperClass)
+              node.properties.className.push("code-copy-wrapper")
               
-              // 创建复制按钮元素
+              // 查找已有的按钮避免重复添加
+              const hasCopyBtn = node.children.some((c: any) => 
+                c.properties?.className?.includes("copy-btn")
+              )
+              
+              if (hasCopyBtn) return
+              
+              // 创建复制按钮
               const copyBtn = {
                 type: "element",
                 tagName: "div",
@@ -41,99 +46,114 @@ export const CodeCopy: QuartzTransformerPlugin<Options> = (userOpts?: Options) =
                 },
                 children: [{ type: "text", value: opts.copyText }]
               }
-              
-              // 创建通知元素
+
+              // 创建通知元素（最初隐藏）
               const notification = {
                 type: "element",
                 tagName: "div",
-                properties: { className: [notificationClass] },
+                properties: { 
+                  className: ["copy-notification"],
+                  style: "display:none;" // 初始隐藏
+                },
                 children: [{ type: "text", value: "✓ 已复制!" }]
               }
-              
-              // 添加元素到代码块
-              node.children = [copyBtn, notification, ...node.children]
+
+              // 插入到代码块的第一个位置
+              node.children.unshift(notification)
+              node.children.unshift(copyBtn)
             }
           })
         }
       }]
     },
     externalResources() {
-      // 修改此处以符合资源类型定义
       return {
         js: [
           {
             script: `
               document.addEventListener('DOMContentLoaded', () => {
-                if (!window.quartzCodeCopyInitialized) {
-                  window.quartzCodeCopyInitialized = true
+                if (window.quartzCodeCopyInitialized) return
+                window.quartzCodeCopyInitialized = true
+                
+                document.addEventListener('click', async (e) => {
+                  const btn = e.target.closest('.copy-btn')
+                  if (!btn) return
                   
-                  document.addEventListener('click', async (e) => {
-                    const btn = e.target.closest('.copy-btn')
-                    if (!btn) return
+                  const wrapper = btn.parentElement
+                  const codeEl = wrapper.querySelector('code')
+                  
+                  if (!codeEl) {
+                    console.error('无法找到代码元素')
+                    return
+                  }
+                  
+                  try {
+                    await navigator.clipboard.writeText(codeEl.textContent)
                     
-                    const wrapper = btn.parentElement
-                    const codeEl = wrapper.querySelector('code')
-                    
-                    try {
-                      await navigator.clipboard.writeText(codeEl.textContent)
-                      
-                      const notification = btn.nextElementSibling
-                      notification.style.display = 'block'
-                      
-                      setTimeout(() => {
-                        notification.style.display = ''
-                      }, ${opts.successDuration})
-                    } catch (err) {
-                      console.error('复制失败:', err)
+                    // 使用类名查找更可靠
+                    const notification = wrapper.querySelector('.copy-notification')
+                    if (!notification) {
+                      console.warn('找不到通知元素')
+                      return
                     }
-                  })
-                }
+                    
+                    notification.style.display = 'block'
+                    setTimeout(() => {
+                      notification.style.display = 'none'
+                    }, ${opts.successDuration})
+                  } catch (err) {
+                    console.error('复制失败:', err)
+                  }
+                })
               })
             `,
-            loadTime: "afterDOMReady" as const,  // 使用常量类型
+            loadTime: "afterDOMReady" as const,
             contentType: "inline" as const,
-          } satisfies JSResource  // 确保类型匹配
+            moduleType: "module" as const
+          } satisfies JSResource
         ],
         css: [
           {
             content: `
               .code-copy-wrapper {
-                position: relative;
+                position: relative !important;
+                overflow: visible !important;
               }
               
               .copy-btn {
-                position: absolute;
-                top: 5px;
-                right: 5px;
-                padding: 4px 8px;
-                font-size: 0.8rem;
-                border-radius: 4px;
-                cursor: pointer;
-                background: var(--darkgray);
-                color: white;
-                opacity: 0;
-                transition: opacity 0.2s;
-                z-index: 10;
+                position: absolute !important;
+                top: 8px !important;
+                right: 8px !important;
+                padding: 4px 8px !important;
+                font-size: 0.75rem !important;
+                border-radius: 4px !important;
+                cursor: pointer !important;
+                background: var(--darkgray) !important;
+                color: var(--light) !important;
+                opacity: 0 !important;
+                transition: opacity 0.15s ease !important;
+                z-index: 50 !important;
               }
               
               .code-copy-wrapper:hover .copy-btn {
-                opacity: 1;
+                opacity: 1 !important;
               }
               
               .copy-notification {
-                position: absolute;
-                top: 5px;
-                right: 5px;
-                padding: 4px 8px;
-                font-size: 0.8rem;
-                color: white;
-                border-radius: 4px;
-                display: none;
-                z-index: 20;
-                background-color: var(--secondary);
+                position: absolute !important;
+                top: 8px !important;
+                right: 8px !important;
+                padding: 4px 8px !important;
+                font-size: 0.75rem !important;
+                color: white !important;
+                border-radius: 4px !important;
+                display: none !important;
+                z-index: 60 !important;
+                background-color: var(--secondary) !important;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.2) !important;
               }
             `,
-            contentType: "inline" as const,
+            contentType: "inline" as const
           }
         ]
       }
