@@ -4,10 +4,10 @@ tags:
   - 笔记技能
   - 博客部署
   - 静态构建
-aliases: []
-title: quartz
+aliases: 
+title: ob/quartz
 ---
-本文章永久分享链接： `https://tflow.top/quartz`
+本文章永久分享链接： `https://tflow.top/ob/quartz`
 
 [quartz](https://github.com/jackyzha0/quartz?tab=readme-ov-file)的开发者是国内的大佬，它可以**帮助我们将markdown笔记发布为静态的博客网站**，同时它的开发的最初目的就是为了与obsidian协作的，社区生态也非常完善（贡献者多达194人），所以是我**博客构建的首要实践方案**。本篇将介绍如何使用quartz为我们的笔记搭建一个静态网站构建环境。
 

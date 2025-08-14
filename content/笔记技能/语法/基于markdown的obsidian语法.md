@@ -4,10 +4,10 @@ tags:
   - 笔记技能
   - markdown
 aliases:
-  - Obsidian Markdown Syntax
+  - ob/ObMdSynax
 title: 基于markdown的obsidian语法
 ---
-本文章永久分享链接： `https://tflow.top/Obsidian-Markdown-Syntax`
+本文章永久分享链接： `https://tflow.top/ob/ObMdSynax`
 
 markdown作为一种文本写作的语法已多年未更新过，obsidian在它的基础上综合了视觉上的考虑和适应如今HTML语言的发展，支持了更多的语法。本篇将介绍在[[笔记技能/语法/markdown语法|markdown语法]]基础之上的obsidian所支持的语法。
 # 内部/外部链接

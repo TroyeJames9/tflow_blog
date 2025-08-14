@@ -1,9 +1,9 @@
 ---
 title: 获取 the spike cross
 aliases:
-  - Get the spike cross
+  - TheSpike/download
 ---
-本文章永久分享链接： `https://tflow.top/Get-the-spike-cross`
+本文章永久分享链接： `https://tflow.top/TheSpike/download`
 
 **本教程是基于Q群群友`昨夜今月明日`的word文档教程来修订与更新的**
 

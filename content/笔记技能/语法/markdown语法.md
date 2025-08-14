@@ -4,10 +4,10 @@ tags:
   - 笔记技能
   - markdown
 aliases:
-  - Markdown Syntax
+  - ob/Markdown
 title: markdown语法
 ---
-本文章永久分享链接： `https://tflow.top/Markdown-Syntax`
+本文章永久分享链接： `https://tflow.top/ob/Markdown`
 
 [markdown](https://daringfireball.net/projects/markdown/)是一款提供文本到HTML转换的工具，让文本的可读性大大提高，**各大笔记软件均支持markdown语法**，本篇将介绍markdown的格式化语法，以**作为笔记知识库的技术基础**。
 # 段落

@@ -1,9 +1,9 @@
 ---
 title: Kingmaker
 aliases:
-  - KingmakerEvents
+  - TheSpike/KingmakerEvents
 ---
-本文章永久分享链接： `https://tflow.top/KingmakerEvents`
+本文章永久分享链接： `https://tflow.top/TheSpike/KingmakerEvents`
 
 # 关键信息
 

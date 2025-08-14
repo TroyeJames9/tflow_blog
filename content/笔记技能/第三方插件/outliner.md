@@ -5,9 +5,10 @@ tags:
   - 第三方插件
   - 分支
   - 大纲笔记
-aliases: []
+aliases:
+  - ob/outliner
 ---
-本文章永久分享链接： `https://tflow.top/outliner`
+本文章永久分享链接： `https://tflow.top/ob/outliner`
 
 github仓库地址： https://github.com/vslinko/obsidian-outliner
 

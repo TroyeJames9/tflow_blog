@@ -1,9 +1,9 @@
 ---
 title: the spike 百科
 aliases:
-  - TheSpikeWiki
+  - TheSpike/Wiki
 ---
-本文章永久分享链接： `https://tflow.top/TheSpikeWiki`
+本文章永久分享链接： `https://tflow.top/TheSpike/Wiki
 
 
 > [!INFO]- 版权说明

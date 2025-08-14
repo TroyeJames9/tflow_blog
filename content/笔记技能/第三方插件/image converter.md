@@ -5,9 +5,10 @@ tags:
   - 分支
   - 笔记技能
   - 第三方插件
-aliases: []
+aliases:
+  - ob/ImageConverter
 ---
-本文章永久分享链接： `https://tflow.top/image-converter`
+本文章永久分享链接： `https://tflow.top/ob/ImageConverter`
 
 github地址： https://github.com/xryul/obsidian-image-converter
 

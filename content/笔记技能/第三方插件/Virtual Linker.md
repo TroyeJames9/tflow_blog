@@ -6,9 +6,10 @@ tags:
   - 笔记技能
   - 第三方插件
   - 虚拟引用
-aliases: []
+aliases:
+  - ob/VirtualLinker
 ---
-本文章永久分享链接： `https://tflow.top/Virtual-Linker`
+本文章永久分享链接： `https://tflow.top/ob/VirtualLinker`
 
 github地址： https://github.com/vschroeter/obsidian-virtual-linker
 

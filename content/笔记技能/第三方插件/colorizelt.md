@@ -5,9 +5,10 @@ tags:
   - 笔记技能
   - 第三方插件
   - 文本渲染
-aliases: []
+aliases:
+  - ob/colorizelt
 ---
-本文章永久分享链接： `https://tflow.top/colorizelt`
+本文章永久分享链接： `https://tflow.top/ob/colorizelt`
 
 github链接： https://github.com/WiNE-iNEFF/colorizelt
 
