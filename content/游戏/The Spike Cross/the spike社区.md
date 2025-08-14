@@ -21,5 +21,5 @@ aliases:
 本指南的愿景是让新手无痛入手、入门、精通 the spike cross。包括以下栏目，推荐按顺序掌握：
 
 - [如何获取the spike cross？](获取%20the%20spike%20cross.md)
-- 基础入门指南：暂时查阅群文件spike 手册。
+- 基础入门指南与游戏百科：暂时查阅**本栏目官方QQ群**的群文件里的spike 手册。
 - [活动与资讯速递](the%20spike资讯首页.md)
