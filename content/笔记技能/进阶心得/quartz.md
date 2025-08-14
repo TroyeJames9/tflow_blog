@@ -6,7 +6,7 @@ tags:
   - 静态构建
 aliases:
   - ob/quartz
-title:
+title: quartz
 ---
 本文章永久分享链接： `https://tflow.top/ob/quartz`
 
