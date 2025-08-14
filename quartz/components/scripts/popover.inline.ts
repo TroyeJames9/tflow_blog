@@ -74,9 +74,6 @@ async function mouseEnterHandler(
   popoverInner.dataset.contentType = contentType ?? undefined
   popoverElement.appendChild(popoverInner)
 
-  // 新增：存储页面标题用于后续使用
-  let pageTitle = ""
-
   switch (contentTypeCategory) {
     case "image":
       const img = document.createElement("img")
@@ -101,8 +98,8 @@ async function mouseEnterHandler(
       const html = p.parseFromString(contents, "text/html")
       normalizeRelativeURLs(html, targetUrl)
       
-      // 获取页面标题
-      pageTitle = html.querySelector("title")?.textContent?.trim() || ""
+      // 将标题获取移到HTML解析后（正确位置）
+      const pageTitle = html.querySelector("title")?.textContent?.trim() || ""
 
       // 只选择文章正文内容
       const articleEl = html.querySelector("article.popover-hint") as HTMLElement | null
@@ -152,17 +149,25 @@ async function mouseEnterHandler(
       }
       
       // 回退逻辑：如果没有锚点或未找到目标内容，显示完整文章
-      if (!hash || contentToShow.children.length === 0) {
-        contentToShow = articleEl.cloneNode(true) as HTMLElement
+      if (!hash || hash === "#" || contentToShow.children.length === 0) {
+        // contentToShow = articleEl.cloneNode(true) as HTMLElement
+
+        // 创建包含标题和内容的容器
+        const fullContentContainer = document.createElement("div")
 
         // 新增：添加标题到完整文章
         if (pageTitle) {
-          const titleElement = document.createElement("h2")
-          titleElement.className = "popover-title"
-          titleElement.textContent = pageTitle
-          // 添加标题到文章开头
-          contentToShow.insertBefore(titleElement, contentToShow.firstChild)
+        const titleElement = document.createElement("h2")
+        titleElement.className = "popover-title"
+        titleElement.textContent = pageTitle
+        fullContentContainer.appendChild(titleElement)
         }
+
+        // 添加文章内容
+        fullContentContainer.appendChild(articleEl.cloneNode(true) as HTMLElement)
+
+        // 重要：将包装好的内容作为最终展示内容
+        contentToShow = fullContentContainer
       }
 
       // 处理ID避免冲突
