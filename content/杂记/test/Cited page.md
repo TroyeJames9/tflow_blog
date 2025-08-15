@@ -1,3 +1,6 @@
+---
+draft: "true"
+---
 # seciton A
 ## **Describe the bug**
 When hovering over multiple links pointing to different headings within the same page, the preview popover retains its previous scroll position rather than scrolling to the new target heading. Specifically, after previewing one heading on a page, hovering over another link to a different heading on that same page will still show the previously viewed section in the popover.
