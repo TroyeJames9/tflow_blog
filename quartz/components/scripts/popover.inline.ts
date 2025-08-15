@@ -28,10 +28,10 @@ async function mouseEnterHandler(
     clearActivePopover()
     popoverElement.classList.add("active-popover")
     setPosition(popoverElement as HTMLElement)
-    
+
     // const popoverInner = popoverElement.querySelector('.popover-inner') as HTMLElement | null;
     // if (!popoverInner) return;
-    
+
     if (hash !== "") {
       const targetAnchor = `#popover-internal-${hash.slice(1)}`
       const heading = popoverInner.querySelector(targetAnchor) as HTMLElement | null
@@ -49,7 +49,7 @@ async function mouseEnterHandler(
   // const popoverId = `popover-${link.pathname}`
   // const prevPopoverElement = document.getElementById(popoverId)
   // 修改ID生成：使用完整路径+编码后的hash作为唯一标识
-  const popoverId = `popover-${targetUrl.pathname}${hash.replace(/#/g, '-')}`
+  const popoverId = `popover-${targetUrl.pathname}${hash.replace(/#/g, "-")}`
   const prevPopoverElement = document.getElementById(popoverId)
 
   // dont refetch if there's already a popover
@@ -97,7 +97,7 @@ async function mouseEnterHandler(
       const contents = await response.text()
       const html = p.parseFromString(contents, "text/html")
       normalizeRelativeURLs(html, targetUrl)
-      
+
       // 将标题获取移到HTML解析后（正确位置）
       const pageTitle = html.querySelector("title")?.textContent?.trim() || ""
 
@@ -107,24 +107,24 @@ async function mouseEnterHandler(
 
       // 解决类型问题：使用 HTMLElement 而不是具体的 HTMLDivElement
       let contentToShow: HTMLElement = document.createElement("div")
-      
+
       // 处理锚点链接
       if (hash) {
         try {
           const anchorId = decodeURIComponent(hash.slice(1))
           const targetEl = articleEl.querySelector(`#${anchorId}`) as HTMLElement | null
-          
+
           if (targetEl) {
             // 克隆目标元素
             const targetClone = targetEl.cloneNode(true) as HTMLElement
             contentToShow.appendChild(targetClone)
-            
+
             // 获取标题层级 (h1-h6)
             const headerMatch = targetEl.tagName.match(/H([1-6])/i)
             if (headerMatch) {
               const targetLevel = parseInt(headerMatch[1])
               let nextEl: Element | null = targetEl.nextElementSibling
-              
+
               // 遍历后续元素直到遇到同/高级标题
               while (nextEl) {
                 // 检查标题级别
@@ -133,7 +133,7 @@ async function mouseEnterHandler(
                   const nextLevel = parseInt(nextHeaderMatch[1])
                   if (nextLevel <= targetLevel) break
                 }
-                
+
                 // 克隆并添加到内容
                 const clone = nextEl.cloneNode(true) as HTMLElement
                 contentToShow.appendChild(clone)
@@ -147,7 +147,7 @@ async function mouseEnterHandler(
           console.error("处理锚点时出错:", e)
         }
       }
-      
+
       // 回退逻辑：如果没有锚点或未找到目标内容，显示完整文章
       if (!hash || hash === "#" || contentToShow.children.length === 0) {
         // contentToShow = articleEl.cloneNode(true) as HTMLElement
@@ -157,10 +157,10 @@ async function mouseEnterHandler(
 
         // 新增：添加标题到完整文章
         if (pageTitle) {
-        const titleElement = document.createElement("h2")
-        titleElement.className = "popover-title"
-        titleElement.textContent = pageTitle
-        fullContentContainer.appendChild(titleElement)
+          const titleElement = document.createElement("h2")
+          titleElement.className = "popover-title"
+          titleElement.textContent = pageTitle
+          fullContentContainer.appendChild(titleElement)
         }
 
         // 添加文章内容
@@ -175,17 +175,17 @@ async function mouseEnterHandler(
         const targetID = `popover-internal-${el.id}`
         el.id = targetID
       })
-      
+
       // 清空容器并添加新内容
       while (popoverInner.firstChild) {
         popoverInner.removeChild(popoverInner.firstChild)
       }
       popoverInner.appendChild(contentToShow)
 
-      // const elts = [...html.getElementsByClassName("popover-hint")]
-      // if (elts.length === 0) return
+    // const elts = [...html.getElementsByClassName("popover-hint")]
+    // if (elts.length === 0) return
 
-      // elts.forEach((elt) => popoverInner.appendChild(elt))
+    // elts.forEach((elt) => popoverInner.appendChild(elt))
   }
 
   if (!!document.getElementById(popoverId)) {
