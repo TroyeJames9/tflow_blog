@@ -48,7 +48,7 @@ aliases:
 > - 务必要牢记账号和密码，强烈建议加上**两步验证、辅助邮箱**等安全措施，一旦丢失或被封号，很难找回账号
 > - **如果手上可用的电话号注册均失败**，可选择：
 > 	- [sms-activate](https://sms-activate.io/)购买虚拟电话号进行接码。
-> 	- 停止阅读本文章，学习[ourplay教程](游戏/The%20Spike%20Cross/通过ourplay游玩.md)，ourplay可购买google账号，但有点割韭菜。卖20元一个号
+> 	- 停止阅读本文章，学习[ourplay教程](游戏/The%20Spike%20Cross/游戏获取方式/通过ourplay游玩.md)，ourplay可购买google账号，但有点割韭菜。卖20元一个号
 
 # 开启谷歌play服务
 
@@ -68,7 +68,7 @@ aliases:
 > 如果以上方法均无法正常安装三件套，则说明手机型号的国行版不支持谷歌服务。
 
 > [!question]- 我的设备不支持谷歌服务，怎么办？
->  本文以下部分对你没有任何意义，请阅读[ourplay教程](游戏/The%20Spike%20Cross/通过ourplay游玩.md)
+>  本文以下部分对你没有任何意义，请阅读[ourplay教程](游戏/The%20Spike%20Cross/游戏获取方式/通过ourplay游玩.md)
 
 
 在系统自带的应用商店中搜索`google play 商店`，升级`google play商店`。然后就会在桌面看到google play的图标。![|50](Get%20the%20spike%20cross-20250808183515245.webp)

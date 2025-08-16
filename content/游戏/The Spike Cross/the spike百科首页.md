@@ -1,5 +1,5 @@
 ---
-title: the spike 百科
+title: the spike 百科首页
 aliases:
   - TheSpike/Wiki
 ---
