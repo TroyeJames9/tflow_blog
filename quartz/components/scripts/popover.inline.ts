@@ -176,11 +176,11 @@ async function mouseEnterHandler(
         el.id = targetID
       })
 
-      // 清空容器并添加新内容
-      while (popoverInner.firstChild) {
-        popoverInner.removeChild(popoverInner.firstChild)
-      }
-      popoverInner.appendChild(contentToShow)
+      // // 清空容器并添加新内容
+      // while (popoverInner.firstChild) {
+      //   popoverInner.removeChild(popoverInner.firstChild)
+      // }
+      // popoverInner.appendChild(contentToShow)
 
     // const elts = [...html.getElementsByClassName("popover-hint")]
     // if (elts.length === 0) return
