@@ -9,7 +9,7 @@ export const ViewImage: QuartzTransformerPlugin = () => {
       return {
         js: [
           {
-            src: "https://cdn.jsdelivr.net/gh/Tokinx/ViewImage/view-image.min.js",
+            src: "https://cdn.jsdelivr.net/gh/Tokinx/ViewImage/view-image.js",
             loadTime: "afterDOMReady",
             contentType: "external",
           },
