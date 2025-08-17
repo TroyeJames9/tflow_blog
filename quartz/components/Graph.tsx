@@ -45,10 +45,10 @@ const defaultOptions: GraphOptions = {
   globalGraph: {
     drag: true,
     zoom: true,
-    depth: 3,
+    depth: -1,
     scale: 0.9,
     repelForce: 0.5,
-    centerForce: 0.3,
+    centerForce: 0.2,
     linkDistance: 30,
     fontSize: 0.3,
     opacityScale: 1,
