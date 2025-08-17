@@ -10,7 +10,7 @@ export const ViewImage: QuartzTransformerPlugin = () => {
         js: [
           {
             src: "https://cdn.jsdelivr.net/gh/Tokinx/ViewImage/view-image.js",
-            loadTime: "afterDOMReady",
+            loadTime: "beforeDOMReady",
             contentType: "external",
           },
           {
@@ -30,7 +30,7 @@ export const ViewImage: QuartzTransformerPlugin = () => {
                 }
               });
             `,
-            loadTime: "afterDOMReady",
+            loadTime: "beforeDOMReady",
             contentType: "inline",
           },
         ],
