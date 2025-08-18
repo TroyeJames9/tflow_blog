@@ -1,5 +1,5 @@
 ---
-title: the spike破解情报
+title: the spike破解
 aliases:
   - TheSpike/mod
 ---
