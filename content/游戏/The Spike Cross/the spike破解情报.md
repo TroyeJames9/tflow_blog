@@ -3,6 +3,8 @@ title: the spike破解情报
 aliases:
   - TheSpike/mod
 ---
+本文章永久分享链接： `https://tflow.top/TheSpike/mod`
+
 已知的破解方式有：私服订阅、离线破解、功能破解（如自动获胜）
 
 # 付费在线破解-私服订阅
