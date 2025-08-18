@@ -5,12 +5,12 @@ aliases:
 ---
 本文章永久分享链接： `https://tflow.top/TheSpike/mod`
 
-已知的破解方式有：私服订阅、离线破解、功能破解（如自动获胜）
+已知的破解方式有：付费私服订阅、免费离线破解、免费功能破解（如自动获胜），任选一种进行破解
 
 # 付费在线破解-私服订阅
 
 
-> [!WARNING] 本教程前提条件
+> [!WARNING] 在线破解前提条件
 > - 已掌握 [获取 the spike cross](游戏/The%20Spike%20Cross/游戏获取方式/获取%20the%20spike%20cross.md) 教程的所有内容
 > - 设备里已安装正版the spike cross并已通过google登陆
 > - 设备保持代理开启的状态
