@@ -38,7 +38,7 @@ aliases:
 
 - `TN`：实力较强的新的破解作者，[点击加入作者频道](https://t.me/tptnmod)
 - `NK`：私服破解的开创者，​[点击加入作者频道](https://t.me/apknk)，现已与TN、BX合作
-- `BX`：暂时未找到联络渠道
+- `BX`：[点击加入作者频道](https://t.me/ziznadmina)
 
 > [!EXAMPLE] 需要代购？
 > [联系tflow](杂记/如何联系tflow？.md)购买，提供安装包与密钥与一切指导。
