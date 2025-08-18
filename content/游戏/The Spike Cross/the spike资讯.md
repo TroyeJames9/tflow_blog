@@ -1,5 +1,5 @@
 ---
-title: the spike资讯首页
+title: the spike资讯
 aliases:
   - TheSpike/news
 ---
