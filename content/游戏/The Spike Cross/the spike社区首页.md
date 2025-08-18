@@ -23,6 +23,6 @@ aliases:
 - [如何获取the spike cross？](游戏/The%20Spike%20Cross/游戏获取方式/获取%20the%20spike%20cross.md)
 - 指南与游戏百科：暂时查阅**本栏目官方QQ群**的群文件里的spike 手册。网页版正在制作中...
 - [活动与资讯速递](游戏/The%20Spike%20Cross/the%20spike资讯.md)
-- [破解/MOD 情报](游戏/The%20Spike%20Cross/the%20spike破解情报.md)
+- [破解版情报](游戏/The%20Spike%20Cross/the%20spike破解情报.md)
 - [常见问题Q&A](常见问题Q&A.md)
 - 游戏音乐收录：敬请期待
