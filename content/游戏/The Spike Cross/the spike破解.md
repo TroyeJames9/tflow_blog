@@ -37,16 +37,16 @@ aliases:
 
 ## 如何购买密钥
 
-**付费模式为每月订阅**，目前私服破解的大佬有：NK、TN、BX，三者已经达成合作，加快私服破解的开发进度。截止2025年8月18日，TN已正式发布kingmaster活动的最新版本私服破解。
+> [!EXAMPLE] 需要代购？
+> [联系tflow](杂记/如何联系tflow？.md)购买，提供安装包与密钥与一切指导。
+
+**付费模式为每月订阅**，目前私服破解的大佬有：NK、TN、BX，三者已经达成合作，加快私服破解的开发进度。截止2025年8月18日，TN已正式发布 [kingmaker](游戏/The Spike Cross/the spike资讯/kingmaker)活动的最新版本私服破解。
 
 **可购买密钥并下载破解APK的渠道如下，推荐选TN**：
 
 - `TN`：实力较强的新的破解作者，[点击加入作者频道](https://t.me/tptnmod)
 - `NK`：私服破解的开创者，​[点击加入作者频道](https://t.me/apknk)，现已与TN、BX合作
 - `BX`：[点击加入作者频道](https://t.me/ziznadmina)
-
-> [!EXAMPLE] 需要代购？
-> [联系tflow](杂记/如何联系tflow？.md)购买，提供安装包与密钥与一切指导。
 
 ## 购买密钥后如何操作？
 
@@ -70,10 +70,10 @@ aliases:
 
 已知宣传离线破解的youtuber：[𝙁𝙐𝙉𝘽𝙊𝙓 𝙄𝘿𝙎](https://www.youtube.com/@FunBoxID)，[DOL THE SPIKE](https://www.youtube.com/@dolthespike)，[Ryuu The Mods](https://www.youtube.com/@RyuuTheMods)，[THE SPIKE NAD](https://www.youtube.com/@thespikeonad)
 
-截止2025年8月18日，我所归档的球员最全的破解版本->[单击下载](https://caiyun.139.com/w/i/2pbtXqCsHUU2x)，提取码：`8ozk`
-
 > [!tip] 提示
-> 安装破解版本前，请卸载正版，然后再安装破解版本，在play商店中查看正版是否显示为`安装`2字，如未显示则与正版冲突，即破解与正版无法在同一设备共存。
+> 安装破解版前，请卸载正版，然后再安装破解版本，在play商店中查看正版是否显示为`安装`2字，如未显示则与正版冲突，即破解与正版无法在同一设备共存。
+
+截止2025年8月18日，我所归档的球员最全的破解版本->[单击下载](https://caiyun.139.com/w/i/2pbtXqCsHUU2x)，提取码：`8ozk`
 
 # 免费在线破解-功能版
 
@@ -81,9 +81,9 @@ aliases:
 
 最新消息：Android13 正常运行破解，Android14 打开即闪退。 欢迎群友测试并反馈
 
-[点击下载](https://caiyun.139.com/w/i/2oRhkmDktgi8b)，提取码：`sxxd`
-
 安装流程与 【[购买密钥后如何操作？](游戏/The%20Spike%20Cross/the%20spike破解.md#购买密钥后如何操作？)】类似，只是少了一步 输入密钥而已。
+
+[点击下载](https://caiyun.139.com/w/i/2oRhkmDktgi8b)，提取码：`sxxd`
 
 ![|354](Afile/the%20spike破解情报-20250818115453868.webp) ![|301](Afile/the%20spike破解情报-20250818113604070.webp)
 

@@ -1,5 +1,5 @@
 ---
-title: Kingmaker
+title: kingmaker
 aliases:
   - TheSpike/KingmakerEvents
 ---
