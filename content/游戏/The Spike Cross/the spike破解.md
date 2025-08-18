@@ -68,7 +68,7 @@ aliases:
 
 已知宣传离线破解的youtuber：[𝙁𝙐𝙉𝘽𝙊𝙓 𝙄𝘿𝙎](https://www.youtube.com/@FunBoxID)，[DOL THE SPIKE](https://www.youtube.com/@dolthespike)，[Ryuu The Mods](https://www.youtube.com/@RyuuTheMods)，[THE SPIKE NAD](https://www.youtube.com/@thespikeonad)
 
-截止2025年8月18日，我所归档的最全球员的破解版本->[单击下载](https://caiyun.139.com/w/i/2pbtXqCsHUU2x)，提取码：`8ozk`
+截止2025年8月18日，我所归档的球员最全的破解版本->[单击下载](https://caiyun.139.com/w/i/2pbtXqCsHUU2x)，提取码：`8ozk`
 
 > [!tip] 提示
 > 安装破解版本前，请卸载正版，然后再安装破解版本，在play商店中查看正版是否显示为`安装`2字，如未显示则与正版冲突，即破解与正版无法在同一设备共存。
@@ -79,7 +79,9 @@ aliases:
 
 最新消息：Android13 正常运行破解，Android14 打开即闪退。 欢迎群友测试并反馈
 
-[点击下载]()
+[点击下载](https://caiyun.139.com/w/i/2oRhkmDktgi8b)，提取码：`sxxd`
+
+安装流程与[购买密钥后如何操作？](游戏/The%20Spike%20Cross/the%20spike破解.md#购买密钥后如何操作？)类似，只是少了一步 输入密钥而已。
 
 ![|354](Afile/the%20spike破解情报-20250818115453868.webp) ![|301](Afile/the%20spike破解情报-20250818113604070.webp)
 
