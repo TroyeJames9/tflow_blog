@@ -5,7 +5,9 @@ aliases:
 ---
 本文章永久分享链接： `https://tflow.top/TheSpike/mod`
 
-已知的破解方式有：[付费私服订阅](游戏/The%20Spike%20Cross/the%20spike破解.md#付费在线破解-私服订阅)、[免费离线破解](游戏/The%20Spike%20Cross/the%20spike破解.md#免费离线破解)、[免费功能破解](游戏/The%20Spike%20Cross/the%20spike破解.md#免费在线破解-功能版)（如自动获胜），任选一种进行破解。其中，[免费离线破解](游戏/The%20Spike%20Cross/the%20spike破解.md#免费离线破解)无需代理或加速，其余需要代理或加速。
+已知的破解方式有：[付费私服订阅](游戏/The%20Spike%20Cross/the%20spike破解.md#付费在线破解-私服订阅)、[免费离线破解](游戏/The%20Spike%20Cross/the%20spike破解.md#免费离线破解)、[免费功能破解](游戏/The%20Spike%20Cross/the%20spike破解.md#免费在线破解-功能版)（如自动获胜），任选一种进行破解。
+
+其中，[免费离线破解](游戏/The%20Spike%20Cross/the%20spike破解.md#免费离线破解)无需代理或加速，其余需要代理或加速。
 
 # 付费在线破解-私服订阅
 
@@ -37,7 +39,7 @@ aliases:
 
 **付费模式为每月订阅**，目前私服破解的大佬有：NK、TN、BX，三者已经达成合作，加快私服破解的开发进度。截止2025年8月18日，TN已正式发布kingmaster活动的最新版本私服破解。
 
-**可购买密钥并下载破解APK的渠道如下**：
+**可购买密钥并下载破解APK的渠道如下，推荐选TN**：
 
 - `TN`：实力较强的新的破解作者，[点击加入作者频道](https://t.me/tptnmod)
 - `NK`：私服破解的开创者，​[点击加入作者频道](https://t.me/apknk)，现已与TN、BX合作
@@ -81,7 +83,7 @@ aliases:
 
 [点击下载](https://caiyun.139.com/w/i/2oRhkmDktgi8b)，提取码：`sxxd`
 
-安装流程与[购买密钥后如何操作？](游戏/The%20Spike%20Cross/the%20spike破解.md#购买密钥后如何操作？)类似，只是少了一步 输入密钥而已。
+安装流程与 【[购买密钥后如何操作？](游戏/The%20Spike%20Cross/the%20spike破解.md#购买密钥后如何操作？)】类似，只是少了一步 输入密钥而已。
 
 ![|354](Afile/the%20spike破解情报-20250818115453868.webp) ![|301](Afile/the%20spike破解情报-20250818113604070.webp)
 
