@@ -1,11 +1,11 @@
 ---
-title: the spike资讯
+title: the spike活动资讯
 aliases:
   - TheSpike/news
 ---
 本文章永久分享链接： `https://tflow.top/TheSpike/news`
 
-本栏目自2025年8月9日开启，主要发布关于the spike cross的活动、通知等资讯。将会逐步完善各类资讯，敬请期待。（可能会包括破解版的说明）
+本栏目自2025年8月9日开启，主要发布关于the spike cross的活动、通知等资讯。将会逐步完善各类资讯，敬请期待。
 
 
 > [!warning] 最新活动！！！
