@@ -5,7 +5,7 @@ aliases:
 ---
 本文章永久分享链接： `https://tflow.top/TheSpike/mod`
 
-已知的破解方式有：付费私服订阅、免费离线破解、免费功能破解（如自动获胜），任选一种进行破解
+已知的破解方式有：[付费私服订阅](游戏/The%20Spike%20Cross/the%20spike破解.md#付费在线破解-私服订阅)、[免费离线破解](游戏/The%20Spike%20Cross/the%20spike破解.md#免费离线破解)、[免费功能破解](游戏/The%20Spike%20Cross/the%20spike破解.md#免费在线破解-功能版)（如自动获胜），任选一种进行破解
 
 # 付费在线破解-私服订阅
 
