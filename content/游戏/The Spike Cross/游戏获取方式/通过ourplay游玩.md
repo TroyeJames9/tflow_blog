@@ -2,6 +2,7 @@
 title: 通过ourplay游玩
 aliases:
   - TheSpike/ourplay
+  - ourplay
 ---
 本文章永久分享链接： `https://tflow.top/TheSpike/ourplay`
 
