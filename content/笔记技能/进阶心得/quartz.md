@@ -22,9 +22,13 @@ title: quartz
 
 # 初始化quartz
 
+****
+
 Quartz **至少需要 [Node](https://nodejs.org/) v22** 和 `npm` v10.9.2 才能正常运行。本教程以node v22 LTS版本来进行部署。
 
 ## linux安装node.js
+
+****
 
 进入[node.js官网](https://nodejs.org/zh-cn),点击`install node.js`进入[下载教程](https://nodejs.org/zh-cn/download)页面，由于我没有WIN10专业版系统，所以系统没有docker，直接选择linux的nvm方式进行安装，同时安装npm，如图所示
 
@@ -50,6 +54,8 @@ npm -v # Should print "10.9.2".
 
 ## linux部署quartz
 
+****
+
 > 按照[官方wiki](https://quartz.jzhao.xyz/)的说明进行部署，按顺序执行以下命令：
 
 ```shell
@@ -65,6 +71,8 @@ npx quartz create
 ![](quartz-20250704110224233.webp)
 
 # 为quartz创建github存储库
+
+****
 
 > 根据[官网wiki笔记](https://quartz.jzhao.xyz/setting-up-your-GitHub-repository)，在 GitHub.com 上创建一个新的仓库。 **请勿**使用 `README` 、许可证或 `gitignore` 文件初始化新仓库。
 
@@ -101,11 +109,15 @@ npx quartz sync --no-pull
 
 # 在quartz库中迭代笔记内容
 
+****
+
 Quartz 中的所有内容都应放在 **`/content`** 文件夹中。Quartz 主页的内容位于 **`content/index.md`** 中。此文件夹中的任何 Markdown 文件都将由 Quartz 处理。
 
 如果已有obsidian vault仓库，则可以将仓库的内容（包括 **`.obsidian`** 目录）原封不动地转移到 **`/content`** 路径下，然后在obsidian打开已有仓库目录时，选择 **`/content`** 即可，然后继续迭代笔记内容。
 
 ## quartz支持的语法
+
+****
 
 由于 Quartz 使用 Markdown 文件作为主要内容编写方式，因此它完全支持 Markdown 语法。默认情况下，Quartz 还附带一些语法扩展，例如 [Github Flavored Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) （脚注、删除线、表格、任务列表）和 [Obsidian Flavored Markdown](https://help.obsidian.md/Editing+and+formatting/Obsidian+Flavored+Markdown) （ [标注](https://quartz.jzhao.xyz/features/callouts) 、 [维基链接](https://quartz.jzhao.xyz/features/wikilinks) ）。
 
@@ -123,9 +135,13 @@ Quartz 原生支持的一些常见前置字段：
 
 ## 同步内容
 
+****
+
 当完成一次笔记迭代后，可在quartz路径下使用以下命令将内容同步到远程库：`npx quartz sync`
 
 # 为笔记构建静态网站
+
+****
 
 执行`npx quartz build --serve`，将会启动一个WEB服务器，我们可以打开浏览器访问 http://locallhost:8080/ 来浏览由自己的笔记构成的博客网站。 
 
@@ -133,8 +149,9 @@ Quartz 原生支持的一些常见前置字段：
 > [!tip] 提示
 > 后续每次完成一次笔记迭代后，需要执行一次`npx quartz build`才会更新静态网站上的内容
 
-
 ## 可选参数
+
+****
 
 要获得完整的帮助选项，您可以运行 `npx quartz build --help`。
 
@@ -153,11 +170,15 @@ Quartz 原生支持的一些常见前置字段：
 
 # 托管网站
 
+****
+
 Quartz 有效地将您的 Markdown 文件和其他资源转换为一组 HTML、JS 和 CSS 文件（一个网站！）。
 
 但是，如果您想将网站发布到世界各地，您需要一种在线托管的方式。本指南将详细介绍如何使用常见的托管服务提供商进行部署，但任何允许您部署静态 HTML 的服务也同样适用。
 
 ## Cloudflare Pages
+
+****
 
 这个托管方式是最简易的，本人强烈推荐。
 
@@ -182,6 +203,8 @@ Quartz 有效地将您的 Markdown 文件和其他资源转换为一组 HTML、J
 
 ## 其他云托管方案
 
+****
+
 如同cloudflare pages的**静态网站云托管方案**如下，具体参考quartz官网提供的以下方案，不做赘述：
 
 - [GitHub Pages](https://quartz.jzhao.xyz/hosting#github-pages)
@@ -190,9 +213,13 @@ Quartz 有效地将您的 Markdown 文件和其他资源转换为一组 HTML、J
 
 ## 自托管方案
 
+****
+
 将 `public` 目录复制到您的 Web 服务器，并配置它来提供文件服务。您可以使用任何 Web 服务器来托管您的网站。由于 Quartz 生成的链接不包含 `.html` 扩展名，因此您需要让您的 Web 服务器知道如何处理它。
 
 ### Using Nginx
+
+****
 
 以下是配置示例：
 
@@ -211,6 +238,8 @@ server {
 ```
 
 ### Using Apache
+
+****
 
 以下是配置示例：
 
@@ -234,6 +263,8 @@ RewriteRule ^(.*)/$ $1/index.html [L]
 
 ### Using Caddy
 
+****
+
 以下是配置示例：
 
 ```caddy
@@ -252,6 +283,8 @@ example.com {
 
 # 基础配置
 
+****
+
 Quartz 也具备极高的可配置性。你所需的大部分配置都可以通过编辑quartz目录下的`quartz.config.ts` 或更改 `quartz.layout.ts` 中的[布局](https://quartz.jzhao.xyz/layout)来完成。
 
 Quartz 的配置可以分为两个主要部分,如下所示：
@@ -264,6 +297,8 @@ const config: QuartzConfig = {
 ```
 
 ## configuration
+
+****
 
 这部分配置涉及所有可能影响整个站点的配置。以下列出了您可以配置的所有内容：
 

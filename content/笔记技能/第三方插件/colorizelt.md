@@ -17,11 +17,14 @@ github链接： https://github.com/WiNE-iNEFF/colorizelt
 > [!tip] 提示
 > 渲染颜色使用的**CSS内部**使用的任何**markdown语法均无效**，需在外部使用
 
+****
 # 设置自己喜欢的颜色集
 
 > 在左下角的设置中找到 colorizelt 后，在颜色设置中点击 **`add button`** 来添加自己喜欢的颜色样式，并在文本框中设置好颜色的名称。
 
 ![](Pasted%20image%2020250111115033.webp)
+
+****
 
 # 为颜色绑定快捷键
 

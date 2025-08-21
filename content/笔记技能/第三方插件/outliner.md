@@ -16,6 +16,8 @@ github仓库地址： https://github.com/vslinko/obsidian-outliner
 
 # 设置说明
 
+****
+
 ![Pasted%20image%2020250111153323.webp](Pasted%20image%2020250111153323.webp)
 
 推荐设置如图，增强了tab键和shift+tab以及行内全选。

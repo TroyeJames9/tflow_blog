@@ -21,12 +21,16 @@ github地址： https://github.com/xryul/obsidian-image-converter
 
 # convert设置
 
+****
+
 - convert to：转换成什么格式，默认WebP
 - quality：调整图像质量
 - resize mode：是否调整图像长宽
 - skip patterns：不转换的目标格式
 
 # output 设置
+
+****
 
 output location：默认就好
 file naming：图像自动重命名为指定模式
