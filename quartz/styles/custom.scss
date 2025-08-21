@@ -32,3 +32,9 @@ td .image-text-group {
   align-items: center;
   gap: 0.5rem;
 }
+
+img{
+  /* 与文本水平对齐 */
+  display: inline-block;
+  vertical-align: middle;
+}
