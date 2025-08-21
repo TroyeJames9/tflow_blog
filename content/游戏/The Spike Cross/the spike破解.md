@@ -61,9 +61,9 @@ aliases:
 
 **付费模式为每月订阅**，价位区间为**6~10美元/月**，目前私服破解的大佬有：NK、TN、BX，三者已经达成合作，加快私服破解的开发进度。截止2025年8月18日，TN已正式发布[kingmaker](游戏/The%20Spike%20Cross/the%20spike资讯/kingmaker.md)活动的最新版本私服破解。
 
-**购买密钥并下载破解APK的渠道如下，推荐选TN**：
+**购买密钥并下载破解APK的渠道如下，请使用chrome浏览器访问以下链接，推荐选TN**：
 
-- `TN`：实力较强的新的破解作者，[点击加入作者tg频道](https://t.me/tptnmod)
+- `TN`：实力较强的新的破解作者，[点击加入作者tg频道](https://t.me/tptnmod)（）
 - `NK`：私服破解的开创者，​[点击加入作者tg频道](https://t.me/apknk)，现已与TN、BX合作
 - `BX`：[点击加入作者tg频道](https://t.me/ziznadmina)
 
