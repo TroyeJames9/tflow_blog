@@ -23,7 +23,7 @@ aliases:
 本指南的愿景是让新手无痛入手、入门、精通 the spike cross。包括以下栏目，推荐按顺序掌握：
 
 - [**如何获取the spike cross？**](游戏/The%20Spike%20Cross/游戏获取方式/获取%20the%20spike%20cross.md)
-- **指南与游戏百科**：查阅**QQ群**的群文件里的spike 手册。网页版正在制作中...
+- **[the spike百科](游戏/The%20Spike%20Cross/the%20spike百科.md)**：已包含[段位](游戏/The%20Spike%20Cross/游戏百科/资源获取方式/段位.md)、[联赛](游戏/The%20Spike%20Cross/游戏百科/资源获取方式/联赛.md)完整指导... 其他内容请查阅**QQ群**的群文件里的spike 手册。
 - [**活动与资讯速递**](游戏/The%20Spike%20Cross/the%20spike活动.md)
 - [**破解版情报**](游戏/The%20Spike%20Cross/the%20spike破解.md)
 - [**常见问题Q&A**](常见问题Q&A.md)

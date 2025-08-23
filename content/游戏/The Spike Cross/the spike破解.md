@@ -51,17 +51,6 @@ aliases:
 > [!EXAMPLE] 需要代购？
 > [联系tflow](杂记/如何联系tflow？.md)购买，提供安装包、密钥、一切资源和实时指导。
 
-%%
-代购流程
-1. 检查前提条件是否满足，并卸载已有的ourplay以及所有数据
-2. 开源代理工具指导，订阅提供
-3. 检查google与play games要对应，登陆https://play.google.com/games/profile查看google所绑定的play games
-4. 下载play games，将该play games默认账号设为 该google
-5. 长按正版，点击选择个人资料，设置为每次都询问！！！
-6. 指导安装破解版流程
-7. 必要说明
-%%
-
 **付费模式为每月订阅**，价位区间为**6~10美元/月**，目前私服破解的大佬有：NK、TN、BX，三者已经达成合作，加快私服破解的开发进度。截止2025年8月18日，TN已正式发布[kingmaker](游戏/The%20Spike%20Cross/the%20spike资讯/kingmaker.md)活动的最新版本私服破解。
 
 **购买密钥并下载破解APK的渠道如下，请使用chrome浏览器访问以下链接，推荐选TN**：
