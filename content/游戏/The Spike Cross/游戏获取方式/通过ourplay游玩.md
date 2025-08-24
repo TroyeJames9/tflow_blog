@@ -44,16 +44,20 @@ Ourplay本身无法加速google play以下载游戏，需要通过以下步骤�
 
 ![|285](Gaming%20via%20OurPlay-20250808181128561.webp) ![|289](Gaming%20via%20OurPlay-20250808181214927.webp)
 
-## 通过gamesplay安装游戏
+## 通过gamestoday安装游戏
 
-在ourplay首页点击gamesplay图标，然后点击启动，如图所示
+在ourplay首页点击gamestoday图标，然后点击启动，如图所示
 
 ![|302](Gaming%20via%20OurPlay-20250808181444576.webp)
 
-启动后会进入gamesplay，在顶栏搜索 `the spike`，点击下载，就会跳转到play商店页面，点安装，如下图所示：
+启动后会进入gamestoday，在顶栏搜索 `the spike`，点击下载，就会跳转到play商店页面，点安装，如下图所示：
+
+
+> [!warning] 安装过程中总是跳回ourplay怎么办
+> 每次弹回去ourplay时，就马上再启动一次gamestoday，然后再搜一次`the spike` 点击下载，就会回到play商店的安装页面，此时 安装进度也并不会归零。
 
 ![|362](Gaming%20via%20OurPlay-20250808181545285.webp)  ![|323](Gaming%20via%20OurPlay-20250808181639634.webp)
-  
+
 最后选择排球游戏，点击加速即可游玩，如图所示：
 
 ![|354](Gaming%20via%20OurPlay-20250808181900139.webp)
