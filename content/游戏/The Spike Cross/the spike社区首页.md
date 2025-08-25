@@ -20,11 +20,10 @@ aliases:
 
 由 [SUNCYAN](https://www.suncyan.com/en) 开发的《The Spike Cross》排球游戏以快节奏和操控以及精美的角色为特色，不仅吸引了排球迷，也吸引了游戏玩家，全球下载量达到 5000 万次。
 
-本指南的愿景是让新手无痛入手、入门、精通 the spike cross。包括以下栏目，推荐按顺序掌握：
+本指南的愿景是让新手无痛入手、入门、精通 the spike cross。包括以下栏目：
 
 - [**如何获取the spike cross？**](游戏/The%20Spike%20Cross/游戏获取方式/获取%20the%20spike%20cross.md)
 - **[the spike百科](游戏/The%20Spike%20Cross/the%20spike百科.md)**：已包含[段位](游戏/The%20Spike%20Cross/游戏百科/资源获取方式/段位.md)、[联赛](游戏/The%20Spike%20Cross/游戏百科/资源获取方式/联赛.md)完整指导... 其他内容请查阅**QQ群**的群文件里的spike 手册。
 - [**活动与资讯速递**](游戏/The%20Spike%20Cross/the%20spike活动.md)
 - [**破解版情报**](游戏/The%20Spike%20Cross/the%20spike破解.md)
 - [**常见问题Q&A**](常见问题Q&A.md)
-- **游戏音乐收录**：敬请期待
