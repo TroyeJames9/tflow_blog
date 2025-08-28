@@ -76,14 +76,10 @@ export default ((opts?: Partial<GraphOptions>) => {
               x="0px"
               y="0px"
               viewBox="0 0 55 55"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              fill="currentColor"
               xmlSpace="preserve"
             >
-              <g transform="translate(15.5, 15.5)">
+              <g transform="translate(15.5, 15.5) scale(2)">
                 <path d="M7 7h10v10"></path>
                 <path d="M7 17 17 7"></path>
               </g>
