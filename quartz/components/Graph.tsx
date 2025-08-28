@@ -96,15 +96,14 @@ export default ((opts?: Partial<GraphOptions>) => {
           </button> */}
           <button class="local-enlarge-icon" aria-label="Enlarge Local Graph">
             <svg
+              version="1.1"
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 55 55"
+              fill="currentColor"
+              xmlSpace="preserve"
             >
               <path d="M7 7h10v10"></path>
               <path d="M7 17 17 7"></path>
