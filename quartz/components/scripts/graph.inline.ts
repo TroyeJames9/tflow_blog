@@ -644,7 +644,7 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
 
   function hideLocalGraph() {
     cleanupLocalGraphs()
-    for (const container of containers) {
+    for (const container of LocalContainers) {
       container.classList.remove("active")
       const sidebar = container.closest(".sidebar") as HTMLElement
       if (sidebar) {
