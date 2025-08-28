@@ -79,8 +79,14 @@ export default ((opts?: Partial<GraphOptions>) => {
               fill="currentColor"
               xmlSpace="preserve"
             >
-              <path d="M7 7h10v10"></path>
-              <path d="M7 17 17 7"></path>
+              <path
+                d="M27.5 27.5
+                  L42 13
+                  M42 13
+                  L35 8
+                  M42 13
+                  L48 18"
+              />
             </svg>
           </button>
           <button class="global-graph-icon" aria-label="Global Graph">
