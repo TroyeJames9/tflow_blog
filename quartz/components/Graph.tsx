@@ -68,25 +68,20 @@ export default ((opts?: Partial<GraphOptions>) => {
         <h3>{i18n(cfg.locale).components.graph.title}</h3>
         <div class="graph-outer">
           <div class="graph-container" data-cfg={JSON.stringify(localGraph)}></div>
-          <button class="local-enlarge-icon" aria-label="Enlarge Local Graph">
+          <button class="global-graph-icon" aria-label="Global Graph">
             <svg
-              version="1.1"
               xmlns="http://www.w3.org/2000/svg"
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-              x="0px"
-              y="0px"
-              viewBox="0 0 55 55"
-              fill="currentColor"
-              xmlSpace="preserve"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             >
-              <path
-                d="M27.5 27.5
-                  L42 13
-                  M42 13
-                  L35 8
-                  M42 13
-                  L48 18"
-              />
+              <path d="M7 7h10v10"></path>
+              <path d="M7 17 17 7"></path>
             </svg>
           </button>
           <button class="global-graph-icon" aria-label="Global Graph">
