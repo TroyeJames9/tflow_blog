@@ -79,7 +79,7 @@ export default ((opts?: Partial<GraphOptions>) => {
               fill="currentColor"
               xmlSpace="preserve"
             >
-              <g transform="translate(15.5, 15.5) scale(2)">
+              <g transform="translate(27.5,27.5) scale(2)">
                 <path d="M7 7h10v10"></path>
                 <path d="M7 17 17 7"></path>
               </g>
