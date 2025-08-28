@@ -75,14 +75,12 @@ export default ((opts?: Partial<GraphOptions>) => {
               xmlnsXlink="http://www.w3.org/1999/xlink"
               x="0px"
               y="0px"
-              viewBox="0 0 55 55"
+              viewBox="0 0 24 24"
               fill="currentColor"
               xmlSpace="preserve"
             >
-              <g transform="translate(-15.5,-15.5) scale(2)">
-                <path d="M7 7h10v10"></path>
-                <path d="M7 17 17 7"></path>
-              </g>
+              <path d="M7 7h10v10"></path>
+              <path d="M7 17 17 7"></path>
             </svg>
           </button>
           <button class="global-graph-icon" aria-label="Global Graph">
