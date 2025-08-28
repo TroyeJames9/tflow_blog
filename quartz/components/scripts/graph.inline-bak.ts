@@ -613,37 +613,8 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     }
   }
 
-  const LocalContainers = [...document.getElementsByClassName("local-enlarge-outer")] as HTMLElement[]
-  async function renderLocalGraphMax() {
-    const slug = getFullSlug(window)
-    for (const LocalContainer of LocalContainers) {
-      LocalContainer.classList.add("active")
-      const sidebar = LocalContainer.closest(".sidebar") as HTMLElement
-      if (sidebar) {
-        sidebar.style.zIndex = "1"
-      }
-
-      const graphContainer = LocalContainer.querySelector(".local-enlarge-container") as HTMLElement
-      registerEscapeHandler(LocalContainer, hideLocalGraph)
-      if (graphContainer) {
-        localGraphCleanups.push(await renderGraph(graphContainer, slug))
-      }
-    }
-  }
-
   function hideGlobalGraph() {
     cleanupGlobalGraphs()
-    for (const container of containers) {
-      container.classList.remove("active")
-      const sidebar = container.closest(".sidebar") as HTMLElement
-      if (sidebar) {
-        sidebar.style.zIndex = ""
-      }
-    }
-  }
-
-  function hideLocalGraph() {
-    cleanupLocalGraphs()
     for (const container of containers) {
       container.classList.remove("active")
       const sidebar = container.closest(".sidebar") as HTMLElement
@@ -660,7 +631,6 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
         container.classList.contains("active"),
       )
       anyGlobalGraphOpen ? hideGlobalGraph() : renderGlobalGraph()
-      anyGlobalGraphOpen ? hideLocalGraph() : renderLocalGraphMax()
     }
   }
 
@@ -668,12 +638,6 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   Array.from(containerIcons).forEach((icon) => {
     icon.addEventListener("click", renderGlobalGraph)
     window.addCleanup(() => icon.removeEventListener("click", renderGlobalGraph))
-  })
-
-  const localContainerIcons = document.getElementsByClassName("local-enlarge-icon")
-  Array.from(localContainerIcons).forEach((icon) => {
-    icon.addEventListener("click", renderLocalGraphMax)
-    window.addCleanup(() => icon.removeEventListener("click", renderLocalGraphMax))
   })
 
   document.addEventListener("keydown", shortcutHandler)
