@@ -558,6 +558,10 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
 let localGraphCleanups: (() => void)[] = []
 let globalGraphCleanups: (() => void)[] = []
+// 添加新的清理函数数组
+let localEnlargeCleanups: (() => void)[] = []
+
+
 
 function cleanupLocalGraphs() {
   for (const cleanup of localGraphCleanups) {
@@ -571,6 +575,14 @@ function cleanupGlobalGraphs() {
     cleanup()
   }
   globalGraphCleanups = []
+}
+
+// 添加清理函数
+function cleanupLocalEnlarge() {
+  for (const cleanup of localEnlargeCleanups) {
+    cleanup()
+  }
+  localEnlargeCleanups = []
 }
 
 document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
@@ -652,6 +664,15 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
       }
     }
   }
+
+    // 添加新的隐藏函数
+    function hideLocalEnlarge() {
+      cleanupLocalEnlarge() // 清理图形资源
+      const containers = [...document.getElementsByClassName("local-enlarge-outer")] as HTMLElement[]
+      for (const container of containers) {
+        container.classList.remove("active") // 隐藏弹窗
+      }
+    }
 
   async function shortcutHandler(e: HTMLElementEventMap["keydown"]) {
     if (e.key === "g" && (e.ctrlKey || e.metaKey) && !e.shiftKey) {

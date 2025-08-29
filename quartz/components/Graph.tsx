@@ -68,6 +68,7 @@ export default ((opts?: Partial<GraphOptions>) => {
         <h3>{i18n(cfg.locale).components.graph.title}</h3>
         <div class="graph-outer">
           <div class="graph-container" data-cfg={JSON.stringify(localGraph)}></div>
+          {/*添加local graph 放大按钮↓ */}
           <button class="local-enlarge-icon" aria-label="Enlarge Local Graph">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -84,6 +85,8 @@ export default ((opts?: Partial<GraphOptions>) => {
               <path d="M7 17 17 7"></path>
             </svg>
           </button>
+          {/*添加local graph 放大按钮↑ */}
+          {/*添加graph graph 放大按钮↓ */}
           <button class="global-graph-icon" aria-label="Global Graph">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -103,10 +106,13 @@ export default ((opts?: Partial<GraphOptions>) => {
               <path d="M12 12v3"></path>
             </svg>
           </button>
+          {/*添加graph graph 放大按钮↑ */}
         </div>
+        {/*添加渲染local graph的弹窗的容器↓ */}
         <div class="local-enlarge-outer">
           <div class="local-enlarge-container" data-cfg={JSON.stringify(localGraph)}></div>
         </div>
+        {/*添加渲染local graph的弹窗的容器↑ */}
         <div class="global-graph-outer">
           <div class="global-graph-container" data-cfg={JSON.stringify(globalGraph)}></div>
         </div>

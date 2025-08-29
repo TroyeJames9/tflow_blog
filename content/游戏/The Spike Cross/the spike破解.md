@@ -18,6 +18,7 @@ aliases:
 ![|401](Afile/the%20spike破解-20250818142323105.webp)
 
 > [!WARNING] 在线破解前提条件
+> - 本mod仅支持Android
 > - 已掌握 [获取 the spike cross](游戏/The%20Spike%20Cross/游戏获取方式/获取%20the%20spike%20cross.md) 教程的所有内容
 > - 设备里已安装正版the spike cross并已通过google登陆
 > - 设备保持代理开启的状态
@@ -71,6 +72,8 @@ aliases:
 破解预览图如下↓
 
 ![|402](Afile/the%20spike破解-20250818142354953.webp)
+
+本mod仅支持Android。
 
 离线破解是基于旧版本制作的，**所以可用球员目前截止于 2025年4月版本**（即包含`徐莎拉首发活动`及以前的球员）。
 
