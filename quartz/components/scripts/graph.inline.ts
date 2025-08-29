@@ -658,10 +658,6 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   // 添加新的隐藏函数
   function hideLocalEnlarge() {
     cleanupLocalEnlarge() // 清理图形资源
-    // const containers = [...document.getElementsByClassName("local-enlarge-outer")] as HTMLElement[]
-    // for (const container of containers) {
-    //   container.classList.remove("active") // 隐藏弹窗
-    // }
     for (const container of LocalContainers) {
       container.classList.remove("active")
       const sidebar = container.closest(".sidebar") as HTMLElement
@@ -678,7 +674,6 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
         container.classList.contains("active"),
       )
       anyGlobalGraphOpen ? hideGlobalGraph() : renderGlobalGraph()
-      // anyGlobalGraphOpen ? hideLocalEnlarge() : renderLocalGraphMax()
     }
 
     if (e.key === "g" && e.altKey) {
@@ -686,7 +681,6 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
       const anyGlobalGraphOpen = containers.some((container) =>
         container.classList.contains("active"),
       )
-      // anyGlobalGraphOpen ? hideGlobalGraph() : renderGlobalGraph()
       anyGlobalGraphOpen ? hideLocalEnlarge() : renderLocalGraphMax()
     }
   }
