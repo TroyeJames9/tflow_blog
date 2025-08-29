@@ -636,7 +636,7 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
       }
 
       const graphContainer = LocalContainer.querySelector(".local-enlarge-container") as HTMLElement
-      registerEscapeHandler(LocalContainer, hideLocalGraph)
+      registerEscapeHandler(LocalContainer, hideLocalEnlarge)
       if (graphContainer) {
         localGraphCleanups.push(await renderGraph(graphContainer, slug))
       }
@@ -665,14 +665,14 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     }
   }
 
-    // 添加新的隐藏函数
-    function hideLocalEnlarge() {
-      cleanupLocalEnlarge() // 清理图形资源
-      const containers = [...document.getElementsByClassName("local-enlarge-outer")] as HTMLElement[]
-      for (const container of containers) {
-        container.classList.remove("active") // 隐藏弹窗
-      }
+  // 添加新的隐藏函数
+  function hideLocalEnlarge() {
+    cleanupLocalEnlarge() // 清理图形资源
+    const containers = [...document.getElementsByClassName("local-enlarge-outer")] as HTMLElement[]
+    for (const container of containers) {
+      container.classList.remove("active") // 隐藏弹窗
     }
+  }
 
   async function shortcutHandler(e: HTMLElementEventMap["keydown"]) {
     if (e.key === "g" && (e.ctrlKey || e.metaKey) && !e.shiftKey) {
@@ -681,7 +681,7 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
         container.classList.contains("active"),
       )
       anyGlobalGraphOpen ? hideGlobalGraph() : renderGlobalGraph()
-      anyGlobalGraphOpen ? hideLocalGraph() : renderLocalGraphMax()
+      anyGlobalGraphOpen ? hideLocalEnlarge() : renderLocalGraphMax()
     }
   }
 
@@ -702,5 +702,6 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     document.removeEventListener("keydown", shortcutHandler)
     cleanupLocalGraphs()
     cleanupGlobalGraphs()
+    cleanupLocalEnlarge()
   })
 })
