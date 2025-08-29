@@ -87,6 +87,10 @@ aliases:
 
 # 免费在线破解-功能版
 
+目前已知——支持android版本的NKmod、支持iOS的tiptipmod。
+
+## NKmod
+
 这款破解由 [NK](https://t.me/apknk) 开发，提供了 **自动获胜** ，**破解指定角色**等功能，由于多人反馈打开破解时会闪退，等待修复后再提供本部分教程。以下是 **破解功能截图**与**闪退反馈**。
 
 最新消息：Android13 正常运行破解，**Android14/15、LDplayer、bluestacks、mumuplayer 打开即闪退。** 欢迎群友测试并反馈
@@ -99,3 +103,17 @@ MOD相关说明均在[NK频道中](https://t.me/apknk)
 
 ![|354](Afile/the%20spike破解情报-20250818115453868.webp) ![|301](Afile/the%20spike破解情报-20250818113604070.webp)
 
+## TipTipMod
+
+目前6.2.105版本的破解功能包括 免费去广告、替换已有球员方式的破解，包括以下球员：
+
+- Siwoo, Oasis -> Lucas
+- Ryuhyun -> Nishikawa
+- Clyde-> Crow
+- Atis -> Hari
+- Sohee -> Zero
+- Lisia -> Zero
+
+MOD相关说明与下载方式均在[TIPTIPmod频道中](https://t.me/gamemodios)
+
+![|338](Afile/the%20spike破解-20250829081839433.webp)
