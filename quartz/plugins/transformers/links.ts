@@ -93,10 +93,11 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
                   classes.push("alias")
                 }
                 node.properties.className = classes
-
-                if (isExternal && opts.openLinksInNewTab) {
-                  node.properties.target = "_blank"
-                }
+                
+                // 内外链接都从新窗口跳转
+                // if (isExternal && opts.openLinksInNewTab) {
+                node.properties.target = "_blank"
+                // }
 
                 // don't process external links or intra-document anchors
                 const isInternal = !(isAbsoluteUrl(dest) || dest.startsWith("#"))
