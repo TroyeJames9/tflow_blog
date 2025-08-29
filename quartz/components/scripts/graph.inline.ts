@@ -678,7 +678,7 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
 
     if (e.key === "g" && e.altKey) {
       e.preventDefault()
-      const anyGlobalGraphOpen = containers.some((container) =>
+      const anyGlobalGraphOpen = LocalContainers.some((container) =>
         container.classList.contains("active"),
       )
       anyGlobalGraphOpen ? hideLocalEnlarge() : renderLocalGraphMax()
