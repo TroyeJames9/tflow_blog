@@ -675,7 +675,8 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
       )
       anyGlobalGraphOpen ? hideGlobalGraph() : renderGlobalGraph()
     }
-
+    
+    // 添加局部图谱放大显示快捷键 ALT+G
     if (e.key === "g" && e.altKey) {
       e.preventDefault()
       const anyGlobalGraphOpen = LocalContainers.some((container) =>
@@ -691,6 +692,7 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     window.addCleanup(() => icon.removeEventListener("click", renderGlobalGraph))
   })
 
+  // 绑定局部图谱放大显示按钮的事件
   const localContainerIcons = document.getElementsByClassName("local-enlarge-icon")
   Array.from(localContainerIcons).forEach((icon) => {
     icon.addEventListener("click", renderLocalGraphMax)
@@ -702,6 +704,7 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     document.removeEventListener("keydown", shortcutHandler)
     cleanupLocalGraphs()
     cleanupGlobalGraphs()
+    // 添加局部图谱放大显示的容器的清理
     cleanupLocalEnlarge()
   })
 })
