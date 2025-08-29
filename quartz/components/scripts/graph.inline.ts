@@ -654,17 +654,6 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     }
   }
 
-  function hideLocalGraph() {
-    cleanupLocalGraphs()
-    for (const container of LocalContainers) {
-      container.classList.remove("active")
-      const sidebar = container.closest(".sidebar") as HTMLElement
-      if (sidebar) {
-        sidebar.style.zIndex = ""
-      }
-    }
-  }
-
   // 添加新的隐藏函数
   function hideLocalEnlarge() {
     cleanupLocalEnlarge() // 清理图形资源
@@ -681,7 +670,7 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
         container.classList.contains("active"),
       )
       anyGlobalGraphOpen ? hideGlobalGraph() : renderGlobalGraph()
-      anyGlobalGraphOpen ? hideLocalEnlarge() : renderLocalGraphMax()
+      // anyGlobalGraphOpen ? hideLocalEnlarge() : renderLocalGraphMax()
     }
   }
 
