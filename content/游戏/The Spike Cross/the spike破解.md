@@ -13,7 +13,10 @@ aliases:
 
 # 付费在线破解-私服订阅
 
-破解预览图如下
+破解预览图与实战视频如下：
+
+- [劳尔发球教学](https://www.bilibili.com/video/BV1C2hXzSEpR)
+- [劳尔VS高中西川](https://www.bilibili.com/video/BV1P1hXzHEwe)
 
 ![|401](Afile/the%20spike破解-20250818142323105.webp)
 
