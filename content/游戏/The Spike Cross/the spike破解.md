@@ -21,7 +21,7 @@ aliases:
 ![|401](Afile/the%20spike破解-20250818142323105.webp)
 
 > [!WARNING] 在线破解前提条件
-> - 本mod仅支持Android
+> - 本mod仅支持Android与Android模拟器
 > - 已掌握 [获取 the spike cross](游戏/The%20Spike%20Cross/游戏获取方式/获取%20the%20spike%20cross.md) 教程的所有内容
 > - 设备里已安装正版the spike cross并已通过google登陆
 > - 设备保持代理开启的状态
