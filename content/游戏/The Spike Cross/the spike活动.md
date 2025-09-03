@@ -9,13 +9,12 @@ aliases:
 
 
 > [!warning] 最新活动！！！
-> **Kingmaker活动**：
-> - 活动将于 **8 月 12 日下午 3 点（韩国标准时间）启动，持续 4 周。** 
-> - 本次活动将推出新的故事、新的角色、以及独特的活动内容，准备好迎接激动人心的体验吧！
+> **1.3亿下载庆典活动**：
+> - The Spike Cross：1.3 亿次下载庆典活动将于 9 月 4 日星期四中午 11：00 （北京时间 ）开始举办。
 > 
-> [点击查看活动详情](游戏/The%20Spike%20Cross/the%20spike资讯/kingmaker.md)
+> ![](Afile/the%20spike活动-20250903165040607.webp)
 > 
 
-> [!INFO]- 历史活动列表
-> Contents
+> [!INFO] 历史活动列表
+> - 2025年8月12日~9月9日：[kingmaker](游戏/The%20Spike%20Cross/the%20spike资讯/kingmaker.md) 活动
 
