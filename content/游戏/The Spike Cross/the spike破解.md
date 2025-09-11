@@ -96,7 +96,7 @@ aliases:
 **离线破解的缺点**在于内容较旧且流传的版本非常混乱，难以筛选出破解角色最全的APK，本人认为仅适用于新手畅享或测试较旧的S级角色
 
 已知宣传离线破解的youtuber：
-- 付费：[LSR_ID](https://www.youtube.com/@Losser_id)（价格50人民币，被盗传而停更），[WN MODDER](https://www.youtube.com/channel/UCAO2wXCsu_iS7Y6nx_We13A)（包含正版全角色，价格150+人民币）
+- 付费：[LSR_ID](https://www.youtube.com/@Losser_id)（价格50人民币，被盗传而停更），[WN MODDER](https://www.youtube.com/channel/UCAO2wXCsu_iS7Y6nx_We13A)（含正版全球员，价格150+人民币）
 - 免费：[ILHAM GAMING](https://www.youtube.com/@ilhamgaming484)，[𝙁𝙐𝙉𝘽𝙊𝙓 𝙄𝘿𝙎](https://www.youtube.com/@FunBoxID)，[DOL THE SPIKE](https://www.youtube.com/@dolthespike)，[Ryuu The Mods](https://www.youtube.com/@RyuuTheMods)，[THE SPIKE NAD](https://www.youtube.com/@thespikeonad)，[NK Raijuu](https://www.youtube.com/@vianzyzion.id2)
 
 > [!tip] 提示
@@ -105,6 +105,8 @@ aliases:
 > 共存的办法：本机使用破解的同时，在[ourplay](游戏/The%20Spike%20Cross/游戏获取方式/通过ourplay游玩.md)中安装正版即可（打开ourplay时，可选择使用 手机的代理来加速 或者 ourplay的自带加速）
 
 截止2025年9月10日，我所归档的球员最全的破解版本->[单击下载](https://caiyun.139.com/w/i/2pbtXqCsHUU2x)，提取码：`8ozk`
+
+温馨提示：20250910版本的APK中，**劳尔前冲特性需要开启 新手模式设置，然后扣球时不移动摇杆即可**。
 
 # 免费在线破解-功能版
 
