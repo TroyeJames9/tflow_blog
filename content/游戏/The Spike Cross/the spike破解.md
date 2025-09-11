@@ -87,27 +87,26 @@ aliases:
 
 本mod仅支持Android。
 
-离线破解是基于旧版本制作的，**所以可用球员目前截止于 2025年4月版本**（即包含`徐莎拉首发活动`及以前的球员）。
+离线破解是基于旧版本制作的，**所以可用球员目前截止于 2025年6月版本**（即包含`青龙祭`及以前的球员）。
 
 **离线破解的优点**在于永久免费，且无需代理与谷歌服务。
 
 **离线破解的缺点**在于内容较旧且流传的版本非常混乱，难以筛选出破解角色最全的APK，本人认为仅适用于新手畅享或测试较旧的S级角色
 
-已知宣传离线破解的youtuber：[𝙁𝙐𝙉𝘽𝙊𝙓 𝙄𝘿𝙎](https://www.youtube.com/@FunBoxID)，[DOL THE SPIKE](https://www.youtube.com/@dolthespike)，[Ryuu The Mods](https://www.youtube.com/@RyuuTheMods)，[THE SPIKE NAD](https://www.youtube.com/@thespikeonad)
+已知宣传离线破解的youtuber：[LSR_ID](https://www.youtube.com/@Losser_id)，[𝙁𝙐𝙉𝘽𝙊𝙓 𝙄𝘿𝙎](https://www.youtube.com/@FunBoxID)，[DOL THE SPIKE](https://www.youtube.com/@dolthespike)，[Ryuu The Mods](https://www.youtube.com/@RyuuTheMods)，[THE SPIKE NAD](https://www.youtube.com/@thespikeonad)，[NK Raijuu](https://www.youtube.com/@vianzyzion.id2)
 
 > [!tip] 提示
 > 安装破解版前，请卸载正版，然后再安装破解版本，在play商店中查看正版是否显示为`安装`2字，如未显示则与正版冲突，即破解与正版无法在同一设备共存。
 > 
 > 共存的办法：本机使用破解的同时，在[ourplay](游戏/The%20Spike%20Cross/游戏获取方式/通过ourplay游玩.md)中安装正版即可（打开ourplay时，可选择使用 手机的代理来加速 或者 ourplay的自带加速）
 
-截止2025年8月18日，我所归档的球员最全的破解版本->[单击下载](https://caiyun.139.com/w/i/2pbtXqCsHUU2x)，提取码：`8ozk`
-
-%% 包含珍妮，埃利奥的版本 ：https://www.youtube.com/watch?v=AoAam3RgxFM %% 
-%% https://www.youtube.com/watch?v=HkZtbHWow40 %%
+截止2025年9月10日，我所归档的球员最全的破解版本->[单击下载](https://caiyun.139.com/w/i/2pbtXqCsHUU2x)，提取码：`8ozk`
 
 # 免费在线破解-功能版
 
 目前已知——支持android版本的NKmod、支持iOS的tiptipmod。
+
+现在在线破解功能版**有可能不是免费**的了，请自行确认
 
 ## NKmod
 
