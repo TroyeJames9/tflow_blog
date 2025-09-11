@@ -103,6 +103,9 @@ aliases:
 
 截止2025年8月18日，我所归档的球员最全的破解版本->[单击下载](https://caiyun.139.com/w/i/2pbtXqCsHUU2x)，提取码：`8ozk`
 
+%% 包含珍妮，埃利奥的版本 ：https://www.youtube.com/watch?v=AoAam3RgxFM %% 
+%% https://www.youtube.com/watch?v=HkZtbHWow40 %%
+
 # 免费在线破解-功能版
 
 目前已知——支持android版本的NKmod、支持iOS的tiptipmod。
