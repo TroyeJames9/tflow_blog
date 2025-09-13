@@ -66,7 +66,7 @@ aliases:
 - `TN`：实力较强的新的破解作者，[点击加入作者tg频道](https://t.me/tptnmod)
 - `IRON`：老牌破解作者，可提供付费离线/在线破解（**彻底私服，只可用于新号**），[点击加入作者tg频道](https://t.me/kratosjoki)
 - `NK`：私服破解的开创者，​[点击加入作者tg频道](https://t.me/apknk)，现已与TN、BX合作
-- `BX`：[点击加入作者tg频道](https://t.me/ziznadmina)
+- `BX`：[点击加入作者tg频道](https://t.me/ziznadmina)，提供**彻底私服**。
 
 ## 购买密钥后如何操作？
 
