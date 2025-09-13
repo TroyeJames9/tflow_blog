@@ -24,15 +24,17 @@ async function mouseEnterHandler(
     })
   }
 
-  // 根据https://github.com/jackyzha0/quartz/pull/2088的filipesilva-l的意见修改该函数的使用，测试
-  function showPopover(popoverElement: HTMLElement, popoverInnerElement: HTMLDivElement) {
+  function showPopover(popoverElement: HTMLElement) {
     clearActivePopover()
     popoverElement.classList.add("active-popover")
     setPosition(popoverElement as HTMLElement)
 
+    // const popoverInner = popoverElement.querySelector('.popover-inner') as HTMLElement | null;
+    // if (!popoverInner) return;
+
     if (hash !== "") {
       const targetAnchor = `#popover-internal-${hash.slice(1)}`
-      const heading = popoverInnerElement.querySelector(targetAnchor) as HTMLElement | null
+      const heading = popoverInner.querySelector(targetAnchor) as HTMLElement | null
       if (heading) {
         // leave ~12px of buffer when scrolling to a heading
         popoverInner.scroll({ top: heading.offsetTop - 12, behavior: "instant" })
@@ -44,17 +46,15 @@ async function mouseEnterHandler(
   const hash = decodeURIComponent(targetUrl.hash)
   targetUrl.hash = ""
   targetUrl.search = ""
-  const popoverId = `popover-${link.pathname}`
-  const prevPopoverElement = document.getElementById(popoverId)
-  // 修改ID生成：使用完整路径+编码后的hash作为唯一标识
-  // const popoverId = `popover-${targetUrl.pathname}${hash.replace(/#/g, "-")}`
+  // const popoverId = `popover-${link.pathname}`
   // const prevPopoverElement = document.getElementById(popoverId)
+  // 修改ID生成：使用完整路径+编码后的hash作为唯一标识
+  const popoverId = `popover-${targetUrl.pathname}${hash.replace(/#/g, "-")}`
+  const prevPopoverElement = document.getElementById(popoverId)
 
-  // dont refetch if there's already a popover。
-  // 根据https://github.com/jackyzha0/quartz/pull/2088的filipesilva-l的意见修改该函数的使用，测试
-  if (!!prevPopoverElement) {
-    const popoverInner = prevPopoverElement.querySelector('.popover-inner');
-    showPopover(prevPopoverElement as HTMLElement, popoverInner as HTMLDivElement)
+  // dont refetch if there's already a popover
+  if (!!document.getElementById(popoverId)) {
+    showPopover(prevPopoverElement as HTMLElement)
     return
   }
 
@@ -197,8 +197,7 @@ async function mouseEnterHandler(
     return
   }
 
-  // 测试
-  showPopover(prevPopoverElement as HTMLElement, popoverInner as HTMLDivElement)
+  showPopover(popoverElement)
 }
 
 function clearActivePopover() {
