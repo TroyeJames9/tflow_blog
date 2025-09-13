@@ -24,7 +24,7 @@ async function mouseEnterHandler(
     })
   }
 
-  function showPopover(popoverElement: HTMLElement, popoverInnerElement: HTMLDivElement) {
+  function showPopover(popoverElement: HTMLElement , popoverInnerElement: HTMLDivElement) {
     clearActivePopover()
     popoverElement.classList.add("active-popover")
     setPosition(popoverElement as HTMLElement)
@@ -114,7 +114,7 @@ async function mouseEnterHandler(
     return
   }
 
-  // showPopover(popoverElement)
+  showPopover(popoverElement, popoverElement)
 }
 
 function clearActivePopover() {
