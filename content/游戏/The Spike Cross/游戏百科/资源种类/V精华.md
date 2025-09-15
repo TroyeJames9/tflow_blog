@@ -1,4 +1,5 @@
 ---
 title: V精华
-aliases: []
+aliases:
+  - TheSpike/VEssence
 ---

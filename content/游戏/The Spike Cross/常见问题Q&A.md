@@ -12,7 +12,7 @@ aliases:
 问题分为以下模块：
 - 怎么安装游戏？查阅[**如何获取the spike cross？**](游戏/The%20Spike%20Cross/游戏获取方式/获取%20the%20spike%20cross.md)
 - 最新活动情报？查阅[**活动与资讯速递**](游戏/The%20Spike%20Cross/the%20spike活动.md)
-- 段位、联赛、竞技场、雪地不会打：查阅[the spike百科](游戏/The%20Spike%20Cross/the%20spike百科.md)对应词条内容
+- [段位](游戏/The%20Spike%20Cross/游戏百科/资源获取方式/段位.md)、联赛、竞技场、雪地不会打：查阅[the spike百科](游戏/The%20Spike%20Cross/the%20spike百科.md)对应词条内容
 - [谷歌与网络问题](游戏/The%20Spike%20Cross/faq/谷歌与网络问题.md)
 - [游戏充值问题](游戏/The%20Spike%20Cross/faq/游戏充值.md)
 - [游戏破解问题](游戏/The%20Spike%20Cross/faq/游戏破解.md)
