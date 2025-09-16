@@ -16,5 +16,7 @@ aliases:
 > 
 
 > [!INFO] 历史活动列表
-> - 2025年8月12日~9月9日：[kingmaker](游戏/The%20Spike%20Cross/the%20spike资讯/kingmaker.md) 活动
+> - 2025年8月12日~9月9日： `造王者活动`，[点击查看](游戏/The%20Spike%20Cross/the%20spike资讯/kingmaker.md)
+> - 2025年9月4日~待定：`1.3亿下载庆典活动`，丰厚奖励直接签到可得
+> - 2025年9月30日~待定：新夏日活动
 
