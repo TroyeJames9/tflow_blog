@@ -41,7 +41,7 @@ aliases:
 
 
 > [!tip] 需要代注册账号？
-> 如嫌麻烦或无法注册，[联系tflow](app://obsidian.md/%E6%9D%82%E8%AE%B0/%E5%A6%82%E4%BD%95%E8%81%94%E7%B3%BBtflow%EF%BC%9F.md)代注册谷歌账号
+> 如嫌麻烦、没电脑或无法注册，强烈建议[联系tflow](app://obsidian.md/%E6%9D%82%E8%AE%B0/%E5%A6%82%E4%BD%95%E8%81%94%E7%B3%BBtflow%EF%BC%9F.md)代注册谷歌账号（10元，如接码则20元），太多人在其他途径买到黑号被风控而丢失了
 
 本部分还参考了[注册教程1](https://shuziyimin.net/account/google)和[接码教程2](https://shuziyimin.net/skill/sms-activate)
 
@@ -57,7 +57,7 @@ aliases:
 
 > [!TIP] 提示
 > - **注册成功后请注意**：在最初的一周内，尽量使用同一个网络节点登录和使用 Google 服务，避免因 IP 大幅跳动而触发二次手机验证。
-> - 务必要牢记账号和密码，强烈建议加上**两步验证（谷歌验证器）、备用码、辅助邮箱、辅助电话号**等安全措施，同时要确保[谷歌账号页面的个人信息](https://myaccount.google.com/personal-info)里的电话号码是自己的！否则一旦丢失、被封号或风控，很难找回账号
+> - 务必要牢记账号和密码，强烈建议加上**两步验证（谷歌验证器）、备用码、辅助邮箱、辅助电话号**等安全措施，**<span style="color: #ff7575">同时要确保[谷歌账号页面的个人信息](https://myaccount.google.com/personal-info)里的电话号码是自己的！</span>** 否则一旦丢失、被封号或风控，很难找回账号
 > - **如果手上可用的电话号注册均失败**，可选择：
 > 	- 认真阅读[谷歌账号注册](杂记/关于代理/谷歌账号注册.md)并尝试
 > 	- [联系tflow](杂记/如何联系tflow？.md)代注册谷歌账号
