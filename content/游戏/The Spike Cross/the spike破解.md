@@ -4,7 +4,7 @@ aliases:
   - TheSpike/mod
 tags: []
 ---
-本文章永久分享链接： `https://tflow.top/TheSpike/mod`
+本文章永久分享链接： https://tflow.top/TheSpike/mod
 
 破解版无法[通过ourplay游玩](游戏/The%20Spike%20Cross/游戏获取方式/通过ourplay游玩.md)
 
