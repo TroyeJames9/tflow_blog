@@ -100,7 +100,7 @@ tags: []
 - 免费：[ILHAM GAMING](https://www.youtube.com/@ilhamgaming484)，[𝙁𝙐𝙉𝘽𝙊𝙓 𝙄𝘿𝙎](https://www.youtube.com/@FunBoxID)，[DOL THE SPIKE](https://www.youtube.com/@dolthespike)，[Ryuu The Mods](https://www.youtube.com/@RyuuTheMods)，[THE SPIKE NAD](https://www.youtube.com/@thespikeonad)，[NK Raijuu](https://www.youtube.com/@vianzyzion.id2)
 
 > [!tip] 提示
-> 安装破解版前，请卸载正版，然后再安装破解版本，在play商店中查看正版是否显示为`安装`2字，如未显示则与正版冲突，即破解与正版无法在同一设备共存。
+> 安装破解版前，请卸载正版（如果正版在ourplay里则不需要卸载），然后再安装破解版本，在play商店中查看正版是否显示为`安装`2字，如未显示则与正版冲突，即破解与正版无法在同一设备共存。
 > 
 > 共存的办法：本机使用破解的同时，在[ourplay](游戏/The%20Spike%20Cross/游戏获取方式/通过ourplay游玩.md)中安装正版即可（打开ourplay时，可选择使用 手机的代理来加速 或者 ourplay的自带加速）
 
