@@ -15,7 +15,13 @@ aliases:
 
 游戏通过google登陆时，会弹出系统默认浏览器以登陆google，所以必须确保默认浏览器为chrome，并在浏览器中访问 https://account.google.com 并登陆你的游戏所使用的google账号！
 
+下面第一张图为WIN10默认应用设置图，第二三张图为WIN11默认应用设置图
+
 ![|400](Afile/PC端-steam版安装教程-20250920103823693.webp)
+
+![|400](Afile/PC端-steam版安装教程-20250920172252873.webp)
+
+![|400](Afile/PC端-steam版安装教程-20250920172315445.webp)
 
 建议访问 www.google.com 搜索 `chrome`来下载chrome浏览器
 
