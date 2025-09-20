@@ -17,7 +17,7 @@ aliases:
 > [!TIP] 提示
 > - 本教程目前的 **<span style="color: #ff7575">免费VPN仅适用于安卓设备</span>**  ，如需PC设备的免费VPN，需自行在手机google 搜索相关推荐。
 > - 快连等支持PC的VPN **<span style="color: #ff7575">可利用其免费试用期来在PC端注册或登陆谷歌</span>** 
-> - 强烈建议掌握[开源代理工具配置](开源代理工具配置.md)的内容，支持Windows，MAC，IOS，Android。且价格绝对会比快连便宜很多
+> - 强烈建议掌握[开源代理工具配置](开源代理工具配置.md)的内容，支持Windows，MAC，IOS，Android。且绝对会比快连等VPN更具性价比
 
 # 以起飞VPN为例
 
