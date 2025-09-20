@@ -11,9 +11,9 @@ aliases:
 
 > [!NOTE] 特别鸣谢 `昨夜今月明日` 对本文做了很多补充意见,令本文更加准确完善
 
-# 确保默认浏览器为chrome/edge并登陆
+# 确保默认浏览器为chrome并登陆
 
-游戏通过google登陆时，会弹出系统默认浏览器以登陆google，所以必须确保默认浏览器为chrome/edge，并在浏览器中访问 https://account.google.com 并登陆你的游戏所使用的google账号！
+游戏通过google登陆时，会弹出系统默认浏览器以登陆google，所以必须确保默认浏览器为chrome，并在浏览器中访问 https://account.google.com 并登陆你的游戏所使用的google账号！
 
 ![|400](Afile/PC端-steam版安装教程-20250920103823693.webp)
 
