@@ -53,8 +53,18 @@ aliases:
 > 	- 认真阅读[谷歌账号注册](杂记/关于代理/谷歌账号注册.md)并尝试
 > 	- [联系tflow](杂记/如何联系tflow？.md)代注册谷歌账号
 
-# 注册steam
+# 注册并安装steam
 
-访问 https://store.steampowered.com/ 来注册steam，建议使用gmail邮箱（即上一步注册的google）
+访问 https://store.steampowered.com/ 来注册并安装steam，建议使用gmail邮箱（即上一步注册的google）
 
-应该比较简单，
+应该比较简单，不赘述了
+
+# 在steam中搜索游戏并安装
+
+如图所示，搜索框搜索 `the spike cross`
+
+![|400](Afile/the%20spike%20cross%20PC版安装教程-20250920092920384.webp)
+
+# 开始游戏吧！
+
+![|400](Afile/the%20spike%20cross%20PC版安装教程-20250920093132331.webp)
