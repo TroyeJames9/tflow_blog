@@ -1,12 +1,12 @@
 ---
-title: steam版安装教程
+title: PC端-steam版安装教程
 aliases:
   - TheSpike/download_pc
 ---
 本文章永久分享链接： https://tflow.top/TheSpike/download_pc
 
 > [!WARNING] 学习本教程的前置条件
-> 必须掌握[游戏安装的前置条件](游戏/The%20Spike%20Cross/游戏获取方式/游戏安装的前置条件.md)的内容，**<span style="color: #ff7575">并全程开启代理（proxy）</span>**
+> 必须掌握[游戏安装的前置条件](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装的前置条件.md)的内容，**<span style="color: #ff7575">并全程开启代理（proxy）</span>**
 
 # 注册并安装steam
 

@@ -1,5 +1,5 @@
 ---
-title: ourplay内安装教程
+title: 安卓端-ourplay内安装教程
 aliases:
   - TheSpike/ourplay
   - ourplay
@@ -11,8 +11,9 @@ aliases:
 Ourplay主打游戏加速，附带翻墙功能，可以访问谷歌商店和海外应用，提供免费基础节点。通过Ourplay玩游戏无需额外使用梯子。
 
 
-> [!tip] 提示
-> 本教程**全程不需要打开VPN代理，请关闭VPN**
+> [!WARNING] 学习本教程的前置条件
+> - 必须掌握[游戏安装的前置条件](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装的前置条件.md)的内容！！！
+> - 本教程**<span style="color: #ff7575">全程不需要打开VPN代理，请关闭VPN</span>**
 
 # 下载并安装ourplay
 

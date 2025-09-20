@@ -6,7 +6,7 @@ tags: []
 ---
 本文章永久分享链接： https://tflow.top/TheSpike/mod
 
-破解版无法[ourplay内安装教程](游戏/The%20Spike%20Cross/游戏获取方式/ourplay内安装教程.md)
+破解版无法[安卓端-ourplay内安装教程](游戏/The%20Spike%20Cross/游戏安装教程/安卓端-ourplay内安装教程.md)
 
 已知的破解方式有：[付费私服订阅](游戏/The%20Spike%20Cross/the%20spike破解.md#付费在线破解-私服订阅)、[免费离线破解](游戏/The%20Spike%20Cross/the%20spike破解.md#免费离线破解)、[免费功能破解](游戏/The%20Spike%20Cross/the%20spike破解.md#免费在线破解-功能版)（如自动获胜），任选一种进行破解。
 
@@ -25,7 +25,7 @@ tags: []
 
 > [!WARNING] 在线破解前提条件
 > - 本mod仅支持Android与Android模拟器
-> - 已掌握 [游戏安装的前置条件](游戏/The%20Spike%20Cross/游戏获取方式/游戏安装的前置条件.md) 教程的所有内容，并按照该教程在设备里（并非ourplay里）装正版the spike cross并已通过google登陆
+> - 已掌握 [游戏安装的前置条件](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装的前置条件.md) 教程的所有内容，并按照该教程在设备里（并非ourplay里）装正版the spike cross并已通过google登陆
 > - 设备保持代理开启的状态
 > - 如嫌麻烦且需要代购，请[联系tflow](杂记/如何联系tflow？.md)购买，提供安装包与密钥与一切指导。
 
@@ -102,7 +102,7 @@ tags: []
 > [!tip] 提示
 > 安装破解版前，请卸载正版（如果正版在ourplay里则不需要卸载），然后再安装破解版本，在play商店中查看正版是否显示为`安装`2字，如未显示则与正版冲突，即破解与正版无法在同一设备共存。
 > 
-> 共存的办法：本机使用破解的同时，在[ourplay](游戏/The%20Spike%20Cross/游戏获取方式/ourplay内安装教程.md)中安装正版即可（打开ourplay时，可选择使用 手机的代理来加速 或者 ourplay的自带加速）
+> 共存的办法：本机使用破解的同时，在[ourplay](游戏/The%20Spike%20Cross/游戏安装教程/安卓端-ourplay内安装教程.md)中安装正版即可（打开ourplay时，可选择使用 手机的代理来加速 或者 ourplay的自带加速）
 
 截止2025年9月18日，我所归档的球员最全且数值上限为999的破解版本 -> [单击下载](https://caiyun.139.com/w/i/2pbtXqCsHUU2x)，提取码：`8ozk`
 
