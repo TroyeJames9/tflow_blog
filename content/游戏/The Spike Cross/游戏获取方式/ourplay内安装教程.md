@@ -1,5 +1,5 @@
 ---
-title: 通过ourplay游玩
+title: ourplay内安装教程
 aliases:
   - TheSpike/ourplay
   - ourplay
