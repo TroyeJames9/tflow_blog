@@ -15,6 +15,8 @@ aliases:
 
 游戏通过google登陆时，会弹出系统默认浏览器以登陆google，所以必须确保默认浏览器为chrome，并在浏览器中访问 https://account.google.com 并登陆你的游戏所使用的google账号！
 
+建议访问 www.google.com 搜索 `chrome`来下载chrome浏览器。
+
 下面第一张图为WIN10默认应用设置图，第二三张图为WIN11默认应用设置图
 
 ![|400](Afile/PC端-steam版安装教程-20250920103823693.webp)
@@ -22,8 +24,6 @@ aliases:
 ![|400](Afile/PC端-steam版安装教程-20250920172252873.webp)
 
 ![|400](Afile/PC端-steam版安装教程-20250920172315445.webp)
-
-建议访问 www.google.com 搜索 `chrome`来下载chrome浏览器
 
 > [!NOTE] 设备里有联想浏览器需要做的步骤
 > 联想浏览器要在设置里面把默认浏览器防护给关掉，否则从Spike跳转到浏览器的时候会先弹窗请求你的允许，它就会直接显示登录失败。尚不确定其他浏览器有没有这种功能。
