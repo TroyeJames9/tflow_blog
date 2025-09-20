@@ -1,5 +1,5 @@
 ---
-title: 免费VPN
+title: VPN
 aliases:
   - proxy/free
   - VPN
@@ -7,20 +7,17 @@ aliases:
 本文章永久分享链接： `https://tflow.top/proxy/free`
 
 目前仍然可用的免费VPN有：
-- 起飞VPN，v4.5.1[官方下载链接](https://bit.ly/gofly666)，仅适用于安卓设备
-- MyProxy，play商店内[下载链接](https://play.google.com/store/apps/details?id=myproxy.life&hl=en)，需要代理才可访问链接
+- 起飞VPN，v4.5.1[官方下载链接](https://bit.ly/gofly666)，**仅适用于安卓设备**
 
 目前仍然可用的付费VPN有：
-- 快连， [官网链接](https://www.fast-kuailian.com/)， 有72小时免费试用期，全平台可用
+- 快连， [官网链接](https://www.fast-kuailian.com/)， 有72小时免费试用期，**<span style="color: #ff7575">全平台可用</span>**，非常贵
 
 **VPN的使用步骤通常为：对代理节点进行测速、选择延迟最低的代理节点、开启代理**
 
-
 > [!TIP] 提示
 > - 本教程目前的免费VPN仅适用于安卓设备，如需PC设备的免费VPN，需自行在手机google 搜索相关推荐。
-> - 快连等支持PC的VPN可利用其免费试用期来在PC端注册谷歌。
+> - 快连等支持PC的VPN可利用其免费试用期来在PC端注册或登陆谷歌，。
 > - 如果觉得免费甚至付费的VPN不够安全、实惠或稳定，请学习[开源代理工具配置](开源代理工具配置.md)，支持Windows，MAC，IOS，Android
-
 
 # 以起飞VPN为例
 
