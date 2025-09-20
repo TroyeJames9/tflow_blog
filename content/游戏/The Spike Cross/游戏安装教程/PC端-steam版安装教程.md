@@ -8,7 +8,7 @@ aliases:
 > [!WARNING] 学习本教程的前置条件
 > 必须掌握[游戏安装的前置条件](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装的前置条件.md)的内容，**<span style="color: #ff7575">并全程开启代理（proxy）</span>**
 
-# 确保默认浏览器为chrome
+# 确保默认浏览器为chrome并登陆
 
 游戏通过google登陆时，会弹出系统默认浏览器以登陆google，所以必须确保默认浏览器为chrome，并在chrome登陆你的游戏所使用的google账号！
 
