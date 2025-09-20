@@ -10,7 +10,7 @@ aliases:
 查看Q&A前请根据自己需求认真查看[the spike社区首页](游戏/The%20Spike%20Cross/the%20spike社区首页.md)对应栏目的内容
 
 问题分为以下模块：
-- 怎么安装游戏？查阅[**如何获取the spike cross？**](游戏/The%20Spike%20Cross/游戏获取方式/the%20spike%20cross安卓版安装教程.md)
+- 怎么安装游戏？查阅[**如何获取the spike cross？**](游戏/The%20Spike%20Cross/游戏获取方式/安卓版安装教程.md)
 - 最新活动情报？查阅[**活动与资讯速递**](游戏/The%20Spike%20Cross/the%20spike活动.md)
 - 段位任务、联赛、竞技场、雪地不会打：查阅[the spike百科](游戏/The%20Spike%20Cross/the%20spike百科.md)对应词条内容
 - [谷歌与网络问题](游戏/The%20Spike%20Cross/faq/谷歌与网络问题.md)

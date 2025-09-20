@@ -34,7 +34,7 @@ aliases:
 > [!tip] 需要代注册账号？
 > 如嫌麻烦、没电脑或无法注册，强烈建议[联系tflow](app://obsidian.md/%E6%9D%82%E8%AE%B0/%E5%A6%82%E4%BD%95%E8%81%94%E7%B3%BBtflow%EF%BC%9F.md)代注册谷歌账号（10元，如接码则20元，包售后退款），太多人在其他途径买到黑号被风控而丢失了，
 
-本部分还参考了[注册教程1](https://shuziyimin.net/account/google)和[接码教程2](https://shuziyimin.net/skill/sms-activate)
+本部分参考了[注册教程1](https://shuziyimin.net/account/google)和[接码教程2](https://shuziyimin.net/skill/sms-activate)，特别鸣谢。
 
 打开浏览器，为避免国内+86手机号可能遇到的无法验证的问题，建议在**电脑端**使用**Chrome浏览器**，打开VPN代理，并进行以下设置：
 
