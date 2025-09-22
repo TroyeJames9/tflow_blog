@@ -25,7 +25,7 @@ tags: []
 
 > [!WARNING] 在线破解前提条件
 > - 本mod仅支持Android与Android模拟器
-> - 已掌握 [游戏安装的前置条件](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装的前置条件.md) 教程的所有内容，并按照该教程在设备里（并非ourplay里）装正版the spike cross并已通过google登陆
+> - 已掌握 [游戏安装前置条件](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装前置条件.md) 教程的所有内容，并按照该教程在设备里（并非ourplay里）装正版the spike cross并已通过google登陆
 > - 设备保持代理开启的状态
 > - 如嫌麻烦且需要代购，请[联系tflow](杂记/如何联系tflow？.md)购买，提供安装包与密钥与一切指导。
 

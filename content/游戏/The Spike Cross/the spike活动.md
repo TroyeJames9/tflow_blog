@@ -22,5 +22,5 @@ aliases:
 > - 2025年8月12日~9月9日： `造王者活动`，[点击查看活动详情](游戏/The%20Spike%20Cross/the%20spike资讯/20250812造王者.md)
 
 > [!TIP]- 游戏更新日志
-> 9月19日：**<span style="color: #ff7575">steam版本终于发布了</span>**！！！
-> 9月18日：[6_3_103逐步更新通知](游戏/The%20Spike%20Cross/the%20spike资讯/6_3_103逐步更新通知.md)
+> - 9月19日：**<span style="color: #ff7575">steam版本终于发布了</span>**！！！
+> - 9月18日：[6_3_103逐步更新通知](游戏/The%20Spike%20Cross/the%20spike资讯/6_3_103逐步更新通知.md)，支持键盘手柄与练习赛PVP
