@@ -11,12 +11,13 @@ aliases:
 
 目前仍然可用的付费VPN有：
 - 快连， [官网链接](https://www.fast-kuailian.com/)， 有72小时免费试用期，**<span style="color: #ff7575">全平台可用</span>**，非常贵
+- pioneer，[官网链接](https://www.pioneeraaa.com/)，有限时免费，**<span style="color: #ff7575">全平台可用</span>**，相对较贵
 
 **VPN的使用步骤通常为：对代理节点进行测速、选择延迟最低的代理节点、开启代理**
 
 > [!TIP] 提示
 > - 本教程目前的 **<span style="color: #ff7575">免费VPN仅适用于安卓设备</span>**  ，如需PC设备的免费VPN，需自行在手机google 搜索相关推荐。
-> - 快连等支持PC的VPN **<span style="color: #ff7575">可利用其免费试用期来在PC端注册或登陆谷歌</span>** 
+> - 快连、pionner等支持PC的VPN **<span style="color: #ff7575">可利用其免费试用期来在PC端注册或登陆谷歌</span>** 
 > - 强烈建议掌握[开源代理工具配置](开源代理工具配置.md)的内容，支持Windows，MAC，IOS，Android。且绝对会比快连等VPN更具性价比
 
 # 以起飞VPN为例
@@ -26,6 +27,7 @@ aliases:
 3. 测速结束会弹出延时列表，记住延迟最低的节点的id（如523d80e61f）
 4. 关闭延时列表，点击 `选择服务器`，在弹出的 `服务器列表`中选择美国，然后单击刚刚记录的id节点
 5. 点击红色圆圈按钮使其变绿，绿色代表开启代理，可以访问外网了。
+6. 浏览器访问 www.google.com ，代理配置成功则不会报错
 
 ![|263](Free%20Proxy-20250808120517487.webp)
 

@@ -12,6 +12,8 @@ aliases:
 
 # 确保默认浏览器为chrome并登陆
 
+如果你打算使用**苹果id登陆游戏**，则本步骤无需登陆google账号。
+
 游戏通过google登陆时，会弹出系统默认浏览器以登陆google，所以必须确保默认浏览器为chrome，并在浏览器中访问 https://account.google.com 并登陆你的游戏所使用的google账号！
 
 建议访问 www.google.com 搜索 `chrome`来下载chrome浏览器。
