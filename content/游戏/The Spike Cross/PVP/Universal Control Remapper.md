@@ -41,6 +41,7 @@ UCR 通过provider（提供商）为许多不同的设备（输入和输出）�
 | Titan One              | √   | √   | [TitanOne](https://github.com/snoothy/ucr/wiki/Core_TitanOne)                   | √        |
 | 3Dconnexion SpaceMouse | √   |     | [SpaceMouse](https://github.com/snoothy/ucr/wiki/Core_SpaceMouse)               |          |
 | MIDI 设备                | √   | √   | [Midi](https://github.com/snoothy/ucr/wiki/Core_Midi)                           |          |
+
 **本文以键盘作为物理输入，Xbox手柄作为虚拟输出为例编写教程**，所以我们本教程所需的provider为[Interception](https://github.com/snoothy/ucr/wiki/Core_Interception)与[ViGEm](https://github.com/snoothy/ucr/wiki/Core_ViGEm)。不过已知我们无需安装[ViGEm](https://github.com/snoothy/ucr/wiki/Core_ViGEm)，该provider的github存储库也已存档。
 
 # 安装interception
