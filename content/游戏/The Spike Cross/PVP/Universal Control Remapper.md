@@ -74,7 +74,7 @@ UCR 通过provider（提供商）为许多不同的设备（输入和输出）�
 
 在input devices 输入设备中，从Core_Interception中选择一个键盘（以 `K：`开头） 。如果您看到多个键盘，您可以选择一个，如果以后不起作用，请重新创建配置文件并选择另一个键盘
 
-- 在输出设备上，选择 ViGEm Xbox 360 控制器 1。如果您没有看到 ViGEm，请从 GitHub 安装它，然后重新启动您的 PC
+在输出设备上，选择 ViGEm Xbox 360 控制器 1。如果您没有看到 ViGEm，请从 GitHub 安装它，然后重新启动您的 PC
 
 
 
