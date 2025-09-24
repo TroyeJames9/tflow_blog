@@ -11,7 +11,7 @@ aliases:
 
 目前仍然可用的付费VPN有：
 - 快连， [官网链接](https://www.fast-kuailian.com/)， 有72小时免费试用期，**<span style="color: #ff7575">全平台可用</span>**，非常贵
-- pioneer，[官网链接](https://www.pioneeraaa.com/)，有限时免费，**<span style="color: #ff7575">全平台可用</span>**，相对较贵
+- pioneer，[官网链接](https://www.pioneeraaa.com/)，有限时免费，**<span style="color: #ff7575">全平台可用</span>**，非常贵，年付比快连便宜
 
 **VPN的使用步骤通常为：对代理节点进行测速、选择延迟最低的代理节点、开启代理**
 
