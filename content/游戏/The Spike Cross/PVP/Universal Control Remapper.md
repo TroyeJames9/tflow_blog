@@ -46,7 +46,7 @@ UCR 通过provider（提供商）为许多不同的设备（输入和输出）�
 
 # 安装interception
 
-- 点击下载  [Interception](https://github.com/oblitum/Interception/releases/download/v1.0.1/Interception.zip), 并解压缩到文件夹
+- 点击下载  [Interception](https://sy.tflow.top/d/60e36c8c043048ababe3/), 并解压缩到文件夹
 - 进入 Interception 文件夹->`command line installer`
 - 按住 Shift 键并 **<span style="color: #ff7575">右键单击</span>** `install-interception.exe`，然后单击复制文件地址，如下图所示
 
@@ -66,12 +66,15 @@ UCR 通过provider（提供商）为许多不同的设备（输入和输出）�
 
 # 创建profile配置文件
 
+**本文以键盘作为物理输入，Xbox手柄作为虚拟输出为例创建profile配置文件**
+
 双击打开`UCR.exe`，并点击如图按钮创建profile配置文件，如图所示：
 
 ![|400](Afile/Universal%20Control%20Remapper-20250924161616773.webp)
 
+在input devices 输入设备中，从Core_Interception中选择一个键盘（以 `K：`开头） 。如果您看到多个键盘，您可以选择一个，如果以后不起作用，请重新创建配置文件并选择另一个键盘
 
-
+- 在输出设备上，选择 ViGEm Xbox 360 控制器 1。如果您没有看到 ViGEm，请从 GitHub 安装它，然后重新启动您的 PC
 
 
 
