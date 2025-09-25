@@ -68,13 +68,32 @@ UCR 通过provider（提供商）为许多不同的设备（输入和输出）�
 
 **本文以键盘作为物理输入，Xbox手柄作为虚拟输出为例创建profile配置文件**
 
-双击打开`UCR.exe`，并点击如图按钮创建profile配置文件，如图所示：
+右键单击`UCR.exe`选择管理员身份运行，并点击如图按钮创建profile配置文件，如图所示：
 
 ![|400](Afile/Universal%20Control%20Remapper-20250924161616773.webp)
 
 在input devices 输入设备中，从Core_Interception中选择一个键盘（以 `K：`开头） 。如果您看到多个键盘，您可以选择一个，如果以后不起作用，请重新创建配置文件并选择另一个键盘
 
-在输出设备上，选择 ViGEm Xbox 360 控制器 1。如果您没有看到 ViGEm，请从 GitHub 安装它，然后重新启动您的 PC
+在output devices 输出设备中，选择 ViGEm Xbox 360 控制器 1。如果您没有看到 ViGEm，请[点击此处下载](https://sy.tflow.top/d/60e36c8c043048ababe3/)，然后重新启动您的 PC
+
+将配置文件命名为您想要的任何名称，然后点击`CREATE`，做完以上步骤的例子如图所示
+
+![|400](Afile/Universal%20Control%20Remapper-20250924163505058.webp)
+
+# 配置profile文件的教程
+
+创建配置文件后，在profiles列表中双击它以开始配置键盘上的哪些键将触发xbox上的按钮：
+- 在左侧选择一个plugin并点击其右侧加号（每个插件将在本文下方进一步解释）
+- 为您的plugin命名为您想要的任何名称，然后点击“ACCEPT”
+- 在右侧，单击蓝色按钮以令您的指定键盘输入映射到指定xbox按钮
+- 对每个指定xbox手柄的按钮都重复以上动作，以绑定指定的键盘输入
+
+![|400](Afile/Universal%20Control%20Remapper-20250924170627602.webp)
+
+在上面的示例中，我设置键盘键“L”以触发xbox手柄中的按钮“A”。您可以选择三个插件，每个插件都适用于控制器上的一组特定按钮。单击下面的部分以了解有关每个部分的更多信息。
+
+
+
 
 
 
