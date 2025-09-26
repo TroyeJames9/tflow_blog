@@ -10,7 +10,7 @@ aliases:
 > [!TIP]- 读前须知！！展开阅读，必须认真看OK？？？
 > 1. 本栏目官方QQ群：`133047771`  ，**在群里对本指南提问前请先进行以下自助步骤**（推荐学习 [提问的方法论](提问的方法论.md)）：
 > 	- 根据自己需求**<span style="color: #ff7575">认真查看本页面下方对应栏目内容</span>**
-> 	- 查看 [常见问题Q&A](常见问题Q&A.md)
+> 	- 查看 [常见问题Q&A](游戏/The%20Spike%20Cross/常见问题Q&A/常见问题Q&A.md)
 > 	- 咨询deepseek或搜索引擎
 > 	- 查阅游戏内首页的`指南`。
 > 	- 实在不行了，**<span style="color: #ff7575">准确整理问题相关信息，求助群友并表明自己已通过以上步骤自助但无果。</span>**
@@ -52,8 +52,8 @@ aliases:
 本指南的愿景是让新手无痛入手、入门、精通 the spike cross。包括以下栏目：
 
 - [**the spike安装教程**](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装前置条件.md)
-- **[the spike百科](游戏/The%20Spike%20Cross/the%20spike百科.md)**：已包含[竞技场](游戏/The%20Spike%20Cross/游戏百科/资源获取方式/竞技场.md)、[段位](游戏/The%20Spike%20Cross/游戏百科/资源获取方式/段位.md)、[联赛](游戏/The%20Spike%20Cross/游戏百科/资源获取方式/联赛.md)完整指导... 其他内容请查阅**QQ群**的群文件里的spike 手册。
+- **[the spike百科首页](游戏/The%20Spike%20Cross/游戏百科/the%20spike百科首页.md)**：已包含[竞技场](游戏/The%20Spike%20Cross/游戏百科/资源获取方式/竞技场.md)、[段位](游戏/The%20Spike%20Cross/游戏百科/资源获取方式/段位.md)、[联赛](游戏/The%20Spike%20Cross/游戏百科/资源获取方式/联赛.md)完整指导... 其他内容请查阅**QQ群**的群文件里的spike 手册。
 - `the spike PVP 指南`：敬请期待！
-- [**活动与资讯速递**](游戏/The%20Spike%20Cross/the%20spike活动.md)
+- [**活动与资讯速递**](游戏/The%20Spike%20Cross/游戏资讯/the%20spike资讯首页.md)
 - [**破解版情报**](游戏/The%20Spike%20Cross/the%20spike破解.md)
-- [**常见问题Q&A**](常见问题Q&A.md)
+- [**常见问题Q&A**](游戏/The%20Spike%20Cross/常见问题Q&A/常见问题Q&A.md)
