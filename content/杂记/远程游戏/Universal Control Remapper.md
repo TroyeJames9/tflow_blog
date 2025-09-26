@@ -126,45 +126,49 @@ UCR 通过provider（提供商）为许多不同的设备（输入和输出）�
 > [!QUESTION]- the spike cross 配置示例
 > 本配置完全按照游戏内手柄默认配置来确定虚拟手柄输出的。**<span style="color: #ff7575">输入设备可以是键盘也可以是手柄</span>**，这样可以确保组织比赛时，参赛选手无需做任何键位设置的操作，减少比赛用时。 请根据以下说明与图例确认自己配置无误！！！
 > 
-> - `扣球`：plugin选择`bottom to bottom`。输入推荐键盘`Z`键或者手柄任意按键，虚拟手柄输出必须为`A`。
+> - `扣球`：plugin选择`bottom to bottom`。输入推荐键盘`Z`键，虚拟手柄输出必须为`A`。
 > 
 > ![|100](Afile/Universal%20Control%20Remapper-20250925100528596.webp)
 > 
-> - `拦网`：plugin选择`bottom to bottom`。输入推荐键盘`空格键`或者手柄任意按键，虚拟手柄输出必须为`B`。
+> - `拦网`：plugin选择`bottom to bottom`。输入推荐键盘`空格键`，虚拟手柄输出必须为`B`。
 > 
 > ![|100](Afile/Universal%20Control%20Remapper-20250925100709142.webp)
 > 
-> - `鱼跃`：plugin选择`bottom to bottom`。输入推荐键盘`C`键或者手柄任意按键，虚拟手柄输出必须为`Y`。
+> - `鱼跃`：plugin选择`bottom to bottom`。输入推荐键盘`C`键，虚拟手柄输出必须为`Y`。
 > 
 > ![|100](Afile/Universal%20Control%20Remapper-20250925100824801.webp)
 > 
-> - `接球`：plugin选择`bottom to bottom`。输入推荐键盘`X`键或者手柄任意按键，虚拟手柄输出必须为`X`。
+> - `接球`：plugin选择`bottom to bottom`。输入推荐键盘`X`键，虚拟手柄输出必须为`X`。
 > 
 > ![|100](Afile/Universal%20Control%20Remapper-20250925101041858.webp)
 > 
-> - `切换技能模式`：plugin选择`bottom to bottom`。输入推荐键盘`shift`键或者手柄任意按键，虚拟手柄输出必须为`RB`。
+> - `切换技能模式`：plugin选择`bottom to bottom`。输入推荐键盘`shift`键，虚拟手柄输出必须为`RB`。
 > 
 > ![|100](Afile/Universal%20Control%20Remapper-20250925101238046.webp)
 > 
-> - `切换换人模式`：plugin选择`bottom to bottom`。输入推荐键盘`ctrl`键或者手柄任意按键，虚拟手柄输出必须为`LB`。
+> - `切换换人模式`：plugin选择`bottom to bottom`。输入推荐键盘`ctrl`键，虚拟手柄输出必须为`LB`。
 > 
 > ![|100](Afile/Universal%20Control%20Remapper-20250925101616017.webp)
 > 
-> - `暂停游戏`：plugin选择`bottom to bottom`。输入推荐键盘`S`键或者手柄任意按键，虚拟手柄输出必须为`start`。
+> - `暂停游戏`：plugin选择`bottom to bottom`。输入推荐键盘`S`键，虚拟手柄输出必须为`start`。
 > 
 > ![|100](Afile/Universal%20Control%20Remapper-20250925101805683.webp)
 > 
-> - `申请暂停`：plugin选择`bottom to bottom`。输入推荐键盘`A`键或者手柄任意按键，虚拟手柄输出必须为`Back`。
+> - `申请暂停`：plugin选择`bottom to bottom`。输入推荐键盘`A`键，虚拟手柄输出必须为`Back`。
 > 
 > ![|100](Afile/Universal%20Control%20Remapper-20250925101919206.webp)
 > 
-> - `上下键`：plugin选择`bottom to Axis-two buttons`。输入推荐键盘`↑ ↓`键或者手柄任意摇杆，虚拟手柄输出必须为`LY`。
+> - `上下键（键盘作为输入）`：plugin选择`bottom to Axis-two buttons`。输入推荐键盘`↑ ↓`键，虚拟手柄输出必须为`LY`。
 > 
 > ![|100](Afile/Universal%20Control%20Remapper-20250925102220286.webp)
 > 
-> - `左右键`：plugin选择`bottom to Axis-two buttons`。输入推荐键盘`← →`键或者手柄任意摇杆，虚拟手柄输出必须为`LX`。
+> - `左右键（键盘作为输入）`：plugin选择`bottom to Axis-two buttons`。输入推荐键盘`← →`键，虚拟手柄输出必须为`LX`。
 > 
 > ![|100](Afile/Universal%20Control%20Remapper-20250925103950374.webp)
+> 
+> - ` 上下左右（手柄作为输入）`：plugin选择`axes to axes`。输入手柄左右任一摇杆，输入的`X axis`为摇杆从右往左，输入的`Y axis`为摇杆从上往下虚拟手柄输出设置如图所示。
+> 
+> ![|100](Afile/Universal%20Control%20Remapper-20250926164053614.webp)
 
 # 阻止物理输出
 
