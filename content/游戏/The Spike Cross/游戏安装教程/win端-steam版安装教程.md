@@ -5,7 +5,7 @@ aliases:
 ---
 本文章永久分享链接： https://tflow.top/TheSpike/download_pc
 
-> [!WARNING] 学习本教程的前置条件
+> [!WARNING] 学习本教程的前置条件，你别几把不看。
 > - 必须掌握[游戏安装前置条件](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装前置条件.md)的内容，**<span style="color: #ff7575">并全程开启代理（proxy）</span>**
 
 > [!NOTE] 特别鸣谢群友 `昨夜今月明日` 对本文做了很多补充意见,令本文更加准确完善
