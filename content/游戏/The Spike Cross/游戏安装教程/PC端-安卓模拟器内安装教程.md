@@ -64,7 +64,7 @@ mumuplayer会默认提供1个安卓设备，点击如图的按钮对该安卓设
 
 # 登陆google play并安装游戏
 
-登陆google后，搜索 `the spike cross`，安装游戏，然后登陆即可
+登陆google play后，搜索 `the spike cross`，安装游戏，然后登陆即可
 
 > [!warning] 重要提示
 > 后续每次打开游戏前，务必提前打开google play且不能关闭该窗口，否则打开游戏会闪退
