@@ -123,7 +123,7 @@ UCR 通过provider（提供商）为许多不同的设备（输入和输出）�
 ![|400](Afile/Universal%20Control%20Remapper-20250925090000725.webp)
 
 
-> [!EXAMPLE]- the spike cross 配置示例
+> [!QUESTION]- the spike cross 配置示例
 > 本配置完全按照游戏内手柄默认配置来确定虚拟手柄输出的。**<span style="color: #ff7575">输入设备可以是键盘也可以是手柄</span>**，这样可以确保组织比赛时，参赛选手无需做任何键位设置的操作，减少比赛用时。 请根据以下说明与图例确认自己配置无误！！！
 > 
 > - `扣球`：plugin选择`bottom to bottom`。输入推荐键盘`Z`键或者手柄任意按键，虚拟手柄输出必须为`A`。
