@@ -52,7 +52,7 @@ aliases:
 本指南的愿景是让新手无痛入手、入门、精通 the spike cross。包括以下栏目：
 
 - [**the spike安装教程**](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装前置条件.md)
-- **[the spike百科首页](游戏/The%20Spike%20Cross/游戏百科/the%20spike百科首页.md)**：已包含[竞技场](游戏/The%20Spike%20Cross/游戏百科/资源获取方式/竞技场.md)、[段位](游戏/The%20Spike%20Cross/游戏百科/资源获取方式/段位.md)、[联赛](游戏/The%20Spike%20Cross/游戏百科/资源获取方式/联赛.md)完整指导... 其他内容请查阅**QQ群**的群文件里的spike 手册。
+- **[the spike百科首页](游戏/The%20Spike%20Cross/游戏百科/the%20spike百科首页.md)**：啥都有，不容错过
 - `the spike PVP 指南`：敬请期待！
 - [**活动与资讯速递**](游戏/The%20Spike%20Cross/游戏资讯/the%20spike资讯首页.md)
 - [**破解版情报**](游戏/The%20Spike%20Cross/the%20spike破解.md)
