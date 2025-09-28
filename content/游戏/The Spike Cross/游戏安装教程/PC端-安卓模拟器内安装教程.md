@@ -6,7 +6,7 @@ aliases:
 **本文章**永久分享链接： https://tflow.top/TheSpike/download_mumu
 
 > [!WARNING] 学习本教程的前置条件，你别几把不看。
-> - 必须掌握[游戏安装前置条件](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装前置条件.md)的内容，但需注意！！！<span style="color: #ff7575">其中配置代理章节必须选择学习</span>[开源代理工具配置](杂记/关于代理/开源代理工具配置.md)，**<span style="color: #ff7575">并全程开启开源代理工具（proxy）</span>**
+> - 必须掌握[游戏安装前置条件](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装前置条件.md)的内容，但需注意！！！<span style="color: #ff7575">其中配置代理章节必须选择学习</span>[开源代理工具配置](杂记/关于代理/开源代理工具配置.md)，**<span style="color: #ff7575">并在电脑全程开启开源代理工具（proxy）</span>**
 > - 本教程适用于 WIN10、WIN11、macOS 设备。
 
 # 安装国际版mumuplayer 12并配置
