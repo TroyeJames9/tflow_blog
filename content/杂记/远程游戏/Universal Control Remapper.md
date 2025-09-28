@@ -5,6 +5,8 @@ aliases:
 ---
 本文章永久分享链接： https://tflow.top/ucr
 
+本文配套手把手教程视频（评论区有坐标轴），跟着视频看本文章： https://www.bilibili.com/video/BV1XanozJEuG
+
 [Universal Control Remapper](https://github.com/Snoothy/UCR) 是原始 [UCR](https://github.com/evilC/UCR) 的完全重写，由其与 [evilC](https://github.com/evilC/) 合作创建。
 
 Universal Control Remapper（**UCR**） 是一个 **Windows 应用程序**，它允许最终用户**将来自设备（例如手柄，键盘、鼠标、纵杆、赛车方向盘、眼动仪等）的任何输入重新映射到虚拟输出设备**。重新映射是通过插件将输入转换为所需的输出设备来实现的。
