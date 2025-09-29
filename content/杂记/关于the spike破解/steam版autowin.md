@@ -13,3 +13,8 @@ quicker排布思路↓
 
 ![20](Afile/steam版autowin-20250922164459824.webp)
 
+下面是自动记录数据的思路↓
+
+![|40](Afile/steam版autowin-20250929125106379.webp)
+
+![|40](Afile/steam版autowin-20250929125120665.webp)
