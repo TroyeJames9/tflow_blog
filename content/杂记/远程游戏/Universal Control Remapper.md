@@ -166,11 +166,7 @@ UCR 通过provider（提供商）为许多不同的设备（输入和输出）�
 > 
 > - `左右键（键盘作为输入）`：plugin选择`bottom to Axis-two buttons`。输入推荐键盘`← →`键，虚拟手柄输出必须为`LX`。
 > 
-> ![|100](Afile/Universal%20Control%20Remapper-20250925103950374.webp)
-> 
-> - ` 上下左右（手柄作为输入）`：plugin选择`axes to axes`。输入手柄左右任一摇杆，输入的`X axis`为摇杆从右往左，输入的`Y axis`为摇杆从上往下虚拟手柄输出设置如图所示。
-> 
-> ![|100](Afile/Universal%20Control%20Remapper-20250926164053614.webp)
+> ![|100
 
 # 阻止物理输出
 
