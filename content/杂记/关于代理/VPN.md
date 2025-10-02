@@ -6,6 +6,8 @@ aliases:
 ---
 本文章永久分享链接： `https://tflow.top/proxy/free`
 
+%%外星人加速器，%%
+
 目前仍然可用的免费VPN有：
 - 起飞VPN，v4.5.1[官方下载链接](https://bit.ly/gofly666)，**仅适用于安卓设备**
 

@@ -18,3 +18,7 @@ quicker排布思路↓
 ![|40](Afile/steam版autowin-20250929125106379.webp)
 
 ![|40](Afile/steam版autowin-20250929125120665.webp)
+
+现在遇到报错、timeout窗口会自己按回车键了↓
+
+![|40](Afile/steam版autowin-20251001161217047.webp)
