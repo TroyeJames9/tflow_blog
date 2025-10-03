@@ -144,13 +144,13 @@ UCR 通过provider（提供商）为许多不同的设备（输入和输出）�
 > 
 > ![|100](Afile/Universal%20Control%20Remapper-20250925101041858.webp)
 > 
-> - `切换技能模式`：plugin选择`bottom to bottom`。输入推荐键盘`shift`键，虚拟手柄输出必须为`RB`。
+> - `切换技能模式`：plugin选择`bottom to bottom`。输入推荐键盘`shift`键，虚拟手柄输出必须为`LB`。
 > 
-> ![|100](Afile/Universal%20Control%20Remapper-20250925101238046.webp)
 > 
-> - `切换换人模式`：plugin选择`bottom to bottom`。输入推荐键盘`ctrl`键，虚拟手柄输出必须为`LB`。
 > 
-> ![|100](Afile/Universal%20Control%20Remapper-20250925101616017.webp)
+> - `切换换人模式`：plugin选择`bottom to bottom`。输入推荐键盘`ctrl`键，虚拟手柄输出必须为`RB`。
+> 
+> 
 > 
 > - `暂停游戏`：plugin选择`bottom to bottom`。输入推荐键盘`S`键，虚拟手柄输出必须为`start`。
 > 
