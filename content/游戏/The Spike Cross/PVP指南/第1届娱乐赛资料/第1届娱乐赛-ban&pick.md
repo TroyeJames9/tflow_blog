@@ -1,3 +1,10 @@
+---
+title: 第1届娱乐赛-ban&pick
+aliases:
+  - TheSpike/1_BanPick
+---
+
+本文章永久分享链接： https://tflow.top/TheSpike/1_BanPick
 
 选用SE方案
 
