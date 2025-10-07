@@ -33,7 +33,7 @@ aliases:
 - `第三步`：如图中3号框所示，点击这个按钮，然后点击键盘任意按键以识别键盘设备。
 - `第四步`：如图中4号框所示，设置为none，除非你需要鼠标映射到手柄。
 - `第五步`：如图中5号框所示，选择`preset`的取值为 `pro evolution soccer`，因为default预设无法修改键盘取值。
-- `第六步`：如图中6号框所示，点击红框内的每一个按钮可以为`Xbox function`每行对应的Xbox虚拟输出绑定你指定的键盘按键。比如如图所示，我为xbox的`A`虚拟输出绑定了键盘的`Z`按钮，即点击`Z`键盘按钮时会输出对应的xbox虚拟按键`A`。**<span style="color: #ff7575">注意：禁止使用左ctl作为keyboard key取值！！！原因参见第二步</span>**
+- `第六步`：如图中6号框所示，点击红框内的每一个按钮可以为`Xbox function`每行对应的Xbox虚拟输出绑定你指定的键盘按键。比如如图所示，我为xbox的`A`虚拟输出绑定了键盘的`Z`按钮，即点击`Z`键盘按钮时会输出对应的xbox虚拟按键`A`。
 - `第七步`：关闭ksx，他会提示是否保存第六步的preset配置，选择`yes`保存。
 - `第八步`：再次打开ksx重复第一步到第五步。然后点击上方`tools`->`options`，将`suggest input devices for new slots`取消勾选，并将下方的`xxx user index`取值为1。
 - `第九步`：如图中7号框所示，点击`start`开启ksx，stop即为关闭。开启ksx期间可连按五次`左ctl` `block keyboards`
