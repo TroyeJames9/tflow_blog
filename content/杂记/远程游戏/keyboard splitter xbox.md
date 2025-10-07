@@ -20,7 +20,7 @@ aliases:
 
 下载后解压，点击 `DirectX Repair.exe`并运行，点击右上角检测并修复。等待其修复完毕后，不用理会任何可能弹出的报错，直接重启电脑即可。重启后，directX理论上就全部修复完毕了。
 
-# 安装ksx并配置
+# ksx的安装与配置
 
 [点击本链接](https://sy.tflow.top/d/ace840e279c84759880a/) 下载ksx，下载好后解压到你所指定的目录下，打开该目录，右键点击`KeyboardSplitter.exe`，为其创建快捷方式放到桌面。
 
@@ -38,7 +38,9 @@ aliases:
 - `第八步`：再次打开ksx重复第一步到第五步。然后点击上方`tools`->`options`，将`suggest input devices for new slots`取消勾选，并将下方的`xxx user index`取值为1。
 - `第九步`：如图中7号框所示，点击`start`开启ksx，stop即为关闭。开启ksx期间可连按五次`左ctl` `block keyboards`
 
-以后每次重新打开ksx时，操作第3、5步，然后`start`即可。
+以后每次重新打开ksx时，只需操作第3、5步，然后`start`即可。
+
+开启后，可通过 https://gamepad-tester.com/ 网站测试虚拟手柄是否被识别且配置是否正确。
 
 ![](Afile/keyboard%20splitter%20xbox-20251007124932882.webp)
 
