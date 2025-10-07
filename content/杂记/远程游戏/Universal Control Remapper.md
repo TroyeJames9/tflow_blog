@@ -13,6 +13,10 @@ Universal Control Remapper（**UCR**） 是一个 **Windows 应用程序**，它
 
 本文是有关使用 UCR 的[教程](https://github.com/snoothy/ucr/wiki)（[parsec-UCR教程](https://support.parsec.app/hc/en-us/articles/32381705301908-Setup-Gamepad#emulate_controller)），它可以模拟 Xbox 手柄并使用键盘作为输入，相反也是可以的，也可以手柄映射手柄，键盘映射键盘。这在多人使用远程控制软件连接到主机时只有一个键盘来玩游戏，并且游戏不允许您为每个玩家使用一组不同的按键的情况下非常有用。
 
+
+> [!bug] UCR的致命缺陷
+> UCR会持续地偶发卡键，非常影响游戏操作，请停止阅读本文，跳转到平替产品[keyboard splitter xbox](杂记/远程游戏/keyboard%20splitter%20xbox.md)教程
+
 # 安装UCR
 
 UCR 是一个便携式应用程序，不附带安装程序。只需从[realease](https://github.com/Snoothy/UCR/releases/tag/v0.9.0)页面（**或者从tflow提供的**[这个下载链接](https://sy.tflow.top/d/60e36c8c043048ababe3/)）下载最新版本的zip文件并将其解压缩到您选择的`文件夹A`中即可。双击 `文件夹A`中的 `UCR.exe` 即可运行UCR。UCR外观如图所示
