@@ -8,7 +8,7 @@ tags: []
 
 破解版无法[通过ourplay使用](游戏/The%20Spike%20Cross/游戏安装教程/安卓端-ourplay内安装教程.md)
 
-已知的破解方式有：[付费私服订阅](游戏/The%20Spike%20Cross/the%20spike破解.md#付费在线破解-私服订阅)、[免费离线破解](游戏/The%20Spike%20Cross/the%20spike破解.md#免费离线破解)、[免费功能破解](游戏/The%20Spike%20Cross/the%20spike破解.md#免费在线破解-功能版)（如自动获胜），任选一种进行破解。
+已知的破解方式有：[付费私服订阅](游戏/The%20Spike%20Cross/the%20spike破解.md#付费在线破解-私服订阅)、[免费离线破解](游戏/The%20Spike%20Cross/the%20spike破解.md#免费离线破解)，任选一种进行破解。
 
 其中，[免费离线破解](游戏/The%20Spike%20Cross/the%20spike破解.md#免费离线破解)无需代理或加速，其余需要代理或加速。
 
@@ -108,37 +108,7 @@ tags: []
 
 温馨提示：20250918版本的APK中，**劳尔前冲特性需要开启 新手模式设置，然后扣球时不移动摇杆即可**。
 
-# 免费在线破解-功能版
 
-目前已知——支持android版本的NKmod、支持iOS的tiptipmod。
 
-现在在线破解功能版**有可能不是免费**的了，请自行确认
 
-## NKmod
 
-这款破解由 [NK](https://t.me/apknk) 开发，提供了 **自动获胜** ，**破解指定角色**等功能，由于多人反馈打开破解时会闪退，等待修复后再提供本部分教程。以下是 **破解功能截图**与**闪退反馈**。
-
-最新消息：Android13 正常运行破解，**Android14/15、LDplayer、bluestacks、mumuplayer 打开即闪退。** 欢迎群友测试并反馈
-
-安装流程与 【[购买密钥后如何操作？](游戏/The%20Spike%20Cross/the%20spike破解.md#购买密钥后如何操作？)】类似，只是少了一步 输入密钥而已。
-
-[点击下载](https://apknk.com/apps/the-spike-volleyball-story-mod-apk)
-
-MOD相关说明均在[NK频道中](https://t.me/apknk)
-
-![|354](Afile/the%20spike破解情报-20250818115453868.webp) ![|301](Afile/the%20spike破解情报-20250818113604070.webp)
-
-## TipTipMod
-
-目前6.2.105版本的破解功能包括 免费去广告、替换已有球员方式的破解，包括以下球员：
-
-- Siwoo, Oasis -> Lucas
-- Ryuhyun -> Nishikawa
-- Clyde-> Crow
-- Atis -> Hari
-- Sohee -> Zero
-- Lisia -> Zero
-
-MOD相关说明与下载方式均在[TIPTIPmod频道中](https://t.me/gamemodios)
-
-![|338](Afile/the%20spike破解-20250829081839433.webp)
