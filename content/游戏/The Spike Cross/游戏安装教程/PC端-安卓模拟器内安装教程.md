@@ -6,7 +6,7 @@ aliases:
 **本文章**永久分享链接： https://tflow.top/TheSpike/download_mumu
 
 > [!WARNING] 学习本教程的前置条件，你别几把不看。
-> - 必须掌握[游戏安装前置条件](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装前置条件.md)的内容，但需注意！！！<span style="color: #ff7575">其中配置代理章节必须选择学习</span>[开源代理工具配置](线上移民/开源代理工具配置.md)，**<span style="color: #ff7575">并在电脑全程开启开源代理工具（proxy）</span>**
+> - 必须掌握[游戏安装前置条件](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装前置条件.md)的内容，但需注意！！！<span style="color: #ff7575">其中配置魔法章节必须选择学习</span>[开源魔法工具配置](科学/开源魔法工具配置.md)，**<span style="color: #ff7575">并在电脑全程开启开源魔法工具（proxy）</span>**
 > - 本教程适用于 WIN10、WIN11、macOS 设备。
 
 # 安装国际版mumuplayer 12并配置
@@ -39,7 +39,7 @@ mumuplayer会默认提供1个安卓设备，点击如图的按钮对该安卓设
 
 ![|400](Afile/PC端-安卓模拟器内安装教程-20250923120605717.webp)
 
-# 配置模拟器内网络代理
+# 配置模拟器内魔法
 
 以clash verge rev为例，为了让其代理模拟器内网络流量，需在clash verge rev的`设置`中开启局域网链接，如下图所示
 

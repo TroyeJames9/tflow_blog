@@ -1,5 +1,5 @@
 ---
-title: mac端-安装parsec
+title: 安装parsec-mac端
 aliases:
   - parsec/download_mac
 ---
