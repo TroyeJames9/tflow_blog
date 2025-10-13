@@ -72,4 +72,4 @@ aliases:
 - [**活动与资讯速递**](游戏/The%20Spike%20Cross/游戏资讯/the%20spike资讯首页.md)
 - [**破解版情报**](游戏/The%20Spike%20Cross/the%20spike破解.md)
 - [**常见问题Q&A**](游戏/The%20Spike%20Cross/常见问题Q&A/常见问题Q&A.md)
-- the spike同人图收录：读前须知的官方QQ群 群相册，快来围观！
+- the spike同人图收录：位于上方读前须知的**官方QQ群 群相册**，快来围观！
