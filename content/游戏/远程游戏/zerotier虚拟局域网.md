@@ -1,5 +1,5 @@
 ---
-title: 使用zerotier代理
+title: zerotier虚拟局域网
 aliases:
   - zerotier
 ---

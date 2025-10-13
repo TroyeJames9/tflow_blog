@@ -22,3 +22,7 @@ aliases:
 - 在parsec中首先完成[高级配置](游戏/远程游戏/parsec/高级配置.md)，然后再进行[基础配置](游戏/远程游戏/parsec/基础配置.md)
 - 学习并测试[作为客户端或主机](游戏/远程游戏/parsec/作为客户端或主机.md)
 - 连接质量不佳，延迟波动大？请阅读[排查延迟问题](游戏/远程游戏/parsec/排查延迟问题.md)自行解决
+- 连接失败后parsec上方显示error代码？请阅读[官网解决方案](https://support.parsec.app/hc/en-us/sections/32361179895060-Error-Codes)
+- 更多使用技巧
+	- [同时连接到多台计算机](https://support.parsec.app/hc/en-us/articles/32361386926868-Connecting-to-multiple-computers-at-once)
+	- 等待补充
