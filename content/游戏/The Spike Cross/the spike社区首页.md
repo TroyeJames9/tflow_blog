@@ -62,7 +62,7 @@ aliases:
 怎么我登陆不了游戏啊？
 ```
 
-由 [SUNCYAN](https://www.suncyan.com/en) 开发的《The Spike Cross》排球游戏以快节奏和操控以及精美的角色为特色，不仅吸引了排球迷，也吸引了游戏玩家，全球下载量达到 5000 万次。
+由 [SUNCYAN](https://www.suncyan.com/en) 开发的《The Spike Cross》排球游戏以快节奏和操控以及精美的角色为特色，不仅吸引了排球迷，也吸引了游戏玩家，全球下载量达到 1.3亿次。
 
 本指南的愿景是让新手无痛入手、入门、精通 the spike cross。包括以下栏目：
 
