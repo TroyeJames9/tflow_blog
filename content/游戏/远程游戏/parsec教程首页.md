@@ -26,9 +26,12 @@ aliases:
 - 更多使用技巧
 	- [同时连接到多台计算机](https://support.parsec.app/hc/en-us/articles/32361386926868-Connecting-to-multiple-computers-at-once)
 	- [降低延迟方案总结](https://www.bilibili.com/opus/691911204352819201)：B站UP总结的方案
+		- 双方公网IPV6+Parsec： https://test-ipv6.com/
 		- [zerotier](游戏/远程游戏/zerotier虚拟局域网.md)+ moon +Parsec：**<span style="color: #ff7575">当前使用方案</span>**
-		- 蒲公英 +Parsec
-		- 双方公网IPV6+Parsec
-		- zerotier + parsec + Radmin
 		- sunshine+moonlight+zerotier
+			- 视频教程1： https://www.bilibili.com/video/BV13i421U7z
+			- 视频教程2： https://www.bilibili.com/video/BV1oN4ne5Ehg
+			- 文本教程： https://zhuanlan.zhihu.com/p/718510054
+		- 蒲公英 +Parsec
+		- zerotier + parsec + Radmin
 		- 申请公网IPv4
