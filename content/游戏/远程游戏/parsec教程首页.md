@@ -26,10 +26,9 @@ aliases:
 - 更多使用技巧
 	- [同时连接到多台计算机](https://support.parsec.app/hc/en-us/articles/32361386926868-Connecting-to-multiple-computers-at-once)
 	- [降低延迟方案总结](https://www.bilibili.com/opus/691911204352819201)：B站UP总结的方案
-		- 路由器DMZ主机开启
-		- [zerotier](游戏/远程游戏/zerotier虚拟局域网.md)+ moon +Parsec：当前使用 
+		- [zerotier](游戏/远程游戏/zerotier虚拟局域网.md)+ moon +Parsec：**<span style="color: #ff7575">当前使用方案</span>**
 		- 蒲公英 +Parsec
+		- 双方公网IPV6+Parsec
 		- zerotier + parsec + Radmin
-		- 申请公网IPv4
-		- 双方IPV6+Parsec
 		- sunshine+moonlight+zerotier
+		- 申请公网IPv4
