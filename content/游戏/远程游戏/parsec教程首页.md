@@ -29,8 +29,7 @@ aliases:
 		- 双方公网IPV6+Parsec： https://test-ipv6.com/
 		- [zerotier](游戏/远程游戏/zerotier虚拟局域网.md)+ moon +Parsec：**<span style="color: #ff7575">当前使用方案</span>**
 		- sunshine+moonlight+zerotier
-			- 视频教程1： https://www.bilibili.com/video/BV13i421U7z
-			- 视频教程2： https://www.bilibili.com/video/BV1oN4ne5Ehg
+			- 视频教程： https://www.bilibili.com/video/BV1oN4ne5Ehg
 			- 文本教程： https://zhuanlan.zhihu.com/p/718510054
 		- 蒲公英 +Parsec
 		- zerotier + parsec + Radmin
