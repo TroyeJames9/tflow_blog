@@ -28,7 +28,7 @@ aliases:
 	- [降低延迟方案总结](https://www.bilibili.com/opus/691911204352819201)：B站UP总结的方案
 		- 双方公网IPV6+Parsec： https://test-ipv6.com/
 		- [zerotier](游戏/远程游戏/zerotier虚拟局域网.md)+ moon +Parsec：**<span style="color: #ff7575">当前使用方案</span>**
-		- sunshine+moonlight+zerotier
+		- sunshine+moonlight+zerotier+moon
 			- 视频教程： https://www.bilibili.com/video/BV1oN4ne5Ehg
 			- 文本教程： https://zhuanlan.zhihu.com/p/718510054
 		- 蒲公英 +Parsec
