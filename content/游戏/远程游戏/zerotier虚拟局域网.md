@@ -120,7 +120,7 @@ $ curl -s https://install.zerotier.com | sudo bash
 $ curl -s 'https://raw.githubusercontent.com/zerotier/ZeroTierOne/master/doc/contact%40zerotier.com.gpg' | gpg --import && \
 if z=$(curl -s 'https://install.zerotier.com/' | gpg); then echo "$z" | sudo bash; fi
 ```
-### 第二步 配置 Moon
+### 第二步 云服务器配置 Moon
 
 进入 zerotier-one 程序所在的目录，默认为 `/var/lib/zerotier-one`。
 
@@ -163,7 +163,7 @@ sudo mv 000000xxxxxxxxxx.moon moons.d
 sudo systemctl restart zerotier-one
 ```
 
-## 配置Moon节点
+## 客户端配置Moon节点
 
 普通的 Zerotier 成员使用 Moon 有两种方法，第一种方法是使用 `zerotier-cli orbit` 命令直接添加 Moon 节点ID；第二种方法是在 zerotier-one 程序的根目录创建`moons.d`文件夹，将 `xxx.moon` 复制到该文件夹中，我们采用第一种方法：
 
