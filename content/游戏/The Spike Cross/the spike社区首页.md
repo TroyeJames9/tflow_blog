@@ -6,7 +6,6 @@ aliases:
 ---
 本文章永久分享链接： `https://tflow.top/TheSpike`
 
-
 > [!TIP]- 读前须知！！展开阅读，必须认真看OK？？？
 > 1. 本栏目官方QQ群：`133047771`  ，**在群里对本指南提问前请先进行以下自助步骤**（推荐学习 [提问的方法论](提问的方法论.md)）：
 > 	- 根据自己需求**<span style="color: #ff7575">认真查看本页面下方对应栏目内容</span>**
@@ -66,7 +65,7 @@ aliases:
 
 本指南的愿景是让新手无痛入手、入门、精通 the spike cross。包括以下栏目：
 
-- [**the spike安装教程**](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装前置条件.md)
+- [**the spike安装教程**](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装前置条件.md)：支持windows、MAC、iOS，android。
 - **[the spike百科首页](游戏/The%20Spike%20Cross/游戏百科/the%20spike百科首页.md)**：啥都有，不容错过。**包含各类常驻比赛攻略**。
 - `the spike PVP 指南`：敬请期待！
 - [**破解版情报**](游戏/The%20Spike%20Cross/the%20spike破解.md)
