@@ -5,7 +5,7 @@ aliases:
 ---
 本文章永久分享链接： https://tflow.top/sunshine
 
-本教程只支持windows系统设备。
+本教程**只支持windows系统设备**。
 
 # 安装sunshine
 
