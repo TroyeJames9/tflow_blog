@@ -68,7 +68,7 @@ aliases:
 - [**the spike安装教程**](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装前置条件.md)：支持windows、MAC、iOS，android。
 - **[the spike百科首页](游戏/The%20Spike%20Cross/游戏百科/the%20spike百科首页.md)**：啥都有，不容错过。**包含各类常驻比赛攻略**。
 - `the spike PVP 指南`：敬请期待！
-- [**破解版情报**](游戏/The%20Spike%20Cross/the%20spike破解.md)
+- [**破解版情报**](游戏/The%20Spike%20Cross/the%20spike破解.md)：支持windows、MAC、iOS，android。
 - [**活动与资讯速递**](游戏/The%20Spike%20Cross/游戏资讯/the%20spike资讯首页.md)
 - the spike同人图收录：位于上方读前须知的**官方QQ群 群相册**，快来围观！
 - `常见问题Q&A`
