@@ -23,8 +23,8 @@ tags: []
 ![|401](Afile/the%20spike破解-20250818142323105.webp)
 
 > [!WARNING] 在线破解前提条件
-> - 本mod支持Android、Android模拟器、ios（但需要会装ipa）
-> - 已掌握 [游戏安装前置条件](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装前置条件.md) 教程的所有内容，并按照该教程在设备里（并非ourplay里）装正版the spike cross并已通过google登陆
+> - 本mod支持Android、Android模拟器、ios
+> - 已掌握 [游戏安装前置条件](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装前置条件.md) 教程的所有内容，并按照该教程在设备里（并非ourplay里）装正版the spike cross并登陆
 > - 设备保持魔法开启的状态
 > - 如嫌麻烦且需要代购，请[联系tflow](杂记/如何联系tflow？.md)购买，提供安装包与密钥与一切指导。
 
