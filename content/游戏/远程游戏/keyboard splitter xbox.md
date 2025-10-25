@@ -24,7 +24,7 @@ aliases:
 > - 使用方向键将选中框移动到`以管理员身份运行`，然后按回车以运行命令提示符。
 > - 在命令提示符中输入以下两条命令，其中的**<span style="color: #ff7575">下划线请替换成空格</span>** ，每条命令输入完时按回车以执行：
 > 	- `reg_add_"HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e96b-e325-11ce-bfc1-08002be10318}"_/v_UpperFilters_/t_REG_MULTI_SZ_/d_kbdclass_/f`
-> 	- `reg add_"HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e96f-e325-11ce-bfc1-08002be10318}"_/v_UpperFilters_/t_REG_MULTI_SZ_/d_mouclass_/f`
+> 	- `reg_add_"HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e96f-e325-11ce-bfc1-08002be10318}"_/v_UpperFilters_/t_REG_MULTI_SZ_/d_mouclass_/f`
 > - 执行完以上命令后，重启电脑即可，此时大概鼠标/键盘驱动程序就会正常运行了
 # 修复directX
 
