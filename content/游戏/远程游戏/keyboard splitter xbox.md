@@ -15,7 +15,16 @@ aliases:
 > ksx可以虚拟4个Xbox手柄，目前已知可以在本地PC中可被最多独立识别成4个手柄，但是在本地PC中的安卓模拟器，则只能被识别为同一个手柄。
 
 > [!bug] 不能使用ksx的情形与解决方案
-> 如果你的电脑有无畏契约，则
+> [参考论坛链接1](https://www.reddit.com/r/MouseReview/comments/178ow3g/any_mice_i_plug_in_just_wont_work_unless_i/?show=original)，[参考论坛链接2](https://www.reddit.com/r/VALORANT/comments/genkxg/support_guide_to_fix_vanguard_disabling_mouse/?show=original)
+> 
+> 如果你的电脑有无畏契约，则无畏契约反作弊程序在运行时不允许新的或者更改 PC 输入的操作，因为它是注册表 rootkit 级别的反作弊。而ksx会在使用前安装interception驱动程序，这会被反作弊程序识别并导致驱动程序无法加载，**<span style="color: #ff7575">从而导致鼠标或者键盘无法使用</span>**。
+> 
+> 这个问题的以下解决方案是在鼠标无法使用的情况下进行的：
+> - `win + S`以打开搜索，在搜索框中搜索`CMD`，搜索结果就会只有一个命令提示符。
+> - 使用方向键将选中框移动到`以管理员身份运行`，然后按回车以运行命令提示符。
+> - 在命令提示符中输入以下两条命令，每条命令输入完时按回车以执行：
+> 	- `reg add "HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e96b-e325-11ce-bfc1-08002be10318}" /v UpperFilters /t REG_MULTI_SZ /d kbdclass /f`
+> 	- `reg add "HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e96f-e325-11ce-bfc1-08002be10318}" /v UpperFilters /t REG_MULTI_SZ /d mouclass /f`
 
 
 
