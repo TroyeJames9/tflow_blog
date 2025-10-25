@@ -15,19 +15,22 @@ aliases:
 > ksx可以虚拟4个Xbox手柄，目前已知可以在本地PC中可被最多独立识别成4个手柄，但是在本地PC中的安卓模拟器，则只能被识别为同一个手柄。
 
 > [!bug] 不能使用ksx的情形与解决方案
-> [参考论坛链接1](https://www.reddit.com/r/MouseReview/comments/178ow3g/any_mice_i_plug_in_just_wont_work_unless_i/?show=original)，[参考论坛链接2](https://www.reddit.com/r/VALORANT/comments/genkxg/support_guide_to_fix_vanguard_disabling_mouse/?show=original)
+> 鸣谢：[参考论坛链接1](https://www.reddit.com/r/MouseReview/comments/178ow3g/any_mice_i_plug_in_just_wont_work_unless_i/?show=original)，[参考论坛链接2](https://www.reddit.com/r/VALORANT/comments/genkxg/support_guide_to_fix_vanguard_disabling_mouse/?show=original)
 > 
-> **<span style="color: #ff7575">有无畏契约的设备不能使用ksx</span>**
+> **<span style="color: #ff7575">安装了无畏契约或者其他带rootkit反作弊程序的FPS或MOBA游戏的设备不能使用ksx</span>**
 > 
-> 如果你的电脑有**无畏契约**，则无畏契约反作弊程序在运行时不允许新的或者更改 PC 输入的操作，因为它是注册表 rootkit 级别的反作弊。而ksx会在使用前安装interception驱动程序，这会被反作弊程序识别并导致驱动程序无法加载，**<span style="color: #ff7575">从而导致鼠标或者键盘无法使用</span>**。
+> 如果你的电脑有**无畏契约**，则无畏契约rootkit反作弊程序在运行时不允许新的或者更改 PC 输入的操作，因为它是注册表 rootkit 级别的反作弊。而ksx会在使用前安装interception驱动程序并修改注册表的UpperFilters值，这会被反作弊程序识别并导致驱动程序无法加载，**<span style="color: #ff7575">从而导致鼠标或者键盘无法使用</span>**。
 > 
 > 这个问题的解决方案是在鼠标无法使用的情况下进行的：
 > - `win + S`以打开搜索，在搜索框中搜索`CMD`，搜索结果就会只有一个命令提示符。
 > - 使用方向键将选中框移动到`以管理员身份运行`，然后按回车以运行命令提示符。
-> - 在命令提示符中输入以下两条命令，其中的**<span style="color: #ff7575">下划线请替换成空格</span>** ，每条命令输入完时按回车以执行：
-> 	- `reg_add_"HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e96b-e325-11ce-bfc1-08002be10318}"_/v_UpperFilters_/t_REG_MULTI_SZ_/d_kbdclass_/f`
-> 	- `reg_add_"HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e96f-e325-11ce-bfc1-08002be10318}"_/v_UpperFilters_/t_REG_MULTI_SZ_/d_mouclass_/f`
+> - 在命令提示符中输入以下两条命令，其中的**<span style="color: #ff7575">@请替换成空格</span>** ，每条命令输入完时按回车以执行：
+> 	- `reg@add@"HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e96b-e325-11ce-bfc1-08002be10318}"@/v@UpperFilters@/t@REG_MULTI_SZ@/d@kbdclass@/f`
+> 	- `reg@add@"HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e96f-e325-11ce-bfc1-08002be10318}"@/v@UpperFilters@/t@REG_MULTI_SZ@/d@mouclass@/f`
 > - 执行完以上命令后，重启电脑即可，此时大概鼠标/键盘驱动程序就会正常运行了
+> 
+> 以上解决方案通过将“`UpperFilters`”设置回正确的值来解决问题，interception的卸载程序也做了这些事情。
+
 # 修复directX
 
 [点击本链接](https://caiyun.139.com/w/i/2qidXB7beA7m3)下载directX修复工具，提取码: `h1hp`
