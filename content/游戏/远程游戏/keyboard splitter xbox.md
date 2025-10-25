@@ -17,6 +17,8 @@ aliases:
 > [!bug] 不能使用ksx的情形与解决方案
 > [参考论坛链接1](https://www.reddit.com/r/MouseReview/comments/178ow3g/any_mice_i_plug_in_just_wont_work_unless_i/?show=original)，[参考论坛链接2](https://www.reddit.com/r/VALORANT/comments/genkxg/support_guide_to_fix_vanguard_disabling_mouse/?show=original)
 > 
+> **<span style="color: #ff7575">有无畏契约的设备不能使用ksx</span>**
+> 
 > 如果你的电脑有**无畏契约**，则无畏契约反作弊程序在运行时不允许新的或者更改 PC 输入的操作，因为它是注册表 rootkit 级别的反作弊。而ksx会在使用前安装interception驱动程序，这会被反作弊程序识别并导致驱动程序无法加载，**<span style="color: #ff7575">从而导致鼠标或者键盘无法使用</span>**。
 > 
 > 这个问题的解决方案是在鼠标无法使用的情况下进行的：
