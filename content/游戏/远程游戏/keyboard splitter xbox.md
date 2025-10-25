@@ -22,9 +22,9 @@ aliases:
 > 这个问题的解决方案是在鼠标无法使用的情况下进行的：
 > - `win + S`以打开搜索，在搜索框中搜索`CMD`，搜索结果就会只有一个命令提示符。
 > - 使用方向键将选中框移动到`以管理员身份运行`，然后按回车以运行命令提示符。
-> - 在命令提示符中输入以下两条命令，每条命令输入完时按回车以执行：
-> 	- `reg add "HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e96b-e325-11ce-bfc1-08002be10318}" /v UpperFilters /t REG_MULTI_SZ /d kbdclass /f`
-> 	- `reg add "HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e96f-e325-11ce-bfc1-08002be10318}" /v UpperFilters /t REG_MULTI_SZ /d mouclass /f`
+> - 在命令提示符中输入以下两条命令，其中的**<span style="color: #ff7575">下划线请替换成空格</span>** ，每条命令输入完时按回车以执行：
+> 	- `reg_add_"HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e96b-e325-11ce-bfc1-08002be10318}"_/v_UpperFilters_/t_REG_MULTI_SZ_/d_kbdclass_/f`
+> 	- `reg add_"HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e96f-e325-11ce-bfc1-08002be10318}"_/v_UpperFilters_/t_REG_MULTI_SZ_/d_mouclass_/f`
 > - 执行完以上命令后，重启电脑即可，此时大概鼠标/键盘驱动程序就会正常运行了
 # 修复directX
 
