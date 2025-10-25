@@ -14,6 +14,11 @@ aliases:
 > [!question] ksx的多个虚拟手柄能否被分别识别？
 > ksx可以虚拟4个Xbox手柄，目前已知可以在本地PC中可被最多独立识别成4个手柄，但是在本地PC中的安卓模拟器，则只能被识别为同一个手柄。
 
+> [!bug] 不能使用ksx的情形与解决方案
+> 如果你的电脑有无畏契约，则
+
+
+
 # 修复directX
 
 [点击本链接](https://caiyun.139.com/w/i/2qidXB7beA7m3)下载directX修复工具，提取码: `h1hp`
