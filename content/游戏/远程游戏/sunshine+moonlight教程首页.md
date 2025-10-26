@@ -12,5 +12,5 @@ Sunshine 是 Moonlight 的**自托管的游戏串流主机**。提供低延迟�
 - 如果设备不在同一个局域网，则需要按照[本链接教程](游戏/远程游戏/zerotier虚拟局域网.md)将两台设备进行虚拟局域网组网。请提前记录双方各自的虚拟局域网IP
 - 双方都[安装并配置sunshine](游戏/远程游戏/sunshine+moonlight/安装并配置sunshine.md)
 - 双方都[安装并配置moonlight](游戏/远程游戏/sunshine+moonlight/安装并配置moonlight.md)
-- 根据
+- 根据[串流教程](游戏/远程游戏/sunshine+moonlight/串流教程.md)进行串流
 
