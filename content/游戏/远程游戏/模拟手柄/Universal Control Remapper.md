@@ -15,7 +15,7 @@ Universal Control Remapper（**UCR**） 是一个 **Windows 应用程序**，它
 
 
 > [!bug] UCR的致命缺陷
-> UCR会持续地偶发卡键，非常影响游戏操作，请停止阅读本文，跳转到平替产品[keyboard splitter xbox](游戏/远程游戏/keyboard%20splitter%20xbox.md)教程
+> UCR会持续地偶发卡键，非常影响游戏操作，请停止阅读本文，跳转到平替产品[keyboard splitter xbox](游戏/远程游戏/模拟手柄/keyboard%20splitter%20xbox.md)教程
 
 # 安装UCR
 

@@ -7,7 +7,7 @@ aliases:
 
 随着高性能、低成本视频处理芯片的推出，很明显，以极低的延迟通过互联网传输视频是可能的。从那时起，我们一直痴迷于通过广域网完善点对点、低延迟的游戏流媒体。本指南介绍了如何开始使用我们的低延迟游戏流媒体技术，无论您是想与朋友一起玩还是远程连接到自己的设备。
 
-如果您有一台 Windows 计算机，则可以**将您的计算机变成“主机”**。并使用手柄（或者[虚拟手柄](游戏/远程游戏/keyboard%20splitter%20xbox.md)）、鼠标或键盘低延迟地共享整个屏幕、玩游戏或执行任何操作。
+如果您有一台 Windows 计算机，则可以**将您的计算机变成“主机”**。并使用手柄（或者[虚拟手柄](游戏/远程游戏/模拟手柄/keyboard%20splitter%20xbox.md)）、鼠标或键盘低延迟地共享整个屏幕、玩游戏或执行任何操作。
 
 **请严格按照以下教程的顺序一步步操作！**
 
@@ -29,7 +29,7 @@ aliases:
 		- 双方公网IPV6+Parsec： https://test-ipv6.com/
 		- NAT类型
 		- 申请公网IPv4
-		- [zerotier](游戏/远程游戏/zerotier虚拟局域网.md)+ moon +Parsec：**<span style="color: #ff7575">当前使用方案</span>**
+		- [zerotier](游戏/远程游戏/虚拟局域网/zerotier虚拟局域网.md)+ moon +Parsec：**<span style="color: #ff7575">当前使用方案</span>**
 		- sunshine+moonlight+zerotier+moon
 			- 视频教程： https://www.bilibili.com/video/BV1oN4ne5Ehg
 			- 文本教程： https://zhuanlan.zhihu.com/p/718510054
