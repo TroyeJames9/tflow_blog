@@ -65,7 +65,7 @@ aliases:
 
 本指南的愿景是让新手无痛入手、入门、精通 the spike cross。包括以下栏目：
 
-- [**the spike安装教程**](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装前置条件.md)：支持windows、MAC、iOS，android。
+- [**the spike安装教程**](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装前置条件.md)：流程包括 **<span style="color: #ff7575">账号注册、魔法加速、安装游戏</span>** ，支持windows、MAC、iOS，android。
 - **[the spike百科首页](游戏/The%20Spike%20Cross/游戏百科/the%20spike百科首页.md)**：啥都有，不容错过。**包含各类常驻比赛攻略**。
 - `the spike PVP 指南`：敬请期待！
 - [**破解版情报**](游戏/The%20Spike%20Cross/the%20spike破解.md)：支持windows、MAC、iOS，android。
