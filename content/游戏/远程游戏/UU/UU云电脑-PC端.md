@@ -1,5 +1,5 @@
 ---
-title: UU云电脑-PC端说明
+title: UU云电脑-PC端
 aliases:
   - UU_PC
 ---
