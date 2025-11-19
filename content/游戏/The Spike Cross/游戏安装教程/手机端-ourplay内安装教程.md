@@ -1,5 +1,5 @@
 ---
-title: 安卓端-ourplay内安装教程
+title: 手机端-ourplay内安装教程
 aliases:
   - TheSpike/ourplay
   - ourplay

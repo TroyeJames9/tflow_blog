@@ -6,7 +6,7 @@ tags: []
 ---
 本文章永久分享链接： https://tflow.top/TheSpike/mod
 
-破解版无法[通过ourplay使用](游戏/The%20Spike%20Cross/游戏安装教程/安卓端-ourplay内安装教程.md)
+破解版无法[通过ourplay使用](游戏/The%20Spike%20Cross/游戏安装教程/手机端-ourplay内安装教程.md)
 
 已知的破解方式有：[付费私服订阅](游戏/The%20Spike%20Cross/the%20spike破解.md#付费在线破解-私服订阅)、[免费离线破解](游戏/The%20Spike%20Cross/the%20spike破解.md#免费离线破解)，任选一种进行破解。
 
@@ -101,7 +101,7 @@ tags: []
 > [!tip] 提示
 > 安装破解版前，请卸载正版（如果正版在ourplay里则不需要卸载），然后再安装破解版本，在play商店中查看正版是否显示为`安装`2字，如未显示则与正版冲突，即破解与正版无法在同一设备共存。
 > 
-> 共存的办法：本机使用破解的同时，在[ourplay](游戏/The%20Spike%20Cross/游戏安装教程/安卓端-ourplay内安装教程.md)中安装正版即可（打开ourplay时，可选择使用 手机的魔法来加速 或者 ourplay的自带加速）
+> 共存的办法：本机使用破解的同时，在[ourplay](游戏/The%20Spike%20Cross/游戏安装教程/手机端-ourplay内安装教程.md)中安装正版即可（打开ourplay时，可选择使用 手机的魔法来加速 或者 ourplay的自带加速）
 
 截止2025年9月18日，我所归档的球员最全且数值上限为999的破解版本 -> [单击下载](https://caiyun.139.com/w/i/2pbtXqCsHUU2x)，提取码：`8ozk`
 
