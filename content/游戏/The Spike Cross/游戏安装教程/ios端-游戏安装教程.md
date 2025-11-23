@@ -16,7 +16,7 @@ aliases:
 
 [点击本教程](科学/美区%20Apple%20ID%20注册教程.md) 学习如何获取外区ID。
 
-获取外区ID后，请使用美区ID登陆app store，然后搜索`the spike cross`以安装游戏。
+获取外区ID后，请使用外区ID登陆app store，然后搜索`the spike cross`以安装游戏。
 
 安装游戏后，你是无法正常登陆游戏的，请继续完成下面的内容。
 

@@ -21,8 +21,6 @@ aliases:
 
 推荐选择[点击本链接](https://appleid.apple.com/cn/) 进入苹果中国官网来注册全新的中国区Apple ID用于转区，**<span style="color: #ff7575">转区前需要先登入 App Store 下载安装任意免费软件比如抖音，请注意这一步很重要别偷懒哦！</span>**
 
-如果你**没有闲置的国区ID或者没有未注册过appleID的邮箱，也可以直接通过以下步骤将原先的apple账号转为美区**。可能**麻烦的地方在于**：app store 下载外区软件时要将账号的国家/地区切换为美区，下载国区软件时要将账号的国家/地区切换为国区。
-
 ## 登入苹果中国官网
 
 iphone[点击本链接](https://appleid.apple.com/cn/) 进入苹果中国官网，输入你要转为美区的中国区 Apple ID 和密码，点击“登录”。
@@ -51,7 +49,9 @@ iphone[点击本链接](https://appleid.apple.com/cn/) 进入苹果中国官网
 注册完成后，大家就可以从App Store登录美区ID，然后下载自己想要的App。但是注意的是：一定不要从iCloud登录，这个容易封号，导致手机被锁死，不要冒这个风险。
 
 > [!warning] 封号风险
-> 如果你是**<span style="color: #ff7575">非闲置的国区ID转美区</span>**的，当下载或更新所需软件后请及时切换回国区，避免封号风险
+> - 如果你是**<span style="color: #ff7575">非闲置的国区ID转美区</span>** 的，当下载或更新所需软件后请及时切换回国区，避免封号风险
+> - APPstore不要频繁登陆退出 这个美区ID，会被apple怀疑而封号
+> 
 
 # 美区 Apple ID 常见问题
 
