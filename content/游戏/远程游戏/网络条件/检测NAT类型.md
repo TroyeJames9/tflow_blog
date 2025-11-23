@@ -13,7 +13,7 @@ aliases:
 
 目前github上star数最高的RFC5780检测工具为： https://github.com/HMBSbige/NatTypeTester
 
-但除了NAT1到NAT4，**我们也不能忘了NAT0，即公网IP**，所以我们先检测设备是否支持IPv6或拥有公网IPv4，然后再使用NatTypeTester来检测NAT类型。
+但除了NAT1到NAT4，**我们也不能忘了NAT0，即公网IPv4/IPv6**，所以我们先检测设备是否支持IPv6或拥有公网IPv4，然后再使用NatTypeTester来检测NAT类型。
 
 最后会提供一些改善NAT类型的建议。
 
@@ -77,7 +77,7 @@ aliases:
 
 如果在光猫管理页面都没看到有IPv6的相关配置，**请质问你宽带的运营商，为什么不给你们分配公网IPv6** ，现在IPv6是家宽的标配。
 
-如果在路由器管理页面没有看到IPv6的相关配置， **<span style="color: #ff7575">请购买更新的支持IPv6的路由器</span>** ，推荐中兴的。比如我的是`中兴巡天AX3000`。
+如果在路由器管理页面没有看到IPv6的相关配置， **<span style="color: #ff7575">请购买更新的支持IPv6的路由器</span>** ，推荐中兴的。比如我的是`中兴巡天AX3000`。路由器的IPv6相关的默认配置一般无需修改。
 
 # RFC5780检测
 
