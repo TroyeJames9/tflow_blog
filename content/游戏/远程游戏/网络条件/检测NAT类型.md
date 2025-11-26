@@ -15,7 +15,7 @@ aliases:
 
 但除了NAT1到NAT4，**我们也不能忘了NAT0，即公网IPv4/IPv6**，所以我们先检测设备是否支持IPv6或拥有公网IPv4，然后再使用NatTypeTester来检测NAT类型。
 
-最后会提供一些改善NAT类型的建议。
+最后会提供一些改善NAT类型的建议。  
 
 # 设备是否拥有公网IPv4
 
