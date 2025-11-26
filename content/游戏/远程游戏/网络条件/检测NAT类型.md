@@ -4,7 +4,7 @@ aliases:
   - nat-type-tester
   - NatTypeTester
 ---
-本文章永久分享链接： https://tflow.top/NAT
+本文章永久分享链接： https://tflow.top/nat-type-tester
 
 > [!warning] 选读的前置资料
 > - [NAT类型](游戏/远程游戏/网络条件/NAT类型.md) 科普
