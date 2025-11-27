@@ -104,7 +104,7 @@ aliases:
 - `PortRestrictedCone`：端口限制锥形NAT3
 - `Symmetric`：对称型NAT4
 
-可见我的RFC5780的结果就是NAT3。建议**除了 第一个STUN server外，都测一测**。取出现最多次的结果。
+可见我的RFC3489的结果就是NAT3。建议**除了 第一个STUN server外，都测一测**。取出现最多次的结果。
 
 # RFC5780检测（可选）
 
