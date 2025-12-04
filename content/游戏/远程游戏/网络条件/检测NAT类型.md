@@ -9,7 +9,7 @@ aliases:
 > [!warning] 选读的前置资料
 > - [NAT类型](游戏/远程游戏/网络条件/NAT类型.md) 科普
 
-市面上的检测NAT类型的方式有python脚本、在线网页、软件。由于NAT、STUN的复杂性，所以仅推荐在软件中检测你的设备的NAT类型，且只**推荐使用RFC3489检测**。
+市面上的检测NAT类型的方式有python脚本、在线网页、软件。由于NAT、STUN的复杂性，所以仅推荐在软件中检测你的设备的NAT类型，且只**推荐使用RFC5780检测**。RFC3489已过时。
 
 目前github上star数最高的RFC3489检测工具为： https://github.com/HMBSbige/NatTypeTester
 
@@ -77,6 +77,7 @@ aliases:
 
 如果在路由器管理页面没有看到IPv6的相关配置， **<span style="color: #ff7575">请购买更新的支持IPv6的路由器</span>** ，推荐中兴的。比如我的是`中兴巡天AX3000`。路由器的IPv6相关的默认配置一般无需修改。
 
+%%
 # RFC3489检测
 
 访问 https://github.com/HMBSbige/NatTypeTester/releases 下载NatTypeTester。
@@ -103,37 +104,36 @@ aliases:
 - `Symmetric`：对称型NAT4
 
 可见我的RFC3489的结果就是NAT3。建议**除了 第一个STUN server外，都测一测**。取出现最多次的结果。
+%%
+# RFC5780检测
 
-# RFC5780检测（可选）
+访问 https://github.com/HMBSbige/NatTypeTester/releases 下载NatTypeTester。
 
-> [!WARNING]- RFC5780的检测结果有待考量，可作为参考。
-> 
-> 
-> 访问 https://github.com/HMBSbige/NatTypeTester/releases 下载NatTypeTester。
-> 
-> 如果无法正常访问以上链接，可 [点击本链接](https://sy.tflow.top/d/04ca2922d32747b5ad7a/)下载。
-> 
-> 解压后，打开文件夹，点击`x64.exe`即可运行工具。如果它提示你需要安装依赖，照做即可。
-> 
-> 正常运行后，请确保使用的是RFC5780，如图红框所示。
-> 
-> 选择了RFC5780与UDP，软件页面才会有 `mapping behavior`与`filtering behavior`两种NAT行为模式。如图所示：
-> 
-> ![|400](Afile/检测NAT类型-20251118164843818.webp)
-> 
-> `STUN server`**不要选择第一个**，即`stun.hot-chilli.net`，因为其支持IPv6，无法正常检测IPv4的NAT类型。
-> 
-> 选好server后，点击右下角的`test`，等待检测结果出来。我的结果如图所示：
-> 
-> ![|400](Afile/检测NAT类型-20251118165315681.webp)
-> 
-> 可见我的RFC5780的结果就是NAT3。下面提供索引列表，可据此确定你的NAT类型。
-> 
-> - mapping和filtering结果均为EndpointIndependent： `NAT1`
-> - mapping结果为EndpointIndependent，filtering结果为AddressDependent：`NAT2`
-> - mapping结果为EndpointIndependent，filtering结果为AddressAndPortDependent：`NAT3`
-> - mapping和filtering结果均为AddressAndPortDependent，：`NAT4`
-> - 其他结果：`什么都不是`，反正 **<span style="color: #ff7575">比NAT3还差</span>** 。
+如果无法正常访问以上链接，可 [点击本链接](https://sy.tflow.top/d/04ca2922d32747b5ad7a/)下载。
+
+解压后，打开文件夹，点击`x64.exe`即可运行工具。如果它提示你需要安装依赖，照做即可。
+
+正常运行后，请确保使用的是RFC5780，如图红框所示。
+
+选择了RFC5780与UDP，软件页面才会有 `mapping behavior`与`filtering behavior`两种NAT行为模式。如图所示：
+
+![|400](Afile/检测NAT类型-20251118164843818.webp)
+
+`STUN server`**不要选择第一个**，即`stun.hot-chilli.net`，因为其支持IPv6，无法正常检测IPv4的NAT类型。
+
+选好server后，点击右下角的`test`，等待检测结果出来。我的结果如图所示：
+
+![|400](Afile/检测NAT类型-20251118165315681.webp)
+
+可见我的RFC5780的结果就是NAT3。下面提供索引列表，可据此确定你的NAT类型。
+
+- mapping和filtering结果均为EndpointIndependent： `NAT1`
+- mapping结果为EndpointIndependent，filtering结果为AddressDependent：`NAT2`
+- mapping结果为EndpointIndependent，filtering结果为AddressAndPortDependent：`NAT3`
+- mapping和filtering结果均为AddressAndPortDependent，：`NAT4`
+- 其他结果：`NAT4`，反正 **<span style="color: #ff7575">比NAT3还差，比NAT4好一些</span>** 。
+
+建议**除了 第一个STUN server外，都测一测**。取出现最多次的结果。
 
 # 总结
 
