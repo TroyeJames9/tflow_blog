@@ -11,7 +11,7 @@ aliases:
 
 市面上的检测NAT类型的方式有python脚本、在线网页、软件。由于NAT、STUN的复杂性，所以仅推荐在软件中检测你的设备的NAT类型，且只**推荐使用RFC5780检测**。RFC3489已过时。
 
-目前github上star数最高的RFC3489检测工具为： https://github.com/HMBSbige/NatTypeTester
+目前github上star数最高的RFC5780检测工具为： https://github.com/HMBSbige/NatTypeTester
 
 但除了NAT1到NAT4，**我们也不能忘了NAT0，即公网IPv4/IPv6**，所以我们先检测设备是否支持IPv6或拥有公网IPv4，然后再使用NatTypeTester来检测NAT类型。
 
