@@ -10,7 +10,7 @@ aliases:
 Parsec 适用于 **macOS 10.15 （Catalina） 或更高版本，并且需要 Metal 支持**。Parsec 不支持区分大小写的文件系统。对于作为主机的mac，Parsec 还最好需要 2019 年或更新的硬件。有关支持的硬件的详细信息，请查看我们的[硬件和软件要求](https://support.parsec.app/hc/en-us/articles/32381568346644-Hardware-and-Software-Compatibility)。
 
 > [!warning] 学习本文的前提条件
-> 掌握[开源魔法配置](科学/开源魔法配置.md)的内容，**<span style="color: #ff7575">以下教程与parsec使用期间需要你的相关设备保持魔法为开启状态</span>**
+> 掌握[开源魔法-链接导入版](科学/开源魔法-链接导入版.md)的内容，**<span style="color: #ff7575">以下教程与parsec使用期间需要你的相关设备保持魔法为开启状态</span>**
 
 # 安装
 
