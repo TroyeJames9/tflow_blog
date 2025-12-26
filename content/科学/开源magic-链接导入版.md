@@ -31,7 +31,7 @@ aliases:
 # 第二步：购买订阅
 
 > [!EXAMPLE] 需要代购？
-> [联系tflow](杂记/如何联系tflow？.md)购买8元/月的性价比订阅，提供一切指导。
+> [联系tflow](杂记/如何联系tflow？.md)购买7元/月的性价比订阅，提供一切指导。
 
 购买订阅推荐可参见[本链接](https://jichangtuijian.com/ssr-v2ray%E4%B8%93%E7%BA%BF%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90.html)。
 
