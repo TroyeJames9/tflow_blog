@@ -1,5 +1,5 @@
 ---
-title: 开源魔法-内部版
+title: 开源magic-内部版
 aliases:
   - proxy/file-import
 ---
@@ -17,9 +17,9 @@ tflow提供的配置文件的价格为8元/月，会私发给你，如下红框�
 
 复制好魔法配置链接后，下面这个列表列出三个软件的导入教程，点击对应教程即可跳转哦↓
 
-- ![](Afile/开源魔法-文件导入版-20251206183632239.webp) [cxxxh verge rev导入教程](科学/开源魔法-内部版.md#cxxxh%20verge%20rev导入教程)：用于windows，mac
-- ![](Afile/开源魔法-文件导入版-20251206183552069.webp)[ cxxxh meta for android导入教程](科学/开源魔法-内部版.md#cxxxh%20meta%20for%20android导入教程)：用于android
-- ![](Afile/开源魔法-文件导入版-20251207085110054.webp) [cxxxh mi 导入教程](科学/开源魔法-内部版.md#cxxxh%20mi%20导入教程)：用于Android，ios
+- ![](Afile/开源魔法-文件导入版-20251206183632239.webp) [cxxxh verge rev导入教程](科学/开源magic-内部版.md#cxxxh%20verge%20rev导入教程)：用于windows，mac
+- ![](Afile/开源魔法-文件导入版-20251206183552069.webp)[ cxxxh meta for android导入教程](科学/开源magic-内部版.md#cxxxh%20meta%20for%20android导入教程)：用于android
+- ![](Afile/开源魔法-文件导入版-20251207085110054.webp) [cxxxh mi 导入教程](科学/开源magic-内部版.md#cxxxh%20mi%20导入教程)：用于Android，ios
 
 `xxx`等同于`las"
 # cxxxh verge rev导入教程

@@ -1,5 +1,5 @@
 ---
-title: 开源魔法-续费
+title: 开源magic-续费
 aliases:
   - proxy/renew
 ---
