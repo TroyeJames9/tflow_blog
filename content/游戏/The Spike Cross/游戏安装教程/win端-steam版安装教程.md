@@ -37,7 +37,7 @@ aliases:
 
 # 注册并安装steam
 
-访问 https://store.steampowered.com/ 来注册并安装steam，建议使用gmail邮箱（即上一步注册的google）
+访问 https://store.steampowered.com/ 来注册并安装steam
 
 应该比较简单，不赘述了
 
