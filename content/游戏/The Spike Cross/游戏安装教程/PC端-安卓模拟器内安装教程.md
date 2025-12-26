@@ -11,7 +11,7 @@ aliases:
 
 # 安装国际版mumuplayer 12并配置
 
-访问 https://www.mumuplayer.com/ ，根据自己的设备选择对应版本下载并安装
+务必开启**<span style="color: #ff7575">全局</span>**魔法访问 https://www.mumuplayer.com/ ，根据自己的设备选择对应版本下载并安装
 
 首先我们要将语言修改为繁体中文，点击如图图标的`设置中心`进行修改
 
