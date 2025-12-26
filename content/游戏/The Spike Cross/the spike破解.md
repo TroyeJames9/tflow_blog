@@ -6,8 +6,6 @@ tags: []
 ---
 本文章永久分享链接： https://tflow.top/TheSpike/mod
 
-破解版无法[通过ourplay使用](游戏/The%20Spike%20Cross/游戏安装教程/手机端-ourplay内安装教程.md)
-
 已知的破解方式有：[付费私服订阅](游戏/The%20Spike%20Cross/the%20spike破解.md#付费在线破解-私服订阅)、[免费离线破解](游戏/The%20Spike%20Cross/the%20spike破解.md#免费离线破解)，任选一种进行破解。
 
 其中，[免费离线破解](游戏/The%20Spike%20Cross/the%20spike破解.md#免费离线破解)无需魔法或加速，其余需要魔法或加速。
@@ -24,7 +22,7 @@ tags: []
 
 > [!WARNING] 在线破解前提条件
 > - 本mod支持Android、Android模拟器、ios
-> - 已掌握 [游戏安装前置条件](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装前置条件.md) 教程的所有内容，并按照该教程在设备里（并非ourplay里）装正版the spike cross并登陆
+> - 已掌握 [游戏安装前置条件](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装前置条件.md) 教程的所有内容，并按照该教程在设备里装正版the spike cross并登陆
 > - 设备保持魔法开启的状态
 > - 如嫌麻烦且需要代购，请[联系tflow](杂记/如何联系tflow？.md)购买，提供安装包与密钥与一切指导。
 
@@ -96,7 +94,8 @@ tags: []
 %%
 已知宣传离线破解的youtuber：
 - 付费：[LSR_ID](https://www.youtube.com/@Losser_id)（价格50人民币，被盗传而停更），[WN MODDER](https://www.youtube.com/channel/UCAO2wXCsu_iS7Y6nx_We13A)（含正版全球员，价格150+人民币）
-- 免费：[ILHAM GAMING](https://www.youtube.com/@ilhamgaming484)，[𝙁𝙐𝙉𝘽𝙊𝙓 𝙄𝘿𝙎](https://www.youtube.com/@FunBoxID)，[DOL THE SPIKE](https://www.youtube.com/@dolthespike)，[Ryuu The Mods](https://www.youtube.com/@RyuuTheMods)，[THE SPIKE NAD](https://www.youtube.com/@thespikeonad)，[NK Raijuu](https://www.youtube.com/@vianzyzion.id2)%%
+- 免费：[ILHAM GAMING](https://www.youtube.com/@ilhamgaming484)，[𝙁𝙐𝙉𝘽𝙊𝙓 𝙄𝘿𝙎](https://www.youtube.com/@FunBoxID)，[DOL THE SPIKE](https://www.youtube.com/@dolthespike)，[Ryuu The Mods](https://www.youtube.com/@RyuuTheMods)，[THE SPIKE NAD](https://www.youtube.com/@thespikeonad)，[NK Raijuu](https://www.youtube.com/@vianzyzion.id2)
+%%
 
 > [!tip] 提示
 > 安装破解版前，请卸载正版（如果正版在ourplay里则不需要卸载），然后再安装破解版本，在play商店中查看正版是否显示为`安装`2字，如未显示则与正版冲突，即破解与正版无法在同一设备共存。
