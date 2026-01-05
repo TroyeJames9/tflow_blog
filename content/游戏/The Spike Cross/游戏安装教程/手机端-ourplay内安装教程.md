@@ -45,7 +45,9 @@ Ourplay本身无法加速google play以下载游戏，需要通过以下步骤�
 
 ![|362](Gaming%20via%20OurPlay-20250808181545285.webp)  ![|323](Gaming%20via%20OurPlay-20250808181639634.webp)
 
-最后选择排球游戏，点击加速即可游玩，**并选择使用apple登陆**。如图所示：
+最后选择排球游戏，点击加速即可游玩，**并选择使用apple登陆**。如图所示。
+
+如果登陆前跳转到google play，**请[联系tflow](杂记/如何联系tflow？)获取廉价的共享google账号，4元**，仅用于登陆google play，**<span style="color: #ff7575">不用于登陆游戏</span>** 。
 
 ![|354](Gaming%20via%20OurPlay-20250808181900139.webp)
 
