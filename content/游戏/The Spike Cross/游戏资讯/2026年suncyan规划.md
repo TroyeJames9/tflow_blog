@@ -73,16 +73,16 @@ aliases:
 
 #### IP联动合作
 
-我们正在筹备一项大型联动企划，并已于日本Ji Holdings公司签署合作意向书（MOU），将于2026年推出。
+我们正在筹备一项大型联动企划，并已于日本G Holdings公司签署合作意向书（MOU），将于2026年推出。
 
 #### 全新更新「虎眼」（Tiger Eyes）
 
 「虎眼」更新将于1月16日正式上线，内容包括：
 
-南宰贤（Nam Jae-Hyun）训练服技能特效重制
-洪诗（Hong Shi）新增技能
-黑色雷霆·西川（Black Thunder Nishikawa）追加“双重打击”特效
-更多详情将后续公布。
+- 南宰贤（Nam Jae-Hyun）训练服技能特效重制
+- 洪诗（Hong Shi）新增技能
+- 黑色雷霆·西川（Black Thunder Nishikawa）追加“双重打击”特效
+- 更多详情将后续公布。
 
 # 未来优化方向
 
