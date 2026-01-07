@@ -69,7 +69,6 @@ aliases:
 - **[the spike百科首页](游戏/The%20Spike%20Cross/游戏百科/the%20spike百科首页.md)**：啥都有，不容错过。**包含各类常驻比赛攻略** 和 SE制作的**游戏手册**
 - `the spike PVP 指南`：敬请期待！
 - [**破解版情报**](游戏/The%20Spike%20Cross/the%20spike破解.md)：支持windows、MAC、iOS，android。
-- [**活动与资讯速递**](游戏/The%20Spike%20Cross/游戏资讯/the%20spike资讯首页.md)：12月3日~1月7日，S+劳尔活动
 - `常见问题Q&A`
 	- **<span style="color: #ff7575">查看以下Q&A前请根据自己需求认真查看以上栏目的内容</span>**
 	- 怎么安装游戏？查阅[**如何获取the spike cross？**](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装前置条件.md)
