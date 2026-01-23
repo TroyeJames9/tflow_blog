@@ -53,6 +53,7 @@ aliases:
 
 ![|400](Afile/the%20spike%20cross%20PC版安装教程-20250920093132331.webp)
 
+**温馨提示**：确认魔法正常且默认浏览器设置为chrome时，假如跳出来的登陆链接 **未** 通过chrome打开且报错，可直接**复制该链接到chrome打开**即可。
 
 > [!question]- 登陆时如何选择其他的谷歌账号来登陆？
 > 在你的默认浏览器中访问 https://account.google.com 并添加新的账号，如图所示:
