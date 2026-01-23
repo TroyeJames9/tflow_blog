@@ -9,9 +9,10 @@ aliases:
 
 
 > [!warning] 最新活动情报
-> 1. 11月3日：机制大幅改进！[点击我查看6_3_336版本更新通知](游戏/The%20Spike%20Cross/游戏资讯/更新日志/6_3_336版本更新通知.md)
-> 2. 2025年suncyan业绩报告：[戳我查看详情](游戏/The%20Spike%20Cross/游戏资讯/suncyan动态/suncyan业绩报告.md)
-> 3. 2026年suncyan规划出炉：[戳我查看详情](游戏/The%20Spike%20Cross/游戏资讯/suncyan动态/2026年suncyan规划.md)
+> 1. 
+> 2. 11月3日：机制大幅改进！[点击我查看6_3_336版本更新通知](游戏/The%20Spike%20Cross/游戏资讯/更新日志/6_3_336版本更新通知.md)
+> 3. 2025年suncyan业绩报告：[戳我查看详情](游戏/The%20Spike%20Cross/游戏资讯/suncyan动态/suncyan业绩报告.md)
+> 4. 2026年suncyan规划出炉：[戳我查看详情](游戏/The%20Spike%20Cross/游戏资讯/suncyan动态/2026年suncyan规划.md)
 
 > [!info]- 历史活动列表
 > - 2025年12月3日~2026年1月7日：`野兽主攻活动`，[戳我查看详情](游戏/The%20Spike%20Cross/游戏资讯/活动资讯/20251203野兽主攻.md)
