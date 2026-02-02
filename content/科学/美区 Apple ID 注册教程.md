@@ -17,6 +17,8 @@ aliases:
 
 本文的美区ID注册教程，是通过将全新注册（或闲置）的中国区Apple ID ，转区到美国就行了。教程主要包括美国免税州付款方式资料填写、登录美区App Store商店。
 
+如果下面的教程看不懂，懒得看懂，那就花10元钱买个美区ID→ https://store.kxsw.org/buy/4
+
 ## 准备中国区 Apple ID
 
 推荐选择[点击本链接](https://appleid.apple.com/cn/) 进入苹果中国官网来注册全新的中国区Apple ID用于转区，**<span style="color: #ff7575">转区前需要先登入 App Store 下载安装任意免费软件比如抖音，请注意这一步很重要别偷懒哦！</span>**
