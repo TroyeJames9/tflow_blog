@@ -14,7 +14,7 @@ aliases:
 
 # 本教程的前提条件
 
-- **设备本身具备访问外网（已开启魔法）的能力**（教程参照[傻瓜式magic](科学/傻瓜式magic.md)) ，从而访问以下所涉及的所有外网资源。
+- **设备本身具备访问外网（已开启魔法）的能力**（教程参照[傻瓜式magic](国外/傻瓜式magic.md)) ，从而访问以下所涉及的所有外网资源。
 
 # 第一步：下载开源魔法工具
 
@@ -26,7 +26,7 @@ aliases:
 	- [intel芯片](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.3.1/Clash.Verge_2.3.1_x64.dmg)（Cxxxh.Verge_2.3.1_x64.dmg)
 	- [Apple Silicon M](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.3.1/Clash.Verge_2.3.1_aarch64.dmg)(Cxxxh.Verge_2.3.1_aarch64.dmg)
 - [Android安装包](https://github.com/KaringX/clashmi/releases/download/v1.0.7.115/clashmi_1.0.7.115_android_arm64-v8a.apk)（cxxxhmi_1.0.7.115_android_arm64-v8a.apk）
-- iOS安装包：app store搜索[cxxxh mi](https://apps.apple.com/us/app/clash-mi/id6744321968)下载（需要苹果外区ID，[点击查看教程](科学/美区%20Apple%20ID%20注册教程.md)）
+- iOS安装包：app store搜索[cxxxh mi](https://apps.apple.com/us/app/clash-mi/id6744321968)下载（需要苹果外区ID，[点击查看教程](国外/美区%20Apple%20ID%20注册教程.md)）
 
 # 第二步：购买订阅
 
@@ -38,7 +38,7 @@ aliases:
 在商家网站购买后，按照以下步骤复制订阅：
 
 - 在网站点击`导入订阅`或者类似包含 `订阅`的按钮
-- 选择对应设备/平台的系统，有可能还需要选择对应软件（软件一般直接选择clash）
+- 选择对应设备/平台的系统，有可能还需要选择对应软件（软件一般直接选择cxxxh）
 - 复制订阅，保留到本地，稍后会用到。
 
 ![](Mihomo%20Setup-20250808154855565.webp)

@@ -12,7 +12,7 @@ aliases:
 **请严格按照以下教程的顺序一步步操作！**
 
 > [!warning] 学习本文的前提条件
-> 掌握[开源magic-链接导入版](科学/开源magic-链接导入版.md)的内容，**<span style="color: #ff7575">并在你的所有相关设备开启魔法。</span>**
+> 掌握[开源magic-链接导入版](国外/开源magic-链接导入版.md)的内容，**<span style="color: #ff7575">并在你的所有相关设备开启魔法。</span>**
 
 - 我们首先要有一个parsec账号，请查看教程->[注册parsec账号](游戏/远程游戏/parsec/注册parsec.md)
 - 为我们的设备安装parsec并在软件中登陆，各设备的安装教程如下：
