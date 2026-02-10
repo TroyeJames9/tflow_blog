@@ -25,7 +25,7 @@ aliases:
 - macOS安装包：
 	- [intel芯片](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.3.1/Clash.Verge_2.3.1_x64.dmg)（Cxxxh.Verge_2.3.1_x64.dmg)
 	- [Apple Silicon M](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.3.1/Clash.Verge_2.3.1_aarch64.dmg)(Cxxxh.Verge_2.3.1_aarch64.dmg)
-- [Android安装包](https://github.com/KaringX/clashmi/releases/download/v1.0.7.115/clashmi_1.0.7.115_android_arm64-v8a.apk)（cxxxhmi_1.0.7.115_android_arm64-v8a.apk）
+- [Android安装包](https://github.com/KaringX/clashmi/releases/download/v1.0.17.300/clashmi_1.0.17.300_android_arm64-v8a.apk)（cxxxhmi_1.0.7.115_android_arm64-v8a.apk）
 - iOS安装包：app store搜索[cxxxh mi](https://apps.apple.com/us/app/clash-mi/id6744321968)下载（需要苹果外区ID，[点击查看教程](国外/美区%20Apple%20ID%20注册教程.md)）
 
 # 第二步：购买订阅
