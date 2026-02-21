@@ -33,7 +33,7 @@ aliases:
 
 # 游戏内购充值
 
-请查阅[美区 Apple ID 常见问题](国外/美区%20Apple%20ID%20注册教程.md#美区%20Apple%20ID%20常见问题)
+请查阅[充值问题](游戏/The%20Spike%20Cross/常见问题Q&A/游戏充值.md)
 
 
 
