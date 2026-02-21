@@ -9,7 +9,7 @@ aliases:
 
 
 > [!warning] 最新活动情报
-> 1. 从零到一活动，[戳我查看详情](游戏/The%20Spike%20Cross/游戏资讯/活动资讯/20260214静岚新年活动.md)
+> 1. 从零到一活动，[戳我查看详情](游戏/The%20Spike%20Cross/游戏资讯/活动资讯/20260224从零到一.md)
 > 2. 2026上半年开发路线图，[戳我查看详情](游戏/The%20Spike%20Cross/游戏资讯/suncyan动态/2026年上半年路线图.md)
 > 3. 2025年suncyan业绩报告：[戳我查看详情](游戏/The%20Spike%20Cross/游戏资讯/suncyan动态/suncyan业绩报告.md)
 > 4. 2026年suncyan规划出炉：[戳我查看详情](游戏/The%20Spike%20Cross/游戏资讯/suncyan动态/2026年suncyan规划.md)
