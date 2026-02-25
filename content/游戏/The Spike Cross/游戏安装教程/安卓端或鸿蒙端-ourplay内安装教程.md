@@ -1,5 +1,5 @@
 ---
-title: 手机端-ourplay内安装教程
+title: 安卓端或鸿蒙端-ourplay内安装教程
 aliases:
   - TheSpike/ourplay
   - ourplay
@@ -13,7 +13,7 @@ Ourplay本质是带有谷歌服务的安卓虚拟环境。
 > [!WARNING] 学习本教程的前置条件，你别几把不看。
 > - 必须完成[游戏安装前置条件](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装前置条件.md)的内容！！！但不需要完成配置魔法！！
 > - 本教程**<span style="color: #ff7575">全程不需要打开魔法，请关闭魔法</span>**
-> - 使用ourplay过程有任何疑问，请自行去ourplay 
+> - 使用ourplay过程有任何疑问，请自行去ourplay官方QQ群求助，游戏QQ群不提供任何答疑：
 
 # 下载并安装ourplay
 
