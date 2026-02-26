@@ -71,6 +71,7 @@ aliases:
 | **[游戏百科](游戏/The%20Spike%20Cross/游戏百科/the%20spike百科首页.md)** | - **各类常驻模式攻略**<br>- SE制作的**游戏手册**                                                                                    |
 | **[游戏资讯](游戏/The%20Spike%20Cross/游戏资讯/the%20spike资讯首页.md)** | - 活动情报+更新日志<br>- suncyan动态                                                                                           |
 | [**游戏破解**](游戏/The%20Spike%20Cross/the%20spike破解.md)        | - 支持任何设备<br>- 离线破解+私服破解                                                                                              |
+| [其他排球游戏](游戏/The%20Spike%20Cross/其他排球游戏.md)                 | - 提供安装包<br>- spike旧版，支持二传<br>- 等等                                                                                    |
 | PVP指南                                                      | - 敬请期待                                                                                                               |
 | 常见问答                                                       | 请看下方                                                                                                                 |
 
