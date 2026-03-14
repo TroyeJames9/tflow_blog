@@ -8,9 +8,9 @@ aliases:
 本栏目自2025年8月9日开启，主要发布关于the spike cross的活动、通知等资讯。将会逐步完善各类资讯，敬请期待。
 
 > [!warning] 最新活动情报
-> 1. 6.6.102版本更新通知， 比赛防守机制大改进，[戳我查看详情](游戏/The%20Spike%20Cross/游戏资讯/更新日志/6_6_102版本更新通知.md)
-> 2. 6.6.107版本更新通知，[戳我查看详情](游戏/The%20Spike%20Cross/游戏资讯/更新日志/6_6_107版本更新通知.md)
-> 3. 从零到一活动，[戳我查看详情](游戏/The%20Spike%20Cross/游戏资讯/活动资讯/20260224从零到一.md)
+> 1. 2026年3月26日，即将上线`S+主攻徐莎拉`活动！
+> 2. suncyan与《电锯人》工作室签约合作！！
+> 3. 6.6.102版本更新通知， 比赛防守机制大改进，[戳我查看详情](游戏/The%20Spike%20Cross/游戏资讯/更新日志/6_6_102版本更新通知.md)
 > 4. 2026上半年开发路线图，[戳我查看详情](游戏/The%20Spike%20Cross/游戏资讯/suncyan动态/2026年上半年路线图.md)
 > 5. 2025年suncyan业绩报告：[戳我查看详情](游戏/The%20Spike%20Cross/游戏资讯/suncyan动态/suncyan业绩报告.md)
 > 6. 2026年suncyan规划出炉：[戳我查看详情](游戏/The%20Spike%20Cross/游戏资讯/suncyan动态/2026年suncyan规划.md)
@@ -49,6 +49,7 @@ aliases:
 > > - 2025年9月18日：6_3_103逐步更新通知，支持键盘手柄与练习赛PVP ！ [戳我查看详情](游戏/The%20Spike%20Cross/游戏资讯/更新日志/6_3_XXX/6_3_103逐步更新通知.md)
 
 > [!BUG]- suncyan动态
+> - [20260314-与LO studio工作室签约](游戏/The%20Spike%20Cross/游戏资讯/suncyan动态/20260314-与LO%20studio工作室签约.md)
 > - [2026年上半年路线图](游戏/The%20Spike%20Cross/游戏资讯/suncyan动态/2026年上半年路线图.md)
 > - [2026年suncyan规划](游戏/The%20Spike%20Cross/游戏资讯/suncyan动态/2026年suncyan规划.md)
 > - [2023~2025年suncyan业绩报告](游戏/The%20Spike%20Cross/游戏资讯/suncyan动态/suncyan业绩报告.md)
