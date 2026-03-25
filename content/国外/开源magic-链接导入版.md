@@ -1,0 +1,109 @@
+---
+title: 开源magic-链接导入版
+aliases:
+  - proxy/MihomoSetup
+  - mihomo
+---
+本文章永久分享链接： https://tflow.top/proxy/MihomoSetup
+
+> [!warning] 声明
+> - 本教程仅讲解如何选购并最基本的配置操作，更多内容请自行上youtube学习。
+> - 对教程如有疑问，仅支持[在github向我提交issue](https://github.com/TroyeJames9/tflow_blog/issues)进行咨询，国内平台禁止讨论
+> - 本文结尾附带魔法的用途说明，可以了解一下~
+> - **如果看不懂，懒得看懂，不会弄的**，可以[联系tflow](杂记/如何联系tflow？.md) 进行付费全指导，附赠一切相关资源。
+
+# 本教程的前提条件
+
+- **除了ios以外的任何设备本身需具备访问外网（已开启魔法）的能力**（教程参照[傻瓜式magic](国外/傻瓜式magic.md)) ，从而访问以下所涉及的所有外网资源。
+
+# 第一步：下载开源魔法工具
+
+以下`xxx`实际为`las`，比如`axxxh`即为`alash`。
+
+打开设备已有的魔法，通过以下链接下载新版rev：
+- [WINDOWS安装包](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.3.1/Clash.Verge_2.3.1_x64-setup.exe) （Cxxxh.Verge_2.3.1_x64-setup.exe）
+- macOS安装包：
+	- [intel芯片](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.3.1/Clash.Verge_2.3.1_x64.dmg)（Cxxxh.Verge_2.3.1_x64.dmg)
+	- [Apple Silicon M](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.3.1/Clash.Verge_2.3.1_aarch64.dmg)(Cxxxh.Verge_2.3.1_aarch64.dmg)
+- [Android安装包](https://github.com/KaringX/clashmi/releases/download/v1.0.17.300/clashmi_1.0.17.300_android_arm64-v8a.apk)（cxxxhmi_1.0.7.115_android_arm64-v8a.apk）
+- iOS安装包：app store搜索[cxxxh mi](https://apps.apple.com/us/app/clash-mi/id6744321968)下载（需要苹果外区ID，[点击查看教程](国外/美区%20Apple%20ID%20注册教程.md)）
+
+# 第二步：购买订阅
+
+> [!EXAMPLE] 需要代购？
+> [联系tflow](杂记/如何联系tflow？.md)购买7元/月的性价比订阅，提供一切指导。
+
+购买订阅推荐可参见[本链接](https://jichangtuijian.com/ssr-v2ray%E4%B8%93%E7%BA%BF%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90.html)。
+
+在商家网站购买后，按照以下步骤复制订阅：
+
+- 在网站点击`导入订阅`或者类似包含 `订阅`的按钮
+- 选择对应设备/平台的系统，有可能还需要选择对应软件（软件一般直接选择cxxxh）
+- 复制订阅，保留到本地，稍后会用到。
+
+![](Mihomo%20Setup-20250808154855565.webp)
+
+# 第三步：导入配置并打开dai li
+
+## windows或者MAC的配置
+
+打开开源工具，将复制的订阅链接填入如图上方文本框，然后点击 `导入`
+
+![](Afile/开源代理工具配置-20250812150001566.webp)
+
+导入成功后点击该订阅，订阅卡片左侧有蓝色竖线则说明已选中 tflow这个订阅
+
+![](简易配置说明-20250715190834748.webp)
+
+最后如下图所示打开代理以及进行必要配置 **（下面还有测速教程哦，不要错过）**
+
+但是，请注意：**软件`代理页`如果第一个策略组显示使用的proxy为`DIRECT`或者`直连`，请遵循下面的测速教程，更换为可用节点！**
+
+![](Afile/开源代理工具配置-20250923122926340.webp)
+
+打开魔法后的proxy节点测速教程如下
+
+- 选择第一个策略组（一般是第一个，如果不确定就询问商家）并点击如下图按钮后，等待所有proxy测速完，所有proxy右侧都会显示延迟，红色即为该proxy不可用
+- 蓝色样式的proxy即为当前使用proxy
+
+浏览器访问 www.google.com ，魔法配置成功则不会报错
+
+![](Afile/代购流程-20250901104528008.webp)
+
+## 安卓与iOS的配置
+
+选择APP首页菜单`我的配置` -> 右上角 ➕ 号按钮 -> 选择`添加配置链接`，粘贴上一步复制的订阅。点击右上角确定√
+
+![|348](Mihomo%20Setup-20250808160910064.webp)
+
+添加成功后，会跳转到 `我的配置`的页面，如下所示，然后返回APP首页, 滑动打开连接按钮 ▶️ 即可开始您的科学上网之旅了 ！**（下面还有测速教程哦，不要错过！）**
+
+但是，请注意：**软件首页`代理`下方如果显示`DIRECT`或者直连，请遵循下面的测速教程，更换为可用节点！**
+
+![|365](Mihomo%20Setup-20250808161009184.webp)
+
+![|320](Mihomo%20Setup-20250808161014765.webp)
+
+proxy节点测速教程如下
+
+点击软件中间的`代理`，点击下图红框的策略组（一般选择第一个策略组），然后会弹出proxy列表
+
+然后右上角有一个闪电图标，点击他就是对所有节点测速，测速可能要一会儿，稍等它测完，并刷新所有数字出来（即延迟）
+
+，然后在弹出的proxy列表中随意选择延迟低的proxy即可
+
+每个节点下方的数字就是这个节点的延迟，如果是红色就代表该节点不可用，以后就可以自己排查了
+
+chrome浏览器访问 www.google.com 测试一下，随便搜个东西看看是否顺畅
+
+![|328](Afile/代购流程-20250824172621475.webp)
+
+# 开启魔法后能用/看什么
+
+开魔法后可详细查看[本链接](https://github.com/chinavpns/hot-site)说明，**请勿使用魔法在任何软件发表任何言论**
+
+# 后续路线
+
+- 协议研究： https://www.nbhd.cloud/2025-fan-qiang-xie-yi-shen-du-dui-bi-ji-zhu-fen-xi-bao-gao/
+- 不良林自建学习
+- xray core文档
