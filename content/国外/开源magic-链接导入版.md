@@ -10,7 +10,7 @@ aliases:
 > - 本教程仅讲解如何选购并最基本的配置操作，更多内容请自行上youtube学习。
 > - 对教程如有疑问，仅支持[在github向我提交issue](https://github.com/TroyeJames9/tflow_blog/issues)进行咨询，国内平台禁止讨论
 > - 本文结尾附带魔法的用途说明，可以了解一下~
-> - **如果看不懂，懒得看懂，不会弄的**，可以[联系tflow](杂记/如何联系tflow？.md) 进行付费全指导，附赠一切相关资源。
+> - **如果看不懂，懒得看懂，不会弄的**，可以[点击我联系tflow](杂记/如何联系tflow？.md) 进行付费全指导，附赠一切相关资源。
 
 # 本教程的前提条件
 
@@ -31,7 +31,7 @@ aliases:
 # 第二步：购买订阅
 
 > [!EXAMPLE] 需要代购？
-> [联系tflow](杂记/如何联系tflow？.md)购买7元/月的性价比订阅，提供一切指导。
+> [点击我联系tflow](杂记/如何联系tflow？.md)购买7元/月的性价比订阅，提供一切指导。
 
 购买订阅推荐可参见[本链接](https://jichangtuijian.com/ssr-v2ray%E4%B8%93%E7%BA%BF%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90.html)。
 

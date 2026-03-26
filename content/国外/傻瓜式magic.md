@@ -23,7 +23,7 @@ aliases:
 
 > [!TIP] 提示
 > - 快连、pionner等支持PC的魔法 **<span style="color: #ff7575">可利用其免费试用期来在PC端注册或登陆谷歌</span>** 
-> - 强烈建议掌握[开源magic-链接导入版](国外/开源magic-链接导入版.md)的内容，其支持Windows，MAC，IOS，Android。且开源工具绝对会比快连等更具性价比。如果嫌麻烦，可以[联系tflow](杂记/如何联系tflow？.md)获取7元/月的订阅，包指导和售后
+> - 强烈建议掌握[开源magic-链接导入版](国外/开源magic-链接导入版.md)的内容，其支持Windows，MAC，IOS，Android。且开源工具绝对会比快连等更具性价比。如果嫌麻烦，可以[点击我联系tflow](杂记/如何联系tflow？.md)获取7元/月的订阅，包指导和售后
 
 # 以起飞为例
 

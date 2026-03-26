@@ -7,7 +7,7 @@ aliases:
 
 本文参考资料： https://shuziyimin.net/account/appleid
 
-> [!TIP] 需要付费指导或者代购外国AppleID？[联系tflow](杂记/如何联系tflow？.md) %%谷歌 苹果 海外ID购买%%
+> [!TIP] 需要付费指导或者代购外国AppleID？[点击我联系tflow](杂记/如何联系tflow？.md) %%谷歌 苹果 海外ID购买%%
 
 本文包含 **获取美区ID** 与 **美区ID常见问题** 两个部分内容。
 
@@ -32,7 +32,7 @@ aliases:
 
 本文的美区ID注册教程，是通过将全新注册（或闲置）的中国区Apple ID ，转区到美国就行了。教程主要包括美国免税州付款方式资料填写、登录美区App Store商店。
 
-如果下面的教程看不懂，懒得看懂，不会弄，[联系tflow](杂记/如何联系tflow？.md) 购买外区ID（10元）
+如果下面的教程看不懂，懒得看懂，不会弄，点击我[联系tflow](杂记/如何联系tflow？.md) 购买外区ID（10元）
 
 ## 准备中国区 Apple ID
 
