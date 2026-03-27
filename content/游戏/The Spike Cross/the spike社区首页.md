@@ -70,6 +70,7 @@ aliases:
 | [**游戏安装登录**](游戏/The%20Spike%20Cross/游戏安装教程/游戏安装前置条件.md)    | - **<span style="color: #ff7575">账号注册、魔法加速</span>**<br>- **<span style="color: #ff7575">安装并登陆游戏</span>**<br>- 支持所有设备 |
 | **[游戏资讯](游戏/The%20Spike%20Cross/游戏资讯/the%20spike资讯首页.md)** | - 活动情报+更新日志<br>- suncyan动态                                                                                           |
 | [**游戏破解**](游戏/The%20Spike%20Cross/the%20spike破解.md)        | - 支持任何设备<br>- 离线破解+私服破解                                                                                              |
+| 游戏手册<br>小程序                                                | - 查阅Q群的群精华                                                                                                           |
 | [其他排球游戏](游戏/The%20Spike%20Cross/其他排球游戏.md)                 | - 提供安装包<br>- spike旧版，支持二传<br>- 等等                                                                                    |
 | PVP指南                                                      | - 敬请期待                                                                                                               |
 | 常见问答                                                       | 请看下方                                                                                                                 |
