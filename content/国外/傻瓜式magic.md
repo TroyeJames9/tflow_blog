@@ -10,7 +10,7 @@ aliases:
 本网页必须复制到**微软浏览器**访问，从而避免以下链接被国产浏览器拦截。
 
 目前仍然可用的免费魔法有：
-- `pioneer`，[官网链接](https://www.pioneeraaa.com/)，有限时免费，适合用来下载下面的其他魔法， **<span style="color: #ff7575">全平台可用</span>**，
+- `pioneer`，[官网链接](https://www.pioneeraaa.com/)，有限制的永久免费， **<span style="color: #ff7575">全平台可用</span>**，
 - `海鸥`： **<span style="color: #ff7575">稳定性好</span>** ， [官网下载链接](https://seagulltool.web.app/index.html) ，需要开启pioneer才能访问海鸥官网下载链接，**<span style="color: #ff7575">仅限安卓设备</span>**
 - `绿茶`： **<span style="color: #ff7575">稳定性好</span>**， [官网下载链接](https://www.lvcha.org/)，需要开启pioneer才能访问绿茶官网下载链接，**<span style="color: #ff7575">仅限安卓设备</span>**
 - `外星仔加速器`：[官网下载链接](https://www.et001.com/)， **<span style="color: #ff7575">仅限安卓设备。</span>** 只用来加速游戏本身。不加速**google play**。
