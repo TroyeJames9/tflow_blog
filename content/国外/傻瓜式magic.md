@@ -17,7 +17,7 @@ aliases:
 
 目前仍然可用的付费魔法有：
 - 快连， [官网链接](https://www.fast-kuailian.com/)， 有72小时免费试用期，**<span style="color: #ff7575">全平台可用</span>**，非常贵，20人民币1个月
-- pioneer，[官网链接](https://www.pioneeraaa.com/)，有限时免费，**<span style="color: #ff7575">全平台可用</span>**，非常贵，20人民币一个月，年付比快连便宜
+- pioneer，[官网链接](https://www.pioneeraaa.com/)，可免费使用，**<span style="color: #ff7575">全平台可用</span>**，付费则非常贵，20人民币一个月，年付比快连便宜
 
 **魔法的使用步骤通常为：对魔法进行测速、选择延迟最低的魔法、开启魔法**
 
