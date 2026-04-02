@@ -11,7 +11,9 @@ aliases:
 
 # 安装国际版mumuplayer 12并配置
 
-务必开启 **<span style="color: #ff7575">全局</span>** 魔法 和 浏览器无痕模式 访问 https://www.mumuplayer.com/ ，根据自己的设备选择对应版本下载并安装
+务必开启 **<span style="color: #ff7575">全局</span>** 魔法 和 浏览器无痕模式 访问 https://www.mumuplayer.com/ ，根据自己的设备选择对应版本下载并安装，**务必确认以下界面才是国际版界面**
+
+![](Afile/PC端-安卓模拟器内安装教程-20260402111429617.webp)
 
 首先我们要将语言修改为繁体中文，点击如图图标的`设置中心`进行修改
 
