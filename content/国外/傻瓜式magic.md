@@ -11,7 +11,7 @@ aliases:
 
 目前仍然可用的免费魔法有：
 - `星驰加速`， [官网链接](https://xingchivpn.com/) ，限时半小时免费，**<span style="color: #ff7575">全平台可用</span>**
-- %%`pioneer`，[官网链接](https://www.pioneeraaa.com/)，限时免费，20人民币一个月， **<span style="color: #ff7575">全平台可用</span>**，%%
+- %%`pioneer`或`通宝VPN`，[官网链接](https://www.pioneeraaa.com/)，限时免费，20人民币一个月， **<span style="color: #ff7575">全平台可用</span>**，%%
 - `海鸥`： **<span style="color: #ff7575">稳定性好</span>** ， [官网下载链接](https://seagulltool.web.app/index.html) ，需要开启星驰才能访问海鸥官网下载链接，**<span style="color: #ff7575">仅限安卓设备</span>**
 - `绿茶`： **<span style="color: #ff7575">稳定性好</span>**， [官网下载链接](https://www.lvcha.org/)，需要开启星驰才能访问绿茶官网下载链接，**<span style="color: #ff7575">仅限安卓设备</span>**
 - `外星仔加速器`：[官网下载链接](https://www.et001.com/)， **<span style="color: #ff7575">仅限安卓设备。</span>** 只用来加速游戏本身。不加速**google play**。
