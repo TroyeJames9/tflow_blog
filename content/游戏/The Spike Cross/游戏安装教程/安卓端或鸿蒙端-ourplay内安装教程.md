@@ -17,7 +17,7 @@ Ourplay本质是带有谷歌服务的安卓虚拟环境。
 
 # 下载并安装ourplay
 
-浏览器访问ourplay[官网](https://www.ourplay.net/) ，点击`APP下载`，然后点击APK包 安装ourplay
+手机自带浏览器访问ourplay[官网](https://www.ourplay.net/) ，点击`APP下载`，然后点击APK包 安装ourplay
 
 # 获取游戏安装包
 
@@ -25,7 +25,7 @@ Ourplay本身无法加速google play以下载游戏，需要通过以下步骤�
 
 ## 下载gamestoday并导入到ourplay
 
-手机访问gamestoday[官网](http://www.hotplaygames.com)，点击上方的`download`按钮下载 安装包，但**无需安装gamestoday**！
+手机自带浏览器访问gamestoday[官网](http://www.hotplaygames.com)，点击上方的`download`按钮下载 安装包，但**无需安装gamestoday**！
 
 打开ourplay点击`导入应用`，选择`安装包`，然后找到gamestoday安装包，点击安装。如下图所示
 
