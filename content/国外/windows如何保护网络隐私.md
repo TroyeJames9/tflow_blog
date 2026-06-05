@@ -45,7 +45,11 @@ reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\DNSClient" /v DisableSmartN
 
 将上面的指令粘贴到窗口中并按 回车键 执行。执行完成后，重启电脑即可。
 
+重启完再次 开启虚拟网卡模式，分流规则选择全局，打开 [https://browserleaks.com/dns](https://browserleaks.com/dns)，如果这次不出现中国 DNS 地址则 解决了DNS泄露的隐私风险。
 
+**<span style="color: #ff7575">解决问题后，记得将分流规则重新选择为规则，从而避免影响国内服务访问。</span>**
+
+# 关闭浏览器QUIC功能
 
 
 
