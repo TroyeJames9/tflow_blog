@@ -66,6 +66,10 @@ mumuplayer会默认提供1个安卓设备，点击如图的按钮对该安卓设
 
 游玩**私服破解**的用户 **<span style="color: #ff7575">无需</span>** 登陆google play并安装游戏
 
+游玩**私服破解**的用户 **<span style="color: #ff7575">无需</span>** 登陆google play并安装游戏
+
+游玩**私服破解**的用户 **<span style="color: #ff7575">无需</span>** 登陆google play并安装游戏
+
 登陆google play后，搜索 `the spike cross`，安装游戏，然后登陆即可
 
 > [!warning] 重要提示
