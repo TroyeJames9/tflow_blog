@@ -53,7 +53,7 @@ tags: []
 
 **<span style="color: #ff7575">半私服basic套餐</span>** 
 
-- 解锁全部球员，包括S+白时宇 ，S+梦魇劳尔
+- 解锁全部球员，包括S+白时宇 
 - 解锁全部库存物品（包括球员皮肤、任何装饰）
 
 **<span style="color: #ff7575">半私服VIP套餐</span>** 
