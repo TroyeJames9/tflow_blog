@@ -2,6 +2,9 @@
 title: xray预习
 draft: "true"
 ---
+博客推荐： https://sunsetbrowser.app/blog/author/kaitech
+
+![|400](Afile/xray预习资料-20260610221709329.webp)
 
 > [!NOTE]- reality要点摘录
 > ~~据说不带 SNI 的好些~~，这次应该是继 2022 年的 TLS in TLS 之后第二次针对 TLS 外观的大规模封锁，持续看了几天封锁的相关讨论，我个人是认为由于这几年过于风平浪静，导致绝大多数人对 SNI 白名单没有清晰的认知，**即中国大陆有没有全境实行 SNI 白名单和 GFW 想发力时会不会优先封非白名单 SNI 的 IP 是两码事，~~但是若你拿热门翻墙机房去偷白名单 SNI 那无脑封就对了~~**，还是回到 REALITY 刚出时就说过的权重问题，假设得分超过某个值会封你，那么目前观察下来可能：  
@@ -257,7 +260,7 @@ behavior_score ↑↑（高风险）
 
 风险来自“长连接结构”
 
-## VLESS + XHTTP
+## VLESS + XHTTP +REALITY
 
 tls_score      ↓↓
 traffic_score  ↓
@@ -265,7 +268,7 @@ behavior_score ↓（改善明显）
 
 解决“隧道形态问题”
 
-## VLESS + XHTTP+CDN
+## VLESS + XHTTP+ REALITY + CDN
 
 tls_score      ↓↓
 traffic_score  ↓
@@ -273,7 +276,7 @@ behavior_score ↓↓↓（关键改善）
 
 因为“目标IP不再唯一”
 
-## VLESS + XHTTP+CDN+ECH
+## VLESS + ENC + XHTTP+ REALITY + CDN+ECH
 
 tls_score      ↓↓↓（几乎失效）
 traffic_score  ↓

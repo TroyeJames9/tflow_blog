@@ -23,7 +23,15 @@ aliases:
 - 部分文案、编辑、网文写手
 - 打字圈、竞速圈用户
 
-# 下载使用 Rime
+# 常见的 Rime 方案
+
+### 主要面向全拼、双拼用户
+
+- [雾凇拼音](https://github.com/iDvel/rime-ice)：老牌方案包，[官方设置教程](https://dvel.me/posts/rime-ice/)，适合新手入门 Rime，适合全拼、双拼用户。字表、词库整合了 《通用规范汉字表》、华宇野风系统词库、清华大学开源词库、《现代汉语常用词表》、《现代汉语词典》、《同义词词林》、《新华成语大词典》、 腾讯词向量等等，实际使用下来，体验几乎不逊于搜狗百度的拼音输入法。
+- [白霜拼音](https://github.com/gaboolic/rime-frost)：后起之秀，在雾凇拼音的基础上优化了词库。
+- [薄荷拼音](https://github.com/Mintimate/oh-my-rime)：[官网教程](https://www.mintimate.cc/zh/)，适合全拼、双拼、五笔用户
+
+# windows安装教程
 
 前往[官网](https://rime.im/)下载安装windows客户端 小狼毫。
 
@@ -40,13 +48,11 @@ aliases:
 
 你会发现默认的皮肤（配色方案、字体、字号）有点丑。可以看下文自己更改。
 
-# 常见的 Rime 方案
+# Android安装教程
 
-### 主要面向全拼、双拼用户
+前往[官网](https://rime.im/)下载安装windows客户端 同文输入法安装包（我的MIUI 选择 arm V8安装包）。
 
-- [雾凇拼音](https://github.com/iDvel/rime-ice)：老牌方案包，[官方设置教程](https://dvel.me/posts/rime-ice/)，适合新手入门 Rime，适合全拼、双拼用户。字表、词库整合了 《通用规范汉字表》、华宇野风系统词库、清华大学开源词库、《现代汉语常用词表》、《现代汉语词典》、《同义词词林》、《新华成语大词典》、 腾讯词向量等等，实际使用下来，体验几乎不逊于搜狗百度的拼音输入法。
-- [白霜拼音](https://github.com/gaboolic/rime-frost)：后起之秀，在雾凇拼音的基础上优化了词库。
-- [薄荷拼音](https://github.com/Mintimate/oh-my-rime)：[官网教程](https://www.mintimate.cc/zh/)，适合全拼、双拼、五笔用户
+
 
 # 自定义配置
 
