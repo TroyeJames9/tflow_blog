@@ -11,12 +11,4 @@ aliases:
 
 **<span style="color: #ff7575">如果添加我时被提示风险，点击了解详情，按照指引做就能添加我了</span>**
 
-
-
-![](Afile/如何联系tflow？-20260611224638955.webp)
-
-![](Afile/如何联系tflow？-20260611224644388.webp)
-
-![](Afile/如何联系tflow？-20260611224947333.webp)
-
-![](Afile/如何联系tflow？-20260611224953719.webp)
+![](Afile/如何联系tflow？-20260612121410269.webp)

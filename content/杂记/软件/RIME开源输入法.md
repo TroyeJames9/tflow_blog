@@ -87,7 +87,8 @@ aliases:
 
 - 默认的4行键盘布局与大厂输入法的全面屏模式（5行键盘布局）不同，导致24键的位置都偏下，大拇指进行打字时比较累，所以 **<span style="color: #ff7575">24键主键盘布局要修改为5行</span>** 。
 - 夜间模式想换用更好看的配色
-- 想给输入法添加背景图
+- 想给输入法添加壁纸
+- 输入法界面配色DIY
 - 其他的功能开关等小配置（比如英语句首大写）
 
 🔻 针对**主键盘改为5行**的需求，我进行了如下DIY操作：
@@ -106,9 +107,19 @@ aliases:
 
 我想将`preset_color_schemes`中的标准配色的夜间模式修改为好看的星云配色，所以可以直接把standard配色方案的 `dark_scheme` 的取值改为 `nebula` 星云。
 
-🔻针对输入法添加背景图的需求，进行如下DIY操作：
+🔻针对输入法添加壁纸的需求，进行如下DIY操作：
 
-#TODO 
+首先阅读[文档](https://github.com/osfans/trime/wiki/trime.yaml-%E8%A9%B3%E8%A7%A3)可知，`preset_color_schemes`配色方案中的`candidate_background`是候选区整体背景，且 `keyboard_background`键盘背景可铺满候选栏和导航栏（如果有）。所以我们要将 `candidate_background`调为透明，`keyboard_background`设置为背景图。
+
+但经过反复地摸爬滚打才发现，分辨率对于能否完整显示背景图是非常重要的，所以我们要基于手机的分辨率以及输入法的长宽比例来**确定 我们背景图所需要设置的分辨率**。  比如我的手机短边对应的分辨率为1220，输入法的长宽比为7:6, 则 **<span style="color: #ff7575">背景图的分辨率则想办法调整为1200*1050</span>**  。
+
+图片的文件大小也很重要，文件过大可能会导致输入法弹出时卡顿。我们可以将图片转为webp文件，压缩率超过90%。
+
+根据文档可知，图片需放在`rime/backgrounds`文件夹内，我们修改`candidate_background`的取值为`0x00000000`即透明，修改 `keyboard_background`取值为文件名，比如`my_main.webp`然后将图片文件放入`rime/backgrounds`，主题yaml文件放至rime根目录，重新部署一次即可生效。
+
+🔻针对配色方案的DIY，进行如下操作：
+
+先解决
 
 ### trime详解
 
@@ -128,5 +139,3 @@ aliases:
 - RIME入门到进阶：[RIME帮助手册](https://rime.im/docs/)
 - 同文输入法`权威主题DIY手册`： [trime.yaml 詳解](https://github.com/osfans/trime/wiki/trime.yaml-%E8%A9%B3%E8%A7%A3)
 - 雾凇拼音`权威指南`：[Rime 配置：雾凇拼音](https://dvel.me/posts/rime-ice/)
-- 
-
