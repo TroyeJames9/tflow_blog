@@ -119,8 +119,25 @@ aliases:
 
 🔻针对配色方案的DIY，进行如下操作：
 
-先解决
+在DIY之前，要了解不同类型的字体对象，如图所示，分别为：
 
+- `text`: 编码字体
+- `label`: 悬浮窗候选项序号字体（windows）
+- `candidate_font`: 候选字体
+- `comment_font`: 候选注释字体
+- `hanb_font`: 后备字体。用于补充候选字体（`candidate_font`）。
+- `latin_font`: 候选及候选注释拉丁字体（暂时对悬浮窗候选无效）当`latin_font`生效时，拉丁字符（< 0x2e80）就不再由`comment_font`和`candidate_font`控制
+- `key_font`: 按键字体（click）
+- `symbol_font`: 符号字体（long_click 和 hint）
+- `popup_font`（原preview_font）: 按键提示字体
+
+![|400](Afile/RIME开源输入法-20260612210811351.webp)
+
+我所使用的输入法壁纸如下所示：
+
+- `candidate_text_color`: 候选字颜色，为了与淡蓝色的背景和谐且突出，
+
+![|400](Afile/RIME开源输入法-20260612212558474.webp)
 ### trime详解
 
 # 自定义配置
