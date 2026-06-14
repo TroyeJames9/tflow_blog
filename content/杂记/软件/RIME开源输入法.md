@@ -89,6 +89,7 @@ aliases:
 - 夜间模式想换用更好看的配色
 - 想给输入法添加壁纸
 - 输入法界面配色DIY
+- 输入法字体配置
 - 其他的功能开关等小配置（比如英语句首大写）
 
 🔻 针对**主键盘改为5行**的需求，我进行了如下DIY操作：
@@ -148,6 +149,17 @@ aliases:
 - `key_color`: 按键文字颜色均按行设置为color1,color1设置为了 深紫色 0xff5A4B8D。
 
 ![|400](Afile/RIME开源输入法-20260612212558474.webp)
+
+🔻针对字体的DIY，进行了如下操作:
+
+字体在style中修改，如文档和配置文件可见，字体文件类型为ttf，体设置支持设置为列表值。在 Android 10 及以上系统中，同文会以列表正序为优先级依次回落来尝试让字体显示正常。但实际上 是 **<span style="color: #ff7575">必须</span>** 为列表值，这个要注意。
+
+根据示例，字体自定义需要先在 `rime` 文件夹内新建 `fonts` 文件夹，fonts 文件夹建在共享文件夹与用户文件夹皆可（若共享文件夹存在 fonts，则字体放在用户文件夹内无效），然后将ttf字体文件放在fonts文件夹内， 最后在 配置文件中设置好文件全称即可。
+
+ttf字体库可参考 https://www.fonts.net.cn/
+
+- `中文`: \[bear-zh-KaiXinJiuXiaoLinYuJiuZou-2.ttf\]
+- `英文`:  \[rabbit-en-LOVE-Queen-2.ttf, bear-en-Aurora-2.ttf\]
 ### trime详解
 
 #TODO 
@@ -168,3 +180,6 @@ aliases:
 - RIME入门到进阶：[RIME帮助手册](https://rime.im/docs/)
 - 同文输入法`权威主题DIY手册`： [trime.yaml 詳解](https://github.com/osfans/trime/wiki/trime.yaml-%E8%A9%B3%E8%A7%A3)
 - 雾凇拼音`权威指南`：[Rime 配置：雾凇拼音](https://dvel.me/posts/rime-ice/)
+- 未来可用的最强方案： [万象拼音](https://github.com/amzxyz/rime-wanxiang)
+- RIME+雾凇拼音方案+万象大模型: [全平台方案](https://www.ctrlife.cn/posts/Technology/Rime+%E9%9B%BE%E5%87%87%E6%8B%BC%E9%9F%B3+%E4%B8%87%E8%B1%A1%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%85%A8%E5%B9%B3%E5%8F%B0%E8%BE%93%E5%85%A5%E6%96%B9%E6%A1%88)
+- ttf字体库： https://www.fonts.net.cn/
