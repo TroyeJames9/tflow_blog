@@ -94,7 +94,9 @@ aliases:
 
 🔻 针对**主键盘改为5行**的需求，我进行了如下DIY操作：
 
-首先，`style`中的`keyboard_height`会锁定键盘高度，其默认的取值可能会在行数增加的情况下，导致按键高度被迫减少，所以我将高度的取值锁定为 `height`中主键盘按键高度`&jpgd4` 乘以行数（包括工具栏），即`keyboard_height`取值为 $48×6 = 288$ 。
+更新：最后为了避免误触，仍然选择将第五行定为空行，高度为39
+
+首先，`style`中的`keyboard_height`会锁定键盘高度，其默认的取值可能会在行数增加的情况下，导致按键高度被迫减少，所以我将高度的取值锁定为 `height`中主键盘按键高度`&jpgd4` 乘以行数（包括工具栏），即`keyboard_height`取值为 $48×6 = 288$ 。（后面继续进行微调，270为最好的数值，与大厂输入法高度完全一致）
 
 其次，我们在 `preset_keyboards` 中找到了 24键布局（即default布局）的配置，我们要在其中添加第五行的配置，这一行可以充分自定义，暂时只放 **google搜索** 快捷键。google快捷键的样式参考自 第四行 空格键`space`的设置，宽度`width`设置为90%，两侧放置宽度为5%的空白区域。（空白区域参考第二行的配置），最终效果如图所示：
 
@@ -112,7 +114,7 @@ aliases:
 
 首先阅读[文档](https://github.com/osfans/trime/wiki/trime.yaml-%E8%A9%B3%E8%A7%A3)可知，`preset_color_schemes`配色方案中的`candidate_background`是候选区整体背景，且 `keyboard_background`键盘背景可铺满候选栏和导航栏（如果有）。所以我们要将 `candidate_background`调为透明，`keyboard_background`设置为背景图。
 
-但经过反复地摸爬滚打才发现，分辨率对于能否完整显示背景图是非常重要的，所以我们要基于手机的分辨率以及输入法的长宽比例来**确定 我们背景图所需要设置的分辨率**。  比如我的手机短边对应的分辨率为1220，输入法的长宽比为7:6, 则 **<span style="color: #ff7575">背景图的分辨率则想办法调整为1200*1050</span>**  。
+但经过反复地摸爬滚打才发现，分辨率对于能否完整显示背景图是非常重要的，所以我们要基于手机的分辨率以及输入法的长宽比例来**确定 我们背景图所需要设置的分辨率**。  比如我的手机短边对应的分辨率为1220，输入法的长宽比为7:6, 则 **<span style="color: #ff7575">背景图的分辨率则想办法调整为1220*1050</span>**  。
 
 图片的文件大小也很重要，文件过大可能会导致输入法弹出时卡顿。我们可以将图片转为webp文件，压缩率超过90%。
 
@@ -160,6 +162,13 @@ ttf字体库可参考 https://www.fonts.net.cn/
 
 - `中文`: \[bear-zh-KaiXinJiuXiaoLinYuJiuZou-2.ttf\]
 - `英文`:  \[rabbit-en-LOVE-Queen-2.ttf, bear-en-Aurora-2.ttf\]
+
+🔻其他的一些小配置，作为记录：
+
+- 工具栏图标大小： `tool_bar`定义了同文输入法工具栏的按钮间距、大小、字体，以及左侧主按钮和右侧按钮列表在这个地方将所有按键都设置了 `font_size` 为18。
+- 参考大厂输入法皮肤，加宽popup，`popup_width`设置为60。
+- 空格键DIY：默认的空格键显示方案名称。我参考了 `tongwenfeng.trime.yaml`的样式，首先将`preset_keys`中的`space`修改，以便于无论中英文，都显示横线。同时将切换中英的`mode_switch`功能修改了stats显示的文案(中/英)，更加好看。同时也为空格键 swipe_left等拖动方向绑定了 光标移动和 行首行尾的功能。如下所示：  `- {click: space, key_back_color: bkg, key_text_color: tkg, long_click: Mode_switch, swipe_down: End, swipe_up: Home,swipe_left: Left, swipe_right: Right, width: 30, key_text_size: "10", symbol_text_size: 9, key_symbol_offset_x: -1}`
+
 ### trime详解
 
 #TODO 
