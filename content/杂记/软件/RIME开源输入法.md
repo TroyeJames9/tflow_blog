@@ -191,4 +191,5 @@ ttf字体库可参考 https://www.fonts.net.cn/
 - 雾凇拼音`权威指南`：[Rime 配置：雾凇拼音](https://dvel.me/posts/rime-ice/)
 - 未来可用的最强方案： [万象拼音](https://github.com/amzxyz/rime-wanxiang)
 - RIME+雾凇拼音方案+万象大模型: [全平台方案](https://www.ctrlife.cn/posts/Technology/Rime+%E9%9B%BE%E5%87%87%E6%8B%BC%E9%9F%B3+%E4%B8%87%E8%B1%A1%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%85%A8%E5%B9%B3%E5%8F%B0%E8%BE%93%E5%85%A5%E6%96%B9%E6%A1%88)
+- RIME+万象拼音方案： [windows配置笔记](https://yangyq.net/2026/01/rime-config.html)
 - ttf字体库： https://www.fonts.net.cn/
