@@ -28,6 +28,7 @@ aliases:
 ### 主要面向全拼、双拼用户
 
 - [雾凇拼音](https://github.com/iDvel/rime-ice)：老牌方案包，[官方设置教程](https://dvel.me/posts/rime-ice/)，适合新手入门 Rime，适合全拼、双拼用户。字表、词库整合了 《通用规范汉字表》、华宇野风系统词库、清华大学开源词库、《现代汉语常用词表》、《现代汉语词典》、《同义词词林》、《新华成语大词典》、 腾讯词向量等等，实际使用下来，体验几乎不逊于搜狗百度的拼音输入法。
+- [万象拼音]()：万象拼音（Wanxiang）并非仅仅是一个简单的 Rime 配置文件，而是一套为 Rime 引擎量身打造的 **全场景拼音解决方案**。它从最底层的“带声调词库”与“八股文语法模型”开始重构，涵盖了输入方案、智能预测、多音字精细化处理等全流程，旨在为您提供由内而外的极致拼音输入体验。
 - [白霜拼音](https://github.com/gaboolic/rime-frost)：后起之秀，在雾凇拼音的基础上优化了词库。
 - [薄荷拼音](https://github.com/Mintimate/oh-my-rime)：[官网教程](https://www.mintimate.cc/zh/)，适合全拼、双拼、五笔用户
 
@@ -39,10 +40,11 @@ aliases:
 
 - `打开用户文件夹`： 右键托盘，有两个图标，其中一个有右键菜单，就是我们要的。右键选择**用户文件夹**，打开了一个目录。
 - `清空默认方案` 右键托盘，先退出算法服务（目的是退出占用），切换到其他输入法，再删除用户文件夹下所有文件。（Rime 是个平台，可以搭载任意自定义方案。它本身自带了一些示例方案，但不好用，所以都删掉）
-- 去 GitHub，**下载一个自己喜欢的 Rime 方案（比如雾凇拼音）**，解压后复制到这个用户文件夹目录。
+- 去 GitHub，**下载一个自己喜欢的 Rime 方案（比如万象拼音）**，解压后复制到这个用户文件夹目录。
 - 右键托盘，重新部署。
 - （重要）等待片刻，让 Rime 自动生成方案对应的运行数据。这期间可以乱敲键盘，什么时候打的不是英文字母，就说明生成完毕了。
 - 大部分 Rime 方案包都会自带切换方案的快捷键，`F4` 和 `Ctrl+~` 都比较常见。这能在设置里更改。按F4切换到雾凇方案
+- 
 
 完成以上步骤后，就可以正常打字了
 
@@ -189,7 +191,8 @@ ttf字体库可参考 https://www.fonts.net.cn/
 - RIME入门到进阶：[RIME帮助手册](https://rime.im/docs/)
 - 同文输入法`权威主题DIY手册`： [trime.yaml 詳解](https://github.com/osfans/trime/wiki/trime.yaml-%E8%A9%B3%E8%A7%A3)
 - 雾凇拼音`权威指南`：[Rime 配置：雾凇拼音](https://dvel.me/posts/rime-ice/)
-- 未来可用的最强方案： [万象拼音](https://github.com/amzxyz/rime-wanxiang)
+- 未来可用的最强方案： [万象拼音](https://amzxyz.github.io/)
 - RIME+雾凇拼音方案+万象大模型: [全平台方案](https://www.ctrlife.cn/posts/Technology/Rime+%E9%9B%BE%E5%87%87%E6%8B%BC%E9%9F%B3+%E4%B8%87%E8%B1%A1%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%85%A8%E5%B9%B3%E5%8F%B0%E8%BE%93%E5%85%A5%E6%96%B9%E6%A1%88)
 - RIME+万象拼音方案： [windows配置笔记](https://yangyq.net/2026/01/rime-config.html)
+- RIME+雾凇+万象词库+万象大模型： https://www.wamoyu.com/archives/l3wnL0q7
 - ttf字体库： https://www.fonts.net.cn/
