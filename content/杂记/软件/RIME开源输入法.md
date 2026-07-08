@@ -50,6 +50,75 @@ aliases:
 
 你会发现默认的皮肤（配色方案、字体、字号）有点丑。可以看下文自己更改。
 
+# windows配置
+
+主要是参考[本文](https://yangyq.net/2026/01/rime-config.html)先进行最简单的自定义配置
+
+### 翻页功能
+
+将翻页设置为逗号和句号比较合适，可以让手无需移动即可翻页
+
+修改`default.custom.yaml`文件，增加下面的代码：
+
+```yaml
+patch: 
+  key_binder:
+    bindings:
+      # 翻页 , .
+      - { when: paging, accept: comma, send: Page_Up }
+      - { when: has_menu, accept: period, send: Page_Down }
+
+```
+
+### 候选词个数
+
+每次弹出的候选词，应该几个好呢？太多了不行，太长会占据大量的空间，多少合适呢？**我选择三个**，为啥这么少。我在下一节介绍。
+
+修改`default.custom.yaml`文件，增加下面的代码：
+
+```yaml
+patch:
+  menu:
+    page_size: 3  # 候选词个数，不得超过6个，7890代表声调
+
+```
+
+补充：万象拼音的`wanxiang.custom.yaml`才是真正控制候选词个数的配置，如下所示：
+
+![](Afile/RIME开源输入法-20260708101844508.webp)
+
+### Shift键上屏
+
+现在，我们的候选框，每次都有三个候选词，**空格键可以让排第一的候选词上屏**，那么想让排第二和第三的候选词上屏，用什么办法呢？常规的做法是用2和3。这是可以的，但是不够好。原因是因为，2和3距离我们的手指还是比较远，容易按错。所以这里有一个更好的解决方案，**就是用左Shift和右Shift分别做第2和第3个候选词上屏的按键**。这样设置之后，打字的时候，手的位置几乎可以完全不动，稳定而流畅。
+
+修改`default.custom.yaml`文件，增加下面的代码：
+
+```yaml
+patch:
+  key_binder:
+    bindings:
+      - { when: has_menu, accept: Shift+Shift_L, send: 2}
+      - { when: has_menu, accept: Shift+Shift_R, send: 3}
+```
+
+务必注意，我们需要把这些按键之前的功能屏蔽。它们之前用来干什么呢？左shift切换中英文输入法，所以需要在`default.custom.yaml`文件中进行补充：
+
+```
+patch:
+  ascii_composer:
+    good_old_caps_lock: true  # true | false
+    switch_key:
+      Caps_Lock: clear      # commit_code | commit_text | clear
+      Shift_L: noop  # commit_code | commit_text | inline_ascii | clear | noop
+      Shift_R: noop         # commit_code | commit_text | inline_ascii | clear | noop
+      Control_L: noop       # commit_code | commit_text | inline_ascii | clear | noop
+      Control_R: commit_code       # commit_code | commit_text | inline_ascii | clear | noop
+
+```
+
+可以看到，我的`Shift_L`和`Shift_R`，都已经设置为`noop`，指的是没有功能。切换中英文用的是`Control_R`，而`Control_L`，通常用来组合其他的快捷键，例如复制粘贴等，容易误触，所以也去掉。
+
+![](Afile/RIME开源输入法-20260708101854548.webp)
 # Android安装教程
 
 前往[官网](https://rime.im/)下载安装 同文输入法安装包（我的MIUI 选择 arm V8安装包）。
@@ -68,6 +137,8 @@ aliases:
 我选用了比较热门的主题 [mytrime](https://github.com/chwt163/mytrime)，此后我们可以参考官方的[trime.yaml 詳解](https://github.com/osfans/trime/wiki/trime.yaml-%E8%A9%B3%E8%A7%A3)来对主题DIY进行系统性学习。
 
 在此之前先对其中的`classic.trime.yaml`的结构有基本的认识，然后再在配置文件中记录我们的DIY操作。
+
+![](Afile/RIME开源输入法-20260708101903292.webp)
 
 ### mytrime的配置结构
 
