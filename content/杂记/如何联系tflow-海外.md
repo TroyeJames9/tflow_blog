@@ -1,11 +1,9 @@
 ---
 title: 如何联系tflow？
 aliases:
-  - 联系tflow
-  - contact
-  - 点击我联系tflow
+  - contact-outside
 ---
-本文章永久分享链接： https://tflow.top/contact
+本文章永久分享链接： https://tflow.top/contact-outside
 
 - **QQ**：1393802018
 - 微信：14716209148
